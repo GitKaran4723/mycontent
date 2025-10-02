@@ -15,7 +15,7 @@ RollNo INT PRIMARY KEY,
 Name VARCHAR(100)  
 );
 
-## 2.**FOREIGN KEY **Constraint**
+## 2.**FOREIGN KEY Constraint**
 
 * Establishes a relationship between two tables.  
 * Enforces referential integrity, ensuring data consistency between related tables.  
@@ -29,7 +29,7 @@ CourseID INT,
 FOREIGN KEY (StudentID) REFERENCES Student(RollNo)  
 );
 
-## **3. NOT NULL **Constraint**
+## **3. NOT NULL Constraint**
 
 * Prevents NULL values from being entered into a specific column.  
 * Guarantees that the field must always contain a value.
