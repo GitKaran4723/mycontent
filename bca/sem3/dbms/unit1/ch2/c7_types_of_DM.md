@@ -38,7 +38,9 @@ A student can enroll in multiple courses, but each course is assigned to only on
 | Jake | Commerce | BBA |
 | John | CS | BCA |
 
-**2\. Network Data ModelDefinition**
+**2\. Network Data Model**
+
+**Definition**
 
 The **Network Data Model** organizes data using graph structures, allowing **many-to-many relationships** through the use of **sets**.Structure
 
@@ -56,26 +58,26 @@ Example Structure Explanation:
 
   ![][image2]
 
-Advantages of Network Model
+**Advantages of Network Model**
 
-1. **Conceptual Simplicity**  
+1. Conceptual Simplicity
    * Similar to the hierarchical model, it is simple and easy to implement.  
-2. **Capability to Handle More Relationship Types**  
+2. Capability to Handle More Relationship Types 
    * Supports **1:1**, **1:M**, and **M:N** relationships.  
-3. **Ease of Data Access**  
+3. Ease of Data Access
    * Easier data access compared to the hierarchical model due to multiple pathways.  
-4. **Data Integrity**  
+4. Data Integrity  
    * Maintains strong links between parent and child records, ensuring data consistency.  
-5. **Better Data Independence**  
+5. Better Data Independence 
    * Offers more data independence than the hierarchical model.
 
-Disadvantages of Network Model
+**Disadvantages of Network Model**
 
-1. **System Complexity**  
+1. System Complexity 
    * Uses many pointers, making the database structure more complex.  
-2. **Operational Anomalies**  
+2. Operational Anomalies 
    * Insertions, deletions, and updates are complicated due to the high number of pointers.  
-3. **Lack of Structural Independence**  
+3. Lack of Structural Independence
    * Changes in the structure often require corresponding changes in the application.
 
 **3\. Object-Oriented Data ModelDefinition**
@@ -83,34 +85,37 @@ Disadvantages of Network Model
 The **Object-Oriented Data Model** combines **object-oriented programming concepts** with **database technology**. Data is stored in the form of **objects**, similar to how it's handled in programming languages like **Java**, **C++**, etc.Structure
 
 * Each **object** contains:  
-  * **Attributes** (data)  
-  * **Methods** (functions)  
+  * Attributes (data)  
+  * Methods (functions)  
 * Supports key **object-oriented principles**:  
   * **Inheritance**  
   * **Encapsulation**  
   * **Polymorphism**
 
-Core Concepts
+# Core Concepts
 
-1. **Object**  
-   * Represents real-world entities and scenarios within the database.  
-2. **Attributes and Methods**  
-   * **Attributes** define the characteristics of an object.  
-   * **Methods** define the behavior or functionality of the object.  
-3. **Class**  
-   * A collection of objects with similar attributes and methods.  
-   * An object is an **instance** of a class.  
-4. **Inheritance**  
-   * Allows a new class (child) to be derived from an existing class (parent).  
-   * The derived class inherits attributes and methods from the parent class and can define its own.
+## 1. **Object**
+- Represents real-world entities and scenarios within the database.
+
+## 2. **Attributes and Methods**
+- **Attributes** define the characteristics of an object.
+- **Methods** define the behavior or functionality of the object.
+
+## 3. **Class**
+- A collection of objects with similar attributes and methods.
+- An object is an **instance** of a class.
+
+## 4. **Inheritance**
+- Allows a new class (child) to be derived from an existing class (parent).
+- The derived class inherits attributes and methods from the parent class and can define its own.
 
 ✅ Advantages
 
 * Supports **complex data types** (e.g., images, audio, video).  
 * Ideal for applications such as:  
-  * **Multimedia systems**  
-  * **CAD/CAM**  
-  * **Artificial Intelligence**  
+  * Multimedia systems 
+  * CAD/CAM  
+  * Artificial Intelligence 
 * Provides **closer mapping to real-world models** compared to relational models.
 
 ❌ Disadvantages
@@ -136,33 +141,40 @@ A STUDENT relation may have the following attributes:
 
 ![][image3]
 
-Key Terms in the Relational Model
+# Key Terms in the Relational Model
 
-1. **Attribute**  
-   * Properties that define an entity.  
-   * *Example:* ROLL\_NO, NAME, ADDRESS  
-2. **Relation Schema**  
-   * Defines the structure of a relation with its name and attributes.  
-   * *Example:* STUDENT (ROLL\_NO, NAME, ADDRESS, PHONE, AGE)  
-3. **Tuple**  
-   * A **row** in a relation representing a single record or entity.  
-4. **Relation Instance**  
-   * The actual content (set of tuples) of a relation at a particular point in time.  
-   * Changes with **insertion**, **deletion**, or **updates**.  
-5. **Degree**  
-   * The **number of attributes** (columns) in a relation.  
-   * *Example:* STUDENT has a degree of 5\.  
-6. **Cardinality**  
-   * The **number of tuples** (rows) in a relation.  
-   * *Example:* If STUDENT has 4 rows, cardinality \= 4\.  
-7. **Column**  
-   * Represents a single attribute across all records.  
-   * *Example:* ROLL\_NO column.  
-8. **NULL Values**  
-   * Used when a value is **unknown** or **unavailable**.  
-   * *Example:* PHONE of student with ROLL\_NO \= 4 is NULL.
+## 1. **Attribute**
+- Properties that define an entity.
+- *Example:* ROLL_NO, NAME, ADDRESS
 
-Types of Keys in the Relational Model
+## 2. **Relation Schema**
+- Defines the structure of a relation with its name and attributes.
+- *Example:* STUDENT (ROLL_NO, NAME, ADDRESS, PHONE, AGE)
+
+## 3. **Tuple**
+- A **row** in a relation representing a single record or entity.
+
+## 4. **Relation Instance**
+- The actual content (set of tuples) of a relation at a particular point in time.
+- Changes with **insertion**, **deletion**, or **updates**.
+
+## 5. **Degree**
+- The **number of attributes** (columns) in a relation.
+- *Example:* STUDENT has a degree of 5.
+
+## 6. **Cardinality**
+- The **number of tuples** (rows) in a relation.
+- *Example:* If STUDENT has 4 rows, cardinality = 4.
+
+## 7. **Column**
+- Represents a single attribute across all records.
+- *Example:* ROLL_NO column.
+
+## 8. **NULL Values**
+- Used when a value is **unknown** or **unavailable**.
+- *Example:* PHONE of student with ROLL_NO = 4 is NULL.
+
+**Types of Keys in the Relational Model**
 
 1. **Primary Key**  
    * Uniquely identifies each tuple in a table.  
