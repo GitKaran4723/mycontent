@@ -1,5 +1,3 @@
-                     ** DOM (Document Object Model):**
-
 **What is the DOM?**   
 The DOM (Document Object Model) is a structured representation of your webpage. Think of it as a tree where each HTML element is a branch or node. 
 

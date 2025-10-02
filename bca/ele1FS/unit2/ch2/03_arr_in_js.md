@@ -1,4 +1,4 @@
-                                             **Arrays in JS:-**
+                                            
 
 **Arrays in Javascript:**  
 In JavaScript, arrays are a fundamental data type used to store ordered collections of items, whether numbers, strings, objects, or other arrays. Arrays provide a way to organize data and come with a robust set of built-in methods for adding, removing, modifying, and accessing items. Let’s dive into what arrays are, their structure, and a complete overview of array operations.
