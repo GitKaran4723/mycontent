@@ -1,196 +1,183 @@
-
-
-**📘 Types of Data Models in DBMS**
+# 📘 Types of Data Models in DBMS
 
 The main types of data models used in Database Management Systems (DBMS) include:
 
-1. **Hierarchical Data Model**  
-2. **Network Data Model**  
-3. **Relational Data Model**  
+1. **Hierarchical Data Model**
+2. **Network Data Model**
+3. **Relational Data Model**
 4. **Object-Oriented Data Model**
 
-Each model defines how data is **organized**, **connected**, and **accessed**
+Each model defines how data is **organized**, **connected**, and **accessed**.
 
-**1️⃣ Hierarchical Data Model📌**
+---
 
- Definition:
+## 1️⃣ Hierarchical Data Model 📌
 
-* Organizes data in a **tree-like structure** using **parent-child relationships**.  
-* Each parent can have **multiple children**, but each child has **only one parent**.
+### Definition
+- Organizes data in a **tree-like structure** using **parent-child relationships**.
+- Each parent can have **multiple children**, but each child has **only one parent**.
 
-📐 Structure:
+### 📐 Structure
+- Based on a **one-to-many** (1:N) relationship.
+- Similar to organizational charts or a file directory system.
 
-* Based on a **one-to-many** (1:N) relationship.  
-* Similar to organizational charts or a file directory system.![][image1] 
+### 📊 Example
 
-📊 Example:
+#### Student Enrollment Table
+| Name   | Course-enroll | Grade |
+|--------|:-------------:|:-----:|
+| Gami   | BCA           | 9.0   |
+| Mary   | BBA           | 6.0   |
+| Mayen  | B.Com         | 8.0   |
 
-A student can enroll in multiple courses, but each course is assigned to only one student.
-
-| Name | Course-enroll | Grade |
-| ----- | :---: | :---: |
-|                   Gami | BCA | 9.0 |
-| Mary | BBA | 6.0 |
-| Mayen | B.Com | 8.0 |
-
+#### Faculty Assignment Table
 | Name | Department | Course-taught |
-| ----- | ----- | ----- |
-| Jake | Commerce | BBA |
-| John | CS | BCA |
+|------|------------|---------------|
+| Jake | Commerce   | BBA           |
+| John | CS         | BCA           |
 
-**2\. Network Data Model**
+---
 
-**Definition**
+## 2️⃣ Network Data Model
 
-The **Network Data Model** organizes data using graph structures, allowing **many-to-many relationships** through the use of **sets**.Structure
+### Definition
+- Organizes data using **graph structures**, allowing **many-to-many relationships** through **sets**.
 
-* Uses **nodes (records)** and **links (pointers)**.  
-* Each record can have **multiple parent and child records**.
+### Structure
+- Uses **nodes (records)** and **links (pointers)**.
+- Each record can have **multiple parent and child records**.
+- Supports **1:1**, **1:M**, and **M:N** relationships.
+- Allows **lateral and top-down connections** between nodes.
+- Reduces data redundancy by allowing **multiple paths** to the same record.
 
-Example Structure Explanation:
+### Example Structure
+- Member **TWO** has one owner (**ONE**).
+- Member **FIVE** has two owners (**TWO** and **THREE**).
 
-* Member **TWO** has only one owner (**ONE**).  
-* Member **FIVE** has two owners (**TWO** and **THREE**).  
-* Each link between two record types represents a **1 : M relationship**.  
-* The model supports **lateral and top-down connections** between nodes.  
-* It allows **1:1**, **1:M**, and **M:N** relationships.  
-* This flexibility **reduces data redundancy** by allowing **multiple paths** to the same record.
+### ✅ Advantages
+1. **Conceptual Simplicity** – Easy to implement.
+2. **Handles More Relationship Types** – Supports 1:1, 1:M, and M:N.
+3. **Ease of Data Access** – Multiple pathways improve access.
+4. **Data Integrity** – Strong links ensure consistency.
+5. **Better Data Independence** – More flexible than hierarchical model.
 
-  ![][image2]
+### ❌ Disadvantages
+1. **System Complexity** – Many pointers complicate structure.
+2. **Operational Anomalies** – Insertions, deletions, updates are tricky.
+3. **Lack of Structural Independence** – Changes require app-level updates.
 
-**Advantages of Network Model**
+---
 
-1. Conceptual Simplicity
-   * Similar to the hierarchical model, it is simple and easy to implement.  
-2. Capability to Handle More Relationship Types 
-   * Supports **1:1**, **1:M**, and **M:N** relationships.  
-3. Ease of Data Access
-   * Easier data access compared to the hierarchical model due to multiple pathways.  
-4. Data Integrity  
-   * Maintains strong links between parent and child records, ensuring data consistency.  
-5. Better Data Independence 
-   * Offers more data independence than the hierarchical model.
+## 3️⃣ Object-Oriented Data Model
 
-**Disadvantages of Network Model**
+### Definition
+- Combines **object-oriented programming** with **database technology**.
+- Data is stored as **objects**, similar to Java, C++, etc.
 
-1. System Complexity 
-   * Uses many pointers, making the database structure more complex.  
-2. Operational Anomalies 
-   * Insertions, deletions, and updates are complicated due to the high number of pointers.  
-3. Lack of Structural Independence
-   * Changes in the structure often require corresponding changes in the application.
+### Structure
+- Each object contains:
+  - **Attributes** (data)
+  - **Methods** (functions)
+- Supports:
+  - **Inheritance**
+  - **Encapsulation**
+  - **Polymorphism**
 
-**3\. Object-Oriented Data ModelDefinition**
+### 🔍 Core Concepts
 
-The **Object-Oriented Data Model** combines **object-oriented programming concepts** with **database technology**. Data is stored in the form of **objects**, similar to how it's handled in programming languages like **Java**, **C++**, etc.Structure
-
-* Each **object** contains:  
-  * Attributes (data)  
-  * Methods (functions)  
-* Supports key **object-oriented principles**:  
-  * **Inheritance**  
-  * **Encapsulation**  
-  * **Polymorphism**
-
-# Core Concepts
-
-## 1. **Object**
+#### 1. **Object**
 - Represents real-world entities and scenarios within the database.
 
-## 2. **Attributes and Methods**
-- **Attributes** define the characteristics of an object.
-- **Methods** define the behavior or functionality of the object.
+#### 2. **Attributes and Methods**
+- **Attributes** define characteristics.
+- **Methods** define behavior.
 
-## 3. **Class**
-- A collection of objects with similar attributes and methods.
+#### 3. **Class**
+- A collection of similar objects.
 - An object is an **instance** of a class.
 
-## 4. **Inheritance**
-- Allows a new class (child) to be derived from an existing class (parent).
-- The derived class inherits attributes and methods from the parent class and can define its own.
+#### 4. **Inheritance**
+- A child class inherits from a parent class and can define its own features.
 
-✅ Advantages
+### ✅ Advantages
+- Supports **complex data types** (images, audio, video).
+- Ideal for:
+  - Multimedia systems
+  - CAD/CAM
+  - Artificial Intelligence
+- Closer mapping to real-world models.
 
-* Supports **complex data types** (e.g., images, audio, video).  
-* Ideal for applications such as:  
-  * Multimedia systems 
-  * CAD/CAM  
-  * Artificial Intelligence 
-* Provides **closer mapping to real-world models** compared to relational models.
+### ❌ Disadvantages
+- **Complex implementation**.
+- **Limited commercial support**.
+- **Slower performance** with large datasets.
 
-❌ Disadvantages
+---
 
-* **Complex implementation** compared to traditional models.  
-* **Not widely supported** by commercial database systems.  
-* **Slower performance** with **large datasets** due to object overhead.
+## 4️⃣ Relational Data Model
 
-**4\. Relational Data Model**
+### Definition
+- Represents data in **tables (relations)** with **rows (tuples)** and **columns (attributes)**.
 
-Definition
+### Structure
+- Each table has a **primary key**.
+- Tables are linked via **foreign keys**.
 
-The **Relational Data Model** represents data in **tables (relations)** consisting of **rows (tuples)** and **columns (attributes)**.Structure
+### Example
+- STUDENT table: ROLL_NO, NAME, ADDRESS, PHONE, AGE
 
-* Each **table** has a **primary key** to uniquely identify each record.  
-* **Tables can be linked** via **foreign keys**, allowing for relationships between different entities.
+### 🔍 Key Terms
 
-Example:
-
-A STUDENT relation may have the following attributes:
-
-* ROLL\_NO, NAME, ADDRESS, PHONE, and AGE
-
-![][image3]
-
-# Key Terms in the Relational Model
-
-## 1. **Attribute**
+#### 1. **Attribute**
 - Properties that define an entity.
 - *Example:* ROLL_NO, NAME, ADDRESS
 
-## 2. **Relation Schema**
-- Defines the structure of a relation with its name and attributes.
+#### 2. **Relation Schema**
+- Structure of a relation.
 - *Example:* STUDENT (ROLL_NO, NAME, ADDRESS, PHONE, AGE)
 
-## 3. **Tuple**
-- A **row** in a relation representing a single record or entity.
+#### 3. **Tuple**
+- A row representing a single record.
 
-## 4. **Relation Instance**
-- The actual content (set of tuples) of a relation at a particular point in time.
-- Changes with **insertion**, **deletion**, or **updates**.
+#### 4. **Relation Instance**
+- Actual content of a relation at a point in time.
 
-## 5. **Degree**
-- The **number of attributes** (columns) in a relation.
+#### 5. **Degree**
+- Number of attributes.
 - *Example:* STUDENT has a degree of 5.
 
-## 6. **Cardinality**
-- The **number of tuples** (rows) in a relation.
-- *Example:* If STUDENT has 4 rows, cardinality = 4.
+#### 6. **Cardinality**
+- Number of tuples.
+- *Example:* STUDENT has 4 rows → cardinality = 4.
 
-## 7. **Column**
-- Represents a single attribute across all records.
-- *Example:* ROLL_NO column.
+#### 7. **Column**
+- Represents a single attribute across records.
 
-## 8. **NULL Values**
-- Used when a value is **unknown** or **unavailable**.
+#### 8. **NULL Values**
+- Indicates unknown or unavailable data.
 - *Example:* PHONE of student with ROLL_NO = 4 is NULL.
 
-**Types of Keys in the Relational Model**
+### 🔑 Types of Keys
 
-1. **Primary Key**  
-   * Uniquely identifies each tuple in a table.  
-   * Must be **unique** and **non-null**.  
-   * *Example:* ROLL\_NO in STUDENT table.  
-2. **Candidate Key**  
-   * A set of attributes that can uniquely identify tuples.  
-   * Multiple candidate keys may exist, one is selected as the primary key.  
-3. **Super Key**  
-   * A set of attributes that **uniquely identifies** tuples but may contain **extra, unnecessary attributes**.  
-4. **Foreign Key**  
-   * An attribute in one table that refers to the **primary key of another table**.  
-   * *Example:* BRANCH\_CODE in STUDENT refers to BRANCH\_CODE in the BRANCH table.  
-5. **Composite Key**  
-   * A combination of two or more attributes to uniquely identify a tuple.  
-   * *Example:* FIRST\_NAME \+ LAST\_NAME if no duplicates exist.
+1. **Primary Key**
+   - Uniquely identifies each tuple.
+   - Must be **unique** and **non-null**.
+   - *Example:* ROLL_NO
+
+2. **Candidate Key**
+   - Attributes that can uniquely identify tuples.
+   - One is chosen as the primary key.
+
+3. **Super Key**
+   - Uniquely identifies tuples but may include extra attributes.
+
+4. **Foreign Key**
+   - Refers to the **primary key of another table**.
+   - *Example:* BRANCH_CODE in STUDENT refers to BRANCH_CODE in BRANCH.
+
+5. **Composite Key**
+   - Combination of attributes to uniquely identify a tuple.
+   - *Example:* FIRST_NAME + LAST_NAME (if no duplicates exist)
 
 [image1]: <data:image/png;base64,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>
 
