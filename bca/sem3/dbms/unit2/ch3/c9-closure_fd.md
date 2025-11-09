@@ -1,6 +1,3 @@
-Sure Tinu 😊 Here are **well-formatted theoretical notes** on **Closure of Functional Dependencies (FD Closure)** in DBMS. You can directly use these in your notebook or assignments.
-
----
 
 ## **Closure of Functional Dependencies in DBMS**
 
