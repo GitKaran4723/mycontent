@@ -1,7 +1,7 @@
-**CHAPTER 01: INTRODUCTION TO DATABASE** 
+# **CHAPTER 01: INTRODUCTION TO DATABASE** 
 
-**DEFINATION OF DATA:**  
-         Data refers to raw, unorganized facts that need to be processed to be meaningful.  
+## **Defintion of Data:**  
+Data refers to raw, unorganized facts that need to be processed to be meaningful.  
  It can be numbers, characters, symbols, images, audio, or video.  
  Examples of Data:  
 
@@ -16,7 +16,7 @@
 *  Multimedia Data (Images, Videos)     
 
 
-**Introduction to Database:**  
+## **Introduction to Database:**  
  A Database is a structured collection of data that can be easily accessed, managed, and updated.   
 Characteristics:  
 
@@ -31,7 +31,7 @@ A library database might store:
 *  Authors   
 *  Issued books
 
-**Introduction to DBMS (Database Management System)** :  
+## **Introduction to DBMS (Database Management System)** :  
 A DBMS is a software system that allows users to define, create, maintain, and control access to the database.  
 **Functions of DBMS:** 
 
