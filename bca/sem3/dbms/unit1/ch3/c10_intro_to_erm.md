@@ -1,4 +1,4 @@
-**📘 Introduction to ER Model**
+# **📘 Introduction to ER Model**
 
 The **Entity-Relationship (ER) Model** is a **conceptual framework** used in **database design**. It visually represents the **logical structure** of a database, including:
 
@@ -8,7 +8,7 @@ The **Entity-Relationship (ER) Model** is a **conceptual framework** used in **d
 
 This model is primarily used during the **database design phase** to map real-world objects and their interactions.
 
-**🧩 Key Components of the ER Model**
+## **🧩 Key Components of the ER Model**
 
 **🔹 Entity**
 
@@ -38,7 +38,7 @@ This model is primarily used during the **database design phase** to map real-wo
 * **Non-technical users** can understand ERDs without knowing the DBMS internals.  
 * Helps to model **complex systems** in a visual and intuitive way.
 
-**🧠 Symbols Used in the ER Model**
+## **🧠 Symbols Used in the ER Model**
 
 | Symbol | Represents |
 | ----- | ----- |

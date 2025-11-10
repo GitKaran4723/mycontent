@@ -1,6 +1,6 @@
-**Data Models-**Introduction and Importance 
+# **Data Models-** Introduction and Importance 
 
-What is a Data Model?
+# What is a Data Model?
 
  A Data Model is a conceptual framework that describes how data is structured, stored, and accessed in a database system.
 
@@ -14,7 +14,7 @@ What is a Data Model?
 
 **Note:** A data model is a blueprint or plan that guides the creation of a database.
 
- **Purpose of Data Models** 
+ # **Purpose of Data Models** 
 
 The purpose of using data models is to:  
 

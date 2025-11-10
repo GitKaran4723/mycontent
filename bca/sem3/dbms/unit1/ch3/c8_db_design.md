@@ -1,4 +1,4 @@
-**Database Design – Keys**
+# **Database Design – Keys**
 
 In database design, **keys** are essential to:
 
@@ -17,7 +17,8 @@ In database design, **keys** are essential to:
 7. Unique Key  
 8. Surrogate Key
 
-**1\. Primary Key**
+### **1\. Primary Key**
+---
 
 ✅ **Definition:** A **Primary Key** is a column or a group of columns that **uniquely identifies each row** in a table.
 
@@ -40,7 +41,8 @@ STUDENT Table
 
 Primary Key: StudentID
 
-**2\. Candidate Key**
+### **2\. Candidate Key**
+---
 
 ✅ **Definition:** A **Candidate Key** is any column or set of columns that can **uniquely identify rows** in a table.
 
@@ -63,7 +65,8 @@ EMPLOYEE Table
 
 Candidate Keys: EmpID, Email, Mobile
 
-**3\. Super Key**
+### **3\. Super Key**
+---
 
 ✅ **Definition:** A **Super Key** is any set of attributes that can **uniquely identify a row**. It may include **extra attributes** not required for uniqueness.
 
@@ -80,7 +83,8 @@ Super Keys: {EmpID}, {Email}, {EmpID, Name}
 
 Candidate Keys: {EmpID}, {Email}
 
-**4\. Foreign Key**
+### **4\. Foreign Key**
+---
 
 ✅ **Definition:** A **Foreign Key** is a column (or columns) in one table that **refers to the primary key** of another table.
 
@@ -107,7 +111,8 @@ EMPLOYEE Table
 
 Foreign Key: DeptID in EMPLOYEE references DeptID in DEPARTMENT
 
-**5\. Composite Key**
+### **5\. Composite Key**
+---
 
 ✅ **Definition:** A **Composite Key** is a **primary key made up of two or more columns**. Individually, the columns are **not unique**, but together they are.
 
@@ -123,9 +128,10 @@ ENROLLMENT Table
 
 Composite Key: (StudentID, CourseID)
 
-**🔑 Extended Key Types**
+# **🔑 Extended Key Types**
 
-**6\. Alternate Key**
+### **6\. Alternate Key**
+---
 
 ✅ **Definition:** An **Alternate Key** is any **Candidate Key** that was **not chosen** as the primary key.
 
@@ -142,7 +148,8 @@ Primary Key: RollNo
 
 Alternate Key: Email
 
-l**7\. Unique Key**
+### **7\. Unique Key**
+---
 
 ✅ **Definition:** A **Unique Key** ensures all values in a column (or set of columns) are **unique**.
 
@@ -161,7 +168,8 @@ CREATE TABLE Employee (
 
 * Email must be unique but can have one NULL.
 
-**8\. Surrogate Key**
+### **8\. Surrogate Key**
+---
 
 ✅ **Definition:** A **Surrogate Key** is a **system-generated identifier** (usually auto-incremented) used as a **primary key**.
 

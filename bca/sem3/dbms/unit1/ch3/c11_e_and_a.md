@@ -1,5 +1,6 @@
-**Entities**
+# **Entities and Attributes**
 
+## **Entity**
 * **Definition:** An Entity is a real-world object or concept that can be clearly identified and stored in a database.  
   * **Entities can be:**  
     * **Physical objects:** Student, Car, Book  
@@ -10,7 +11,7 @@
   * **Weak Entity:** Cannot exist without a related strong entity  
     * **Example:** OrderItem (dependent on Order)
 
-**Attribute:**
+## **Attribute:**
 
 **What is an Attribute?** 
 
@@ -30,7 +31,7 @@ In the Entity-Relationship (ER) Model, an attribute is a property or characteris
 
 Attributes are categorized based on their structure, value, and how they relate to the entity. The main types are:
 
-**1\. Key Attribute**  
+### **1\. Key Attribute**  
 The attribute which uniquely identifies each entity in the entity set is called the key attribute. 
 
 **For example:**  
@@ -38,7 +39,7 @@ The attribute which uniquely identifies each entity in the entity set is called 
 ![][image2]  
  In an ER diagram, the key attribute is represented by an oval with an underline.
 
-**2\. Composite Attribute**  
+### **2\. Composite Attribute**  
 An attribute composed of many other attributes is called a composite attribute.
 
 **For example**:  
@@ -47,7 +48,7 @@ An attribute composed of many other attributes is called a composite attribute.
 
 In an ER diagram, the composite attribute is represented by an oval comprising of ovals.
 
-**3\. Multivalued Attribute**  
+### **3\. Multivalued Attribute**  
 An attribute consisting of more than one value for a given entity.
 
 **For example;**  
@@ -55,7 +56,7 @@ An attribute consisting of more than one value for a given entity.
 ![][image4]  
 In an ER diagram, a multivalued attribute is represented by a double oval.
 
-**4\. Derived Attribute**
+### **4\. Derived Attribute**
 
 An attribute that can be derived from other attributes of the entity type is known as a derived attribute. 
 

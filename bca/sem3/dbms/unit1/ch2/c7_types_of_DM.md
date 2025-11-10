@@ -1,4 +1,4 @@
-# 📘 Types of Data Models in DBMS
+# **📘 Types of Data Models in DBMS**
 
 The main types of data models used in Database Management Systems (DBMS) include:
 
@@ -11,7 +11,7 @@ Each model defines how data is **organized**, **connected**, and **accessed**.
 
 ---
 
-## 1️⃣ Hierarchical Data Model 📌
+## **1️⃣ Hierarchical Data Model 📌**
 
 ### Definition
 - Organizes data in a **tree-like structure** using **parent-child relationships**.
@@ -38,7 +38,7 @@ Each model defines how data is **organized**, **connected**, and **accessed**.
 
 ---
 
-## 2️⃣ Network Data Model
+## **2️⃣ Network Data Model**
 
 ### Definition
 - Organizes data using **graph structures**, allowing **many-to-many relationships** through **sets**.
@@ -68,7 +68,7 @@ Each model defines how data is **organized**, **connected**, and **accessed**.
 
 ---
 
-## 3️⃣ Object-Oriented Data Model
+## **3️⃣ Object-Oriented Data Model**
 
 ### Definition
 - Combines **object-oriented programming** with **database technology**.
@@ -114,7 +114,7 @@ Each model defines how data is **organized**, **connected**, and **accessed**.
 
 ---
 
-## 4️⃣ Relational Data Model
+## **4️⃣ Relational Data Model**
 
 ### Definition
 - Represents data in **tables (relations)** with **rows (tuples)** and **columns (attributes)**.
