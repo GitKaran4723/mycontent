@@ -96,35 +96,39 @@ Example: For a self-driving car, the environment includes: Roads, Traffic lights
 
 Environments differ in complexity. They are classified based on,
 
-* **Observable vs. Partially Observable**  
+#### **Observable vs. Partially Observable**  
 - **Fully Observable:**  
   The agent has complete access to the environment's state.  
   Example: Chess (you can see the full board).  
 - **Partially Observable:**  
   The agent has limited or incomplete information.  
   Example: Driving in fog (you can't see everything around).  
-* **Deterministic vs. Stochastic**  
+
+#### **Deterministic vs. Stochastic**  
 - **Deterministic:**  
   The next state of the environment is completely determined by the current state and the agent’s action.  
   Example: Solving a math puzzle.  
 - **Stochastic:**  
   The environment has random elements, and outcomes are not predictable.  
   Example: Stock market prediction.  
-* **Episodic vs. Sequential**  
+
+#### **Episodic vs. Sequential**  
 - **Episodic:**  
   Each action is independent of the previous actions.  
   Example: Image classification (each image is separate).  
 - **Sequential:**  
   Current actions affect future decisions.  
   Example: Playing a game (each move matters later).  
-* **Static vs. Dynamic**  
+
+#### **Static vs. Dynamic**  
 - **Static:**  
   The environment does not change while the agent is thinking.  
   Example: Crossword puzzles.  
 - **Dynamic:**  
   The environment changes while the agent is deciding.  
   Example: Real-time traffic navigation.  
-* **Single-Agent vs. Multi-Agent**  
+
+#### **Single-Agent vs. Multi-Agent**  
 - **Single-Agent:**  
   Only one agent is operating in the environment.  
   Example: Puzzle solving.  
