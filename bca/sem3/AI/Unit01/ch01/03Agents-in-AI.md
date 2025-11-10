@@ -90,11 +90,7 @@ PEAS stands for performance measure, environment, actuators and sensors. It is a
 ## **6\.   Environments:-**
 
 An **environment** is the world in which an agent operates. It includes everything outside the agent that the agent can sense and interact with.  
-Example: For a self-driving car, the environment includes:
-* Roads  
-* Traffic lights  
-* Other vehicles  
-* Pedestrians
+Example: For a self-driving car, the environment includes: Roads, Traffic lights, Other vehicles, Pedestrians
 
 ### **6.1  The Nature of Environments :**
 
