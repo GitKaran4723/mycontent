@@ -1,14 +1,11 @@
-## **🧠 SQL Logical Operators**
+# **🧠 SQL Logical Operators**
 
-### **🔹 Definition**
+## **🔹 Definition**
 
-## SQL Logical Operators are special keywords used in SQL queries to **combine, compare, or negate multiple conditions**.  They help control how data is filtered, making it possible to retrieve **very specific and meaningful results**.  Each operator evaluates conditions as **TRUE**, **FALSE**, or **UNKNOWN**, depending on the logic applied.
+ SQL Logical Operators are special keywords used in SQL queries to **combine, compare, or negate multiple conditions**.  They help control how data is filtered, making it possible to retrieve **very specific and meaningful results**.  Each operator evaluates conditions as **TRUE**, **FALSE**, or **UNKNOWN**, depending on the logic applied.
 
-## Logical operators are usually used in the **WHERE**, **HAVING**, or **JOIN** clauses.
+ Logical operators are usually used in the **WHERE**, **HAVING**, or **JOIN** clauses.
 
-## 
-
-## ---
 
 ### **📋 Sample Employee Table**
 
@@ -20,191 +17,158 @@
 | 104 | John | London | UK |
 | 105 | Priya | Pune | India |
 
-## ---
 
-### **🔸 1\. AND Operator**
 
-## The **AND** operator is used to combine two or more conditions in a query so that **all of them must be true** for a record to be included in the result.  It acts like a logical intersection — it narrows down results by enforcing stricter conditions.
+## **🔸 1\. AND Operator**
 
-## **Example:**  To get employees who live in ‘Allahabad’ **and** belong to ‘India’, both conditions must hold true simultaneously.
+ **AND** operator is used to combine two or more conditions in a query so that **all of them must be true** for a record to be included in the result.  It acts like a logical intersection — it narrows down results by enforcing stricter conditions.
 
-## SELECT \* FROM employee
+ **Example:**  To get employees who live in ‘Allahabad’ **and** belong to ‘India’, both conditions must hold true simultaneously.
 
-## WHERE emp\_city \= 'Allahabad' AND emp\_country \= 'India';
+>  SELECT \* FROM employee \
+WHERE emp\_city \= 'Allahabad' AND emp\_country \= 'India';
 
-## 
 
-## **Explanation:**  Here, the query checks for two conditions — city and country. Only those records where both conditions are true are displayed.  If even one condition is false, the row is excluded from the result.
+ **Explanation:**  Here, the query checks for two conditions — city and country. Only those records where both conditions are true are displayed.  If even one condition is false, the row is excluded from the result.
 
-## **Use Case:**  When filtering records that must satisfy **multiple criteria at once**.
+ **Use Case:**  When filtering records that must satisfy **multiple criteria at once**.
 
-## ---
 
-### **🔸 2\. OR Operator**
 
-## The **OR** operator is used when you want to retrieve data that meets **at least one** of several conditions.  Unlike AND, which narrows down data, OR **broadens** the scope by returning rows if **any** of the specified conditions are true.
+## **🔸 2\. OR Operator**
 
-## **Example:**
+The **OR** operator is used when you want to retrieve data that meets **at least one** of several conditions.  Unlike AND, which narrows down data, OR **broadens** the scope by returning rows if **any** of the specified conditions are true.
 
-## SELECT \* FROM employee
+ **Example:**
+>  SELECT \* FROM employee \
+WHERE emp\_city \= 'Varanasi' OR emp\_country \= 'India';
 
-## WHERE emp\_city \= 'Varanasi' OR emp\_country \= 'India';
+ **Explanation:**  The query retrieves employees who are either from Varanasi or from India.  Even if one condition is true, that record is included in the output.
 
-## 
+ **Use Case:**  Used when you want results that match **any** of multiple conditions.
 
-## **Explanation:**  The query retrieves employees who are either from Varanasi or from India.  Even if one condition is true, that record is included in the output.
 
-## **Use Case:**  Used when you want results that match **any** of multiple conditions.
 
-## ---
+## **🔸 3\. NOT Operator**
 
-### **🔸 3\. NOT Operator**
+ The **NOT** operator reverses or negates the logical result of a condition.  It returns rows where the condition is **false**.  This is useful for **excluding** certain data from query results.
 
-## The **NOT** operator reverses or negates the logical result of a condition.  It returns rows where the condition is **false**.  This is useful for **excluding** certain data from query results.
+ **Example:**
 
-## **Example:**
+> SELECT \* FROM employee \
+ WHERE NOT emp\_city \= 'Patna';
 
-## SELECT \* FROM employee
 
-## WHERE NOT emp\_city \= 'Patna';
+ **Explanation:**  This query fetches all records **except** those where the employee’s city is Patna.  The NOT keyword flips the logic of the condition that follows it.
 
-## 
+ **Use Case:**  To eliminate or filter out unwanted data from the output.
 
-## **Explanation:**  This query fetches all records **except** those where the employee’s city is Patna.  The NOT keyword flips the logic of the condition that follows it.
 
-## **Use Case:**  To eliminate or filter out unwanted data from the output.
 
-## ---
+## **🔸 4\. IN Operator**
 
-### **🔸 4\. IN Operator**
+ The **IN** operator checks whether a value matches **any** value within a specified list.  It is a more concise and readable way to represent multiple **OR** conditions.
 
-## The **IN** operator checks whether a value matches **any** value within a specified list.  It is a more concise and readable way to represent multiple **OR** conditions.
+**Example:**
+>  SELECT \* FROM employee \
+ WHERE emp\_city IN ('Allahabad', 'Patna');
 
-## **Example:**
 
-## SELECT \* FROM employee
+**Explanation:**  This query selects all employees who are from either Allahabad or Patna.  Instead of writing multiple OR statements, IN simplifies the syntax.
 
-## WHERE emp\_city IN ('Allahabad', 'Patna');
+ **Use Case:**  Best suited when matching a value against a **known list** of possible values.
 
-## 
 
-## **Explanation:**  This query selects all employees who are from either Allahabad or Patna.  Instead of writing multiple OR statements, IN simplifies the syntax.
 
-## **Use Case:**  Best suited when matching a value against a **known list** of possible values.
+## **🔸 5\. LIKE Operator**
 
-## ---
+ The **LIKE** operator allows **pattern-based matching** in text fields.  It is used to search for values that fit a particular **pattern or substring**, rather than an exact match.
 
-### **🔸 5\. LIKE Operator**
+ Two wildcard symbols are used with LIKE:
 
-## The **LIKE** operator allows **pattern-based matching** in text fields.  It is used to search for values that fit a particular **pattern or substring**, rather than an exact match.
+* `%` → Represents zero or more characters. 
 
-## Two wildcard symbols are used with LIKE:
+* `_` → Represents exactly one character. 
 
-* ## `%` → Represents zero or more characters. 
+ **Example:**
+> SELECT \* FROM employee 
+\
+WHERE emp\_city LIKE 'P%';
 
-* ## `_` → Represents exactly one character. 
 
-## **Example:**
+ **Explanation:**  This retrieves all employees whose city names begin with the letter ‘P’.  It matches values like “Patna”, “Pune”, or “Paris”.
 
-## SELECT \* FROM employee
+ **Use Case:**  Used in **pattern searches**, such as names, emails, or address lookups.
 
-## WHERE emp\_city LIKE 'P%';
 
-## 
 
-## **Explanation:**  This retrieves all employees whose city names begin with the letter ‘P’.  It matches values like “Patna”, “Pune”, or “Paris”.
+## **🔸 6\. BETWEEN Operator**
 
-## **Use Case:**  Used in **pattern searches**, such as names, emails, or address lookups.
+The **BETWEEN** operator checks if a value falls **within a specified range** (inclusive of both boundaries).  It can be applied to numbers, dates, or even text values.
 
-## ---
+ **Example:**
+>  SELECT \* FROM employee \
+ WHERE emp\_id BETWEEN 101 AND 104;
 
-### **🔸 6\. BETWEEN Operator**
 
-## The **BETWEEN** operator checks if a value falls **within a specified range** (inclusive of both boundaries).  It can be applied to numbers, dates, or even text values.
+**Explanation:**  This query returns records of employees whose ID values range from 101 to 104, including both 101 and 104\.  It makes range filtering simple and readable.
 
-## **Example:**
+ **Use Case:**  Ideal for filtering **numerical ranges, date ranges**, or any ordered data.
 
-## SELECT \* FROM employee
 
-## WHERE emp\_id BETWEEN 101 AND 104;
+## **🔸 7\. ALL Operator**
+ The **ALL** operator compares a single value to **all values** returned by a subquery.  The comparison returns TRUE **only if the condition holds true for every value** in the subquery.
 
-## 
+ **Example:**
 
-## **Explanation:**  This query returns records of employees whose ID values range from 101 to 104, including both 101 and 104\.  It makes range filtering simple and readable.
+ > SELECT \* FROM employee \
+ WHERE emp\_id \> ALL (SELECT emp\_id FROM employee WHERE emp\_city \= 'Varanasi');
 
-## **Use Case:**  Ideal for filtering **numerical ranges, date ranges**, or any ordered data.
 
-## ---
+ **Explanation:**  Here, the main query retrieves employees whose emp\_id is greater than **all** employee IDs from Varanasi.  If even one value in the subquery doesn’t meet the condition, it returns FALSE.
 
-### **🔸 7\. ALL Operator**
+ **Use Case:**  Used for **universal comparisons** — when a condition must hold for all results from a subquery.
 
-## The **ALL** operator compares a single value to **all values** returned by a subquery.  The comparison returns TRUE **only if the condition holds true for every value** in the subquery.
 
-## **Example:**
 
-## SELECT \* FROM employee
+## **🔸 8\. ANY Operator**
 
-## WHERE emp\_id \> ALL (SELECT emp\_id FROM employee WHERE emp\_city \= 'Varanasi');
+ The **ANY** operator (similar to SOME) compares a value to the **set of values** returned by a subquery.  It returns TRUE if **the condition is true for any one** of those values.
 
-## 
+ **Example:**
+>  SELECT \* FROM employee\
+ WHERE emp\_id \= ANY (SELECT emp\_id FROM employee WHERE emp\_city \= 'Varanasi');
 
-## **Explanation:**  Here, the main query retrieves employees whose emp\_id is greater than **all** employee IDs from Varanasi.  If even one value in the subquery doesn’t meet the condition, it returns FALSE.
+ **Explanation:**  If at least one employee in the subquery matches the emp\_id in the main query, the condition becomes TRUE.
 
-## **Use Case:**  Used for **universal comparisons** — when a condition must hold for all results from a subquery.
+ **Use Case:**  Used when a condition only needs to be **partially true** (for one or more values).
 
-## ---
 
-### **🔸 8\. ANY Operator**
 
-## The **ANY** operator (similar to SOME) compares a value to the **set of values** returned by a subquery.  It returns TRUE if **the condition is true for any one** of those values.
+## **🔸 9\. EXISTS Operator**
 
-## **Example:**
+ The **EXISTS** operator tests whether a **subquery returns any rows**.  It returns TRUE if the subquery returns at least one record, otherwise FALSE.
 
-## SELECT \* FROM employee
+**Example:**
+>  SELECT emp\_name FROM employee\
+ WHERE EXISTS (SELECT emp\_id FROM employee WHERE emp\_city \= 'Patna');
 
-## WHERE emp\_id \= ANY (SELECT emp\_id FROM employee WHERE emp\_city \= 'Varanasi');
+**Explanation:**  If there are employees in Patna, the condition becomes TRUE, and the query returns all employee names.  If no such records exist, it returns an empty result.
 
-## 
+ **Use Case:**  Often used in **correlated subqueries** to check for the existence of related data.
 
-## **Explanation:**  If at least one employee in the subquery matches the emp\_id in the main query, the condition becomes TRUE.
 
-## **Use Case:**  Used when a condition only needs to be **partially true** (for one or more values).
 
-## ---
+## **🔸 10\. SOME Operator**
 
-### **🔸 9\. EXISTS Operator**
+ The **SOME** operator works exactly like **ANY** — both are interchangeable in SQL.  It compares a value to a set of values returned by a subquery and returns TRUE if the condition holds for **at least one** value.
+ **Example:**
+>  SELECT \* FROM employee \
+ WHERE emp\_id \< SOME (SELECT emp\_id FROM employee WHERE emp\_city \= 'Patna');
 
-## The **EXISTS** operator tests whether a **subquery returns any rows**.  It returns TRUE if the subquery returns at least one record, otherwise FALSE.
+ **Explanation:**  This retrieves employees whose emp\_id is **less than any** emp\_id of employees from Patna.  Even if one value satisfies the condition, it returns TRUE.
 
-## **Example:**
-
-## SELECT emp\_name FROM employee
-
-## WHERE EXISTS (SELECT emp\_id FROM employee WHERE emp\_city \= 'Patna');
-
-## 
-
-## **Explanation:**  If there are employees in Patna, the condition becomes TRUE, and the query returns all employee names.  If no such records exist, it returns an empty result.
-
-## **Use Case:**  Often used in **correlated subqueries** to check for the existence of related data.
-
-## ---
-
-### **🔸 10\. SOME Operator**
-
-## The **SOME** operator works exactly like **ANY** — both are interchangeable in SQL.  It compares a value to a set of values returned by a subquery and returns TRUE if the condition holds for **at least one** value.
-
-## **Example:**
-
-## SELECT \* FROM employee
-
-## WHERE emp\_id \< SOME (SELECT emp\_id FROM employee WHERE emp\_city \= 'Patna');
-
-## 
-
-## **Explanation:**  This retrieves employees whose emp\_id is **less than any** emp\_id of employees from Patna.  Even if one value satisfies the condition, it returns TRUE.
-
-## **Use Case:**  Used when performing comparisons involving **partial matches** from subqueries.
+ **Use Case:**  Used when performing comparisons involving **partial matches** from subqueries.
 
 ⚖️ **Summary Table**
 

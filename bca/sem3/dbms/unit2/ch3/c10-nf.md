@@ -6,26 +6,20 @@
 Normalization is a **systematic approach to organize data** in a database to:
 
 * **Reduce redundancy** (avoid storing duplicate data)
-
 * **Eliminate anomalies** such as **insertion, update, and deletion anomalies**
 
 It involves:
 
 * Breaking large tables into **smaller, well-structured tables**
-
 * Defining **relationships** between tables
 
 **Benefits:**
 
 * Reduces duplicate data
-
 * Improves data integrity
-
 * Makes database design simpler
-
 * Optimizes database performance
 
----
 
 ## **2\. Importance of Normalization**
 
@@ -47,7 +41,7 @@ It involves:
 
 Absolutely, Tinu\! Here’s a **well-formatted and elaborated version** of your text for **notes and exam preparation**. I’ve added headings, subpoints, examples, and simplified explanations to make it clear and easy to memorize.
 
-**1. First Normal Form (1NF): Eliminating Duplicate Records**  
+## **1. First Normal Form (1NF): Eliminating Duplicate Records**  
 A table is in [1NF ](https://www.geeksforgeeks.org/dbms/first-normal-form-1nf/)if it satisfies the following conditions:
 
 * All columns contain atomic values (i.e., indivisible values).  
@@ -69,7 +63,7 @@ A table is in [1NF ](https://www.geeksforgeeks.org/dbms/first-normal-form-1nf/
 | **Raj** | **DBMS** |
 | **Raj** | **OS** |
 
-**2. Second Normal Form (2NF): Eliminating Partial Dependency**
+## **2. Second Normal Form (2NF): Eliminating Partial Dependency**
 
 **Definition:**  
 A relation is in **2NF** if:
@@ -92,7 +86,7 @@ Here, StudentID \+ CourseCode is the composite key, but StudentName depends only
 * Student(StudentID, StudentName)  
 * Enrollment(StudentID, CourseCode)
 
-**3. Third Normal Form (3NF): Eliminating Transitive Dependency**
+## **3. Third Normal Form (3NF): Eliminating Transitive Dependency**
 
 **Definition:**  
 A relation is in **3NF** if:
@@ -129,7 +123,7 @@ EmpID | EmpName | DeptID
 DeptID | DeptName  
 Now each non-key attribute depends only on a **key**, and **no transitive dependencies** exist.
 
-**4. Boyce-Codd Normal Form (BCNF): The Strongest Form of 3NF**  
+## **4. Boyce-Codd Normal Form (BCNF): The Strongest Form of 3NF**  
 **Definition:**  
 A relation is in **BCNF** if:
 

@@ -6,9 +6,9 @@
 A **Functional Dependency (FD)** is a relationship between attributes in a relation (table).  
  If an attribute **X** uniquely determines another attribute **Y**, then it is written as:
 
-X→Y
+> X→Y
 
-This means: *If two tuples have the same values for X, they must have the same values for Y.*
+This means: If two tuples have the same values for X, they must have the same values for Y.
 
 ---
 
@@ -16,23 +16,20 @@ This means: *If two tuples have the same values for X, they must have the same v
 
 The **Closure of Functional Dependencies (F⁺)** is the **complete set** of all Functional Dependencies that can be **logically implied** from the given set of FDs **F**.
 
-F+={All FDs that can be derived from F}
+> F+={All FDs that can be derived from F}
 
 It helps in:
 
 * **Checking if a decomposition is lossless**
-
 * **Checking if a relation is in Normal Form**
-
 * **Finding candidate keys**
 
----
 
 ## **3\. Closure of Attribute Set (X⁺)**
 
 The **closure of an attribute set X**, written as **X⁺**, is the set of **all attributes that can be functionally determined** by X using the given FDs.
 
-X+={All attributes determined by X}
+> X+={All attributes determined by X}
 
 ### **Steps to Find Attribute Closure (X⁺):**
 
@@ -44,7 +41,6 @@ X+={All attributes determined by X}
 
 3. Repeat until no more attributes can be added.
 
----
 
 ## **4\. Armstrong’s Axioms (Inference Rules)**
 

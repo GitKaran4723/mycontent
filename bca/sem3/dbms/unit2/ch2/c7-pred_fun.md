@@ -1,4 +1,4 @@
-## **🧠 Predicates in SQL**
+# **🧠 Predicates in SQL**
 
 A **predicate** is a logical condition used in SQL statements (especially in `WHERE`, `HAVING`, or `JOIN` clauses) that returns **TRUE**, **FALSE**, or **UNKNOWN** for each row.  
  They are essential for filtering, searching, and defining rules in queries.
@@ -13,9 +13,9 @@ Used to find rows where a column matches a pattern using **wildcards**:
 
 * `_` → a single character
 
-### **Example:**
+ **Example:**
 
-SELECT emp\_name, emp\_city  
+> SELECT emp\_name, emp\_city  
 FROM Employee  
 WHERE emp\_name LIKE 'A%';
 
@@ -248,18 +248,6 @@ LIMIT 3;
 
 📝 **Explanation:**  
  Displays **only the top 3 highest-paid** employees.
-
----
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
 
 ## **✅ Summary:**
 

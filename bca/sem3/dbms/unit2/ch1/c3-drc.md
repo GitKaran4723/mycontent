@@ -58,7 +58,7 @@ The result of a TRC expression is a set of tuples that satisfy the condition ( P
  **Find the names of all employees who earn more than ₹50,000 per year.**
 
 **TRC Expression:**  
-{t ∣ Employees(t)∧t.Salary\>50000}
+> {t ∣ Employees(t)∧t.Salary\>50000}
 
 **Result:**
 
@@ -78,7 +78,7 @@ The result of a TRC expression is a set of tuples that satisfy the condition ( P
  Find loan numbers of all loans having an amount greater than or equal to 10,000.
 
 **TRC Expression:**  
-{t ∣∃s∈Loan(t.Loan\_number=s.Loan\_number∧s.Amount≥10000)}
+> {t ∣∃s∈Loan(t.Loan\_number=s.Loan\_number∧s.Amount≥10000)}
 
 **Result:**
 
@@ -104,7 +104,7 @@ Domain Relational Calculus works on domain values (attributes) instead of entire
 
 ### **🔹 Syntax:**
 
-**{⟨a1​,a2​,...,an​⟩ ∣ P(a1​,a2​,...,an​)}**
+> **{⟨a1​,a2​,...,an​⟩ ∣ P(a1​,a2​,...,an​)}**
 
 **Where:**
 

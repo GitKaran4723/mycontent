@@ -62,13 +62,10 @@ Functional dependencies are crucial because they:
 
 5. **Reduce Redundancy** – Help in removing duplicate or unnecessary data in relational tables.
 
----
-
-## 
 
 ## **🧩 Types of Functional Dependencies**
 
----
+
 
 ### **1️⃣ Trivial Functional Dependency**
 
@@ -250,15 +247,18 @@ If we have a relation R(A, B, C), and it can be divided into two relations R1(A,
 * They can **derive all possible** correct FDs (closure).
 
 They are used for:  
- Testing FD implications  
- Computing **attribute closure**  
- Deriving **canonical covers**  
- Aiding **normalization**  
+ * Testing FD implications  
+ * Computing **attribute closure**  
+ * Deriving **canonical covers**  
+ * Aiding **normalization**  
+
 ![][image1]
 
-* **Axiom of Reflexivity: **If A is a set of attributes and B is a subset of A, then A holds B. If B⊆A then A**→**B. This property is trivial property.  
-* **Axiom of Augmentation: **If **A→B **holds and Y is the attribute set, then **AY→BY** also holds. That is adding attributes to dependencies, does not change the basic dependencies. If **A→B**, then **AC→BC** for any C.  
-* **Axiom of Transitivity: **Same as the transitive rule in algebra, if **A→B** holds and **B→C** holds, then** A→C** also holds. **A→B** is called A functionally which determines B. If **X→Y** and** Y→Z**, then **X→Z.**
+* **Axiom of Reflexivity:** If A is a set of attributes and B is a subset of A, then A holds B. If B⊆A then A**→**B. This property is trivial property.  
+
+* **Axiom of Augmentation:** If **A→B **holds and Y is the attribute set, then **AY→BY** also holds. That is adding attributes to dependencies, does not change the basic dependencies. If **A→B**, then **AC→BC** for any C.  
+
+* **Axiom of Transitivity:** Same as the transitive rule in algebra, if **A→B** holds and **B→C** holds, then** A→C** also holds. **A→B** is called A functionally which determines B. If **X→Y** and** Y→Z**, then **X→Z.**
 
 1. **Reflexivity**: Since any set of attributes determines its subset, we can immediately infer the following:
 
@@ -291,16 +291,12 @@ Although Armstrong's axioms are sound and complete, there are additional rules f
 4. **Pseudo Transitivity Rule:**  
     If X → Y and YZ → W, then XZ → W.
 
----
 
 ## **🧷 Properties of Functional Dependencies**
 
 * Define **keys and relationships** among attributes.
-
 * Aid in **database normalization**.
-
 * Help **remove redundancy** and maintain **data integrity**.
-
 * Assist in **schema refinement** to design efficient databases.
 
 ---

@@ -1,4 +1,6 @@
-**UNIT 2: Introduction to Relational Algebra in DBMS**
+# **UNIT 2: Introduction to Relational Algebra in DBMS**
+
+## **Relational Algebra** 
 
 Relational Algebra is a formal language used for querying and manipulating relational databases. It consists of a set of operations like selection, projection, union, and join. This mathematical framework ensures efficient data retrieval and manipulation, serving as the foundation for SQL. 
 

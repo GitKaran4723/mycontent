@@ -1,13 +1,13 @@
-**Basic Operators in Relational Algebra**
+# **Basic Operators in Relational Algebra**
 
 Relational algebra comprises various basic operators that help us fetch and manipulate data from relational tables in the database to perform specific operations on relational data. These fundamental operations include:
 
-* Selection (σ)  
-* Projection (π)  
-* Union (U)  
-* Set difference (−)  
-* Cartesian product (×)  
-* Rename (ρ)
+* **Selection (σ)**
+* **Projection (π)**  
+* **Union (U)**  
+* **Set difference (−)**
+* **Cartesian product (×)** 
+* **Rename (ρ)**
 
 ![][image1]
 
