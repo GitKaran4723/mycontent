@@ -1,0 +1,57 @@
+UNIT I: Introduction to Artificial Intelligence
+│
+├── Chapter 1: Fundamentals of Artificial Intelligence
+│   ├── 1.1 What is Artificial Intelligence?
+│   │     ├─ Definition and Meaning
+│   │     ├─ Goals of AI
+│   │     └─ Importance of AI in real-world systems
+│   ├── 1.2 History and Evolution of AI
+│   │     ├─ Early AI research
+│   │     ├─ Milestones (Turing Test, Expert Systems, Machine Learning)
+│   │     └─ Modern AI applications
+│   ├── 1.3 Characteristics and Applications of AI
+│   │     ├─ Learning, Reasoning, Problem Solving
+│   │     ├─ AI in Healthcare, Finance, Robotics, etc.
+│   │     └─ Everyday applications (chatbots, assistants)
+│   └── 1.4 Scope and Ethical Implications
+│         ├─ Future trends in AI
+│         ├─ Advantages and challenges
+│         └─ Ethical and societal considerations
+│
+├── Chapter 2: Intelligent Agents and Environments
+│   ├── 2.1 Agents and Environments
+│   │     ├─ Definition of Agent
+│   │     ├─ Environment interaction loop
+│   │     └─ Examples of agents
+│   ├── 2.2 Concept of Rationality
+│   │     ├─ Rational behavior and performance measure
+│   │     ├─ Rational vs Omniscient agents
+│   │     └─ Bounded rationality
+│   ├── 2.3 Nature of Environments
+│   │     ├─ Observable vs Partially Observable
+│   │     ├─ Deterministic vs Stochastic
+│   │     ├─ Episodic vs Sequential
+│   │     ├─ Static vs Dynamic
+│   │     └─ Discrete vs Continuous
+│   └── 2.4 Structure of Agents
+│         ├─ Components: Sensors, Actuators, Knowledge Base
+│         ├─ PEAS Representation
+│         └─ Types: Reflex, Model-based, Goal-based, Utility-based
+│
+└── Chapter 3: Knowledge-Based Agents and Problem Solving
+    ├── 3.1 Introduction to Knowledge-Based Agents
+    │     ├─ Definition and Purpose
+    │     ├─ Knowledge Base and Inference Engine
+    │     └─ Reasoning in Knowledge Systems
+    ├── 3.2 The Wumpus World Example
+    │     ├─ Description of the environment
+    │     ├─ Logical inference in uncertain conditions
+    │     └─ Step-by-step agent reasoning
+    ├── 3.3 Problem-Solving Agents
+    │     ├─ What is a problem-solving agent?
+    │     ├─ Problem formulation (Initial State, Actions, Goal, Path Cost)
+    │     └─ Search Space and State Representation
+    └── 3.4 Examples of Problem Solving
+          ├─ Vacuum Cleaner World
+          ├─ 8-Puzzle Problem
+          └─ Pathfinding / Route-Finding agent
