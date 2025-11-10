@@ -1,10 +1,10 @@
-**2\.  Types of Artificial Intelligence**
+## 2\.  Types of Artificial Intelligence
 
 ![][image1]
 
-* **2.1    Based on Capabilities :-**
+### 2.1    Based on Capabilities :-
 
-   **Weak AI or Narrow AI:**
+#### **Weak AI or Narrow AI:**
 
 - Narrow AI is a type of AI which is able to perform a dedicated task with intelligence.   
 - Narrow AI cannot perform beyond its field or limitations, as it is only trained for one specific task. Hence it is also termed as weak AI. Narrow AI can fail in unpredictable ways if it goes beyond its limits.  
@@ -12,7 +12,7 @@
   IBM's Watson supercomputer also comes under Narrow AI, as it uses an Expert system approach combined with Machine learning and natural language processing.  
   Some Examples of Narrow AI are playing chess, purchasing suggestions on e-commerce site, self-driving cars, speech recognition, and image recognition.
 
-   **General AI:**
+#### **General AI:**
 
 - General AI is a type of intelligence which could perform any intellectual task with efficiency like a human.  
 - The idea behind the general AI to make such a system which could be smarter and think like a human by its own.  
@@ -20,15 +20,15 @@
 - The worldwide researchers are now focused on developing machines with General AI.  
 - As systems with general AI are still under research, and it will take lots of efforts and time to develop such systems.
 
-   **Super AI:**
+#### **Super AI:**
 
 - Super AI is a level of Intelligence of Systems at which machines could surpass human intelligence, and can perform any task better than human with cognitive properties. It is an outcome of general AI.  
 - Some key characteristics of strong AI include capability include the ability to think, to reason, solve the puzzle, make judgments, plan, learn, and communicate by its own.  
 - Super AI is still a hypothetical concept of Artificial Intelligence. Development of such systems in real is still world changing task.
 
-* **2.2  Based on Functionalities:-**
+### 2.2  Based on Functionalities:-
 
-  **Reactive Machines:**
+#### **Reactive Machines:**
 
 - Purely reactive machines are the most basic types of Artificial Intelligence.  
 - Such AI systems do not store memories or past experiences for future actions.  
@@ -36,32 +36,32 @@
 - IBM's Deep Blue system is an example of reactive machines.  
   Google's AlphaGo is also an example of reactive machines
 
-   **Limited Memory:**
+#### **Limited Memory:**
 
 - Limited memory machines can store past experiences or some data for a short period of time.  
 - These machines can use stored data for a limited time period only.  
 - Self-driving cars are one of the best examples of Limited Memory systems. These cars can store recent speed of nearby cars, the distance of other cars, speed limit, and other information to navigate the road.
 
-   **Theory of Mind:**
+#### **Theory of Mind:**
 
 - Theory of Mind AI should understand the human emotions, people, beliefs, and be able to interact socially like humans.  
 - This type of AI machines are still not developed, but researchers are making lots of efforts and improvement for developing such AI machines.
 
-   **Self-Awareness:**
+#### **Self-Awareness:**
 
 - AI is the future of Artificial Intelligence. These machines will be super intelligent, and will have their own consciousness, sentiments, and self-awareness.  
 - These machines will be smarter than human mind.  
   Self-Awareness AI does not exist in reality still and it is a hypothetical concept
 
-**3\. Pros and Cons of AI:-**
+## 3\. Pros and Cons of AI:-
 
-* **3\. Pros and Cons of AI:-**  
+### **3.1 Pros and Cons of AI:-**  
 - AI is good at detail-oriented jobs  
 - It reduces the time needed to perform data-heavy tasks  
 - It delivers consistent results  
 - AI-powered agents are always available; they don’t need breaks.
 
-* **3.2  Disadvantages of AI Tech**  
+### **3.2  Disadvantages of AI Tech**  
 - AI is expensive  
 - It requires great technical expertise  
 - AI can’t generalize from one task to another  
