@@ -1,59 +1,100 @@
 UNIT I: Introduction to Artificial Intelligence
 │
 ├── Chapter 1: Fundamentals of Artificial Intelligence
-│   ├── 1.1 What is Artificial Intelligence?
-│   │     ├─ Definition and Meaning
-│   │     ├─ Goals of AI
-│   │     └─ Importance of AI in real-world systems
-│   ├── 1.2 History and Evolution of AI
-│   │     ├─ Early AI research
-│   │     ├─ Milestones (Turing Test, Expert Systems, Machine Learning)
-│   │     └─ Modern AI applications
-│   ├── 1.3 Characteristics and Applications of AI
-│   │     ├─ Learning, Reasoning, Problem Solving
-│   │     ├─ AI in Healthcare, Finance, Robotics, etc.
-│   │     └─ Everyday applications (chatbots, assistants)
-│   └── 1.4 Scope and Ethical Implications
-│         ├─ Future trends in AI
-│         ├─ Advantages and challenges
-│         └─ Ethical and societal considerations
+│   ├── Definition and Meaning of AI
+│   ├── Goals of Artificial Intelligence
+│   ├── History and Evolution of AI
+│   ├── Characteristics of AI (Learning, Reasoning, Problem-Solving)
+│   ├── Applications of AI (Healthcare, Finance, Robotics, etc.)
+│   └── Ethical and Societal Implications of AI
 │
 ├── Chapter 2: Intelligent Agents and Environments
-│   ├── 2.1 Agents and Environments
-│   │     ├─ Definition of Agent
-│   │     ├─ Environment interaction loop
-│   │     └─ Examples of agents
-│   ├── 2.2 Concept of Rationality
-│   │     ├─ Rational behavior and performance measure
-│   │     ├─ Rational vs Omniscient agents
-│   │     └─ Bounded rationality
-│   ├── 2.3 Nature of Environments
-│   │     ├─ Observable vs Partially Observable
-│   │     ├─ Deterministic vs Stochastic
-│   │     ├─ Episodic vs Sequential
-│   │     ├─ Static vs Dynamic
-│   │     └─ Discrete vs Continuous
-│   └── 2.4 Structure of Agents
-│         ├─ Components: Sensors, Actuators, Knowledge Base
-│         ├─ PEAS Representation
-│         └─ Types: Reflex, Model-based, Goal-based, Utility-based
+│   ├── Definition of Agents and Examples
+│   ├── Concept of Rationality
+│   ├── Nature of Environments (Deterministic, Static, Observable, etc.)
+│   ├── Agent Structure: Sensors, Actuators, Knowledge Base
+│   ├── PEAS Representation
+│   └── Types of Agents (Reflex, Model-based, Goal-based, Utility-based)
 │
 └── Chapter 3: Knowledge-Based Agents and Problem Solving
-    ├── 3.1 Introduction to Knowledge-Based Agents
-    │     ├─ Definition and Purpose
-    │     ├─ Knowledge Base and Inference Engine
-    │     └─ Reasoning in Knowledge Systems
-    ├── 3.2 The Wumpus World Example
-    │     ├─ Description of the environment
-    │     ├─ Logical inference in uncertain conditions
-    │     └─ Step-by-step agent reasoning
-    ├── 3.3 Problem-Solving Agents
-    │     ├─ What is a problem-solving agent?
-    │     ├─ Problem formulation (Initial State, Actions, Goal, Path Cost)
-    │     └─ Search Space and State Representation
-    └── 3.4 Examples of Problem Solving
-          ├─ Vacuum Cleaner World
-          ├─ 8-Puzzle Problem
-          └─ Pathfinding / Route-Finding agent
-UNIT II: 
+    ├── Knowledge-Based Agents and Inference
+    ├── Wumpus World Representation
+    ├── Problem-Solving Agents
+    ├── Problem Formulation (Initial State, Actions, Goal, Path Cost)
+    ├── Search Space and State Representation
+    └── Examples: Vacuum Cleaner, 8-Puzzle, Route-Finding
 
+
+UNIT II: Advanced Search Techniques
+│
+├── Chapter 1: Uninformed & Informed Search
+│   ├── Depth First Search (DFS)
+│   ├── Breadth First Search (BFS)
+│   ├── Iterative Deepening Search (IDS)
+│   ├── Best First Search
+│   ├── A* Search Algorithm
+│   ├── AO* Search Algorithm
+│   └── Uniform Cost Search
+│
+├── Chapter 2: Adversarial Search & CSP
+│   ├── Two-player Zero-sum Games
+│   ├── Game Trees
+│   ├── Minimax Search
+│   ├── Alpha-Beta Pruning
+│   ├── Constraint Satisfaction Problems (CSP)
+│   └── Backtracking Search for CSP
+│
+└── Chapter 3: Evolutionary Search Techniques
+    ├── Evolutionary Algorithms
+    ├── Genetic Algorithms (GA)
+    ├── Fitness Function
+    ├── Selection, Crossover, Mutation
+    └── Applications of Evolutionary Search in AI
+
+
+UNIT III: Logical Reasoning and Uncertainty
+│
+├── Chapter 1: Logical Representation & Inference
+│   ├── Propositional Logic
+│   ├── First-order Predicate Logic
+│   ├── Propositional vs First-order Inference
+│   ├── Unification and Lifting
+│   └── Resolution Method
+│
+├── Chapter 2: Automated Inference Techniques
+│   ├── Forward Chaining
+│   ├── Backward Chaining
+│   ├── Knowledge-based Inference
+│   ├── Truth Maintenance Systems (TMS)
+│   └── Rule-based Reasoning
+│
+└── Chapter 3: Planning & Uncertainty Handling
+    ├── Blocks World Problem
+    ├── STRIPS Planning System
+    ├── Non-monotonic Reasoning
+    ├── Probabilistic Reasoning
+    └── Introduction to Fuzzy Set Theory
+
+
+UNIT IV: Domains and Applications of AI
+│
+├── Chapter 1: Core AI Domains
+│   ├── Machine Learning
+│   ├── Computer Vision
+│   ├── Robotics
+│   ├── Natural Language Processing (NLP)
+│   └── Deep Neural Networks (DNNs)
+│
+├── Chapter 2: Expert Systems
+│   ├── Architecture of Expert Systems
+│   ├── Knowledge Base
+│   ├── Inference Engine
+│   ├── Applications of Expert Systems
+│   └── Case Studies (Any Two)
+│
+└── Chapter 3: Legal & Ethical Issues in AI
+    ├── Ethical Concerns in AI
+    ├── Bias and Fairness
+    ├── Privacy and Data Protection
+    ├── Transparency and Explainability
+    └── Legal Regulations and Compliance
