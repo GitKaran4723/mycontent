@@ -2,6 +2,10 @@
 
 ---
 
+<iframe width="560" height="315" src="https://youtu.be/Du8NcZ3ytVc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 ## **1\. Introduction**
 
 Statistics deals with collecting, organizing, analyzing, and interpreting data.  
