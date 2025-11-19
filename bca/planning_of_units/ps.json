@@ -1,0 +1,172 @@
+{
+  "Subject": "Probability and Statistics",
+  "Units": [
+    {
+      "UnitNumber": 1,
+      "UnitName": "Descriptive Statistics",
+      "Chapters": [
+        {
+          "ChapterName": "Basic Concepts of Statistics",
+          "Concepts": [
+            "Meaning and scope of Statistics",
+            "Data, Information, Population, Sample",
+            "Parameter vs Statistic",
+            "Descriptive and Inferential Statistics"
+          ]
+        },
+        {
+          "ChapterName": "Types of Data",
+          "Concepts": [
+            "Qualitative (Nominal, Ordinal)",
+            "Quantitative (Interval, Ratio)",
+            "Primary and Secondary Data"
+          ]
+        },
+        {
+          "ChapterName": "Classification and Frequency Distribution",
+          "Concepts": [
+            "Raw data and grouped data",
+            "Class intervals and frequency",
+            "Relative frequency",
+            "Cumulative frequency",
+            "Construction of frequency distribution"
+          ]
+        },
+        {
+          "ChapterName": "Diagrammatic and Graphical Representation",
+          "Concepts": [
+            "Bar Diagram",
+            "Pie Chart",
+            "Histogram",
+            "Frequency Polygon",
+            "Ogives (Less-than and More-than CF curves)"
+          ]
+        },
+        {
+          "ChapterName": "Measures of Central Tendency",
+          "Concepts": [
+            "Arithmetic Mean",
+            "Median",
+            "Mode",
+            "Properties and uses"
+          ]
+        },
+        {
+          "ChapterName": "Measures of Dispersion",
+          "Concepts": [
+            "Range",
+            "Mean Deviation",
+            "Quartile Deviation (IQR)",
+            "Variance",
+            "Standard Deviation",
+            "Coefficient of Variation"
+          ]
+        }
+      ]
+    },
+    {
+      "UnitNumber": 2,
+      "UnitName": "Correlation and Regression",
+      "Chapters": [
+        {
+          "ChapterName": "Correlation",
+          "Concepts": [
+            "Definition and significance",
+            "Scatter Diagram",
+            "Types of correlation",
+            "Karl Pearson's Correlation Coefficient",
+            "Spearman's Rank Correlation"
+          ]
+        },
+        {
+          "ChapterName": "Regression",
+          "Concepts": [
+            "Definition and meaning",
+            "Difference between correlation and regression",
+            "Linear regression",
+            "Least squares method",
+            "Regression coefficients and interpretation"
+          ]
+        }
+      ]
+    },
+    {
+      "UnitNumber": 3,
+      "UnitName": "Probability and Random Variables",
+      "Chapters": [
+        {
+          "ChapterName": "Probability Concepts",
+          "Concepts": [
+            "Experiment and Sample Space",
+            "Types of Events",
+            "Probability of an event",
+            "Addition Rule",
+            "Multiplication Rule",
+            "Complement Rule",
+            "Conditional Probability",
+            "Independent Events"
+          ]
+        },
+        {
+          "ChapterName": "Random Variables",
+          "Concepts": [
+            "Discrete Random Variable",
+            "Continuous Random Variable",
+            "Probability Mass Function (PMF)",
+            "Probability Density Function (PDF)",
+            "Expectation",
+            "Variance"
+          ]
+        },
+        {
+          "ChapterName": "Standard Probability Distributions",
+          "Concepts": [
+            "Binomial Distribution",
+            "Poisson Distribution",
+            "Normal Distribution",
+            "Properties and Applications"
+          ]
+        }
+      ]
+    },
+    {
+      "UnitNumber": 4,
+      "UnitName": "Sampling Distributions and Statistical Inference",
+      "Chapters": [
+        {
+          "ChapterName": "Sampling Distribution",
+          "Concepts": [
+            "Population and Sample",
+            "Parameter and Statistic",
+            "Sampling Distribution of Sample Mean",
+            "Sampling Distribution of Sample Proportion",
+            "Central Limit Theorem (Concept)"
+          ]
+        },
+        {
+          "ChapterName": "Statistical Inference",
+          "Concepts": [
+            "Estimation (Point and Interval - Concept)",
+            "Hypothesis Testing (Concept)",
+            "Null and Alternative Hypotheses",
+            "Type I and Type II Errors"
+          ]
+        }
+      ]
+    }
+  ],
+  "ImportantQuestions": [
+    "Explain the difference between qualitative and quantitative data with examples.",
+    "Construct a frequency distribution from raw data and draw a histogram.",
+    "Define mean, median, and mode. Discuss when each measure is preferred.",
+    "What is Karl Pearson’s correlation coefficient? Explain its interpretation.",
+    "Calculate Spearman’s rank correlation for a given set of ranks.",
+    "Explain linear regression and derive regression equations using least squares.",
+    "State and explain addition and multiplication laws of probability.",
+    "Define PMF and PDF with examples.",
+    "Explain Binomial, Poisson, and Normal distributions with real-life applications.",
+    "What is sampling distribution? Explain the sampling distribution of sample mean.",
+    "Differentiate between parameter and statistic.",
+    "Explain the concept of hypothesis testing and types of errors."
+  ]
+}
