@@ -15,7 +15,8 @@ The philosophical definition is that logic is a description of how one should th
 * Propositional logic, also known as sentential logic, is that branch of logic that studies ways of combining or altering statements or propositions to form more complicated statements or propositions. Joining two simpler propositions with the word “and” is one common way of combining statements.  
 * When two statements are joined together with “and”, the complex statement formed by them is true if and only if both the component statements are true. Because of this, an argument of the following form is logically valid.  
     
-## **Propositional Logic:** Propositional logic (PL) is the simplest form of logic where all the statements are made by propositions. A proposition is a declarative statement which is either true or false.  
+## **Propositional Logic:** 
+Propositional logic (PL) is the simplest form of logic where all the statements are made by propositions. A proposition is a declarative statement which is either true or false.  
   **Example:**   
   a) It is Sunday.   
   b) The Sun rises from West (False proposition)   
