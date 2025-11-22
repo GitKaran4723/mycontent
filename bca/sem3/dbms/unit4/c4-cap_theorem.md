@@ -1,9 +1,9 @@
----
+
 
 # **CAP Theorem (Brewer’s Theorem)**
 
 The **CAP Theorem**, proposed by **Eric Brewer in 2000** and formally proven by **Gilbert and Lynch in 2002**, is a fundamental principle in distributed database systems.  
- It states that **a distributed system can guarantee only two out of the following three properties at the same time**:
+ It states that **a distributed system can guarantee only two out of the following three properties at the same time**
 
 ---
 
