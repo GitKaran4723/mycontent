@@ -1,15 +1,11 @@
----
-
-# **1\. Two-Phase Locking (2PL)**
+# **1. Two-Phase Locking (2PL)**
 
 ## **Definition**
 
 Two-Phase Locking (2PL) is a concurrency control protocol used in DBMS to ensure **conflict serializability** of transactions.  
- It controls how locks are acquired and released so that the resulting schedule behaves like a serial (non-interleaved) schedule.
+It controls how locks are acquired and released so that the resulting schedule behaves like a serial (non-interleaved) schedule.
 
 The basic principle is that a transaction’s lifetime is divided into two distinct, non-overlapping phases:
-
----
 
 ## **Phases of 2PL**
 
