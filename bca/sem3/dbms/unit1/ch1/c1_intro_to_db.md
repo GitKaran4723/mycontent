@@ -1,5 +1,15 @@
 # **CHAPTER 01: INTRODUCTION TO DATABASE** 
 
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+    <iframe src="https://www.youtube.com/embed/4QbuiFz4e1Y"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;">
+    </iframe>
+</div>
+
+
 ## **Defintion of Data:**  
 Data refers to raw, unorganized facts that need to be processed to be meaningful.  
  It can be numbers, characters, symbols, images, audio, or video.  
