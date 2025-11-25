@@ -2,7 +2,7 @@
 
 Artificial Intelligence is transforming industries, societies, and everyday life. However, its rapid growth raises several **legal, ethical, and societal concerns** that must be addressed to ensure responsible development and use.
 
-## **1\. Privacy and Data Protection:**AI systems rely heavily on large datasets, often containing personal or sensitive information.
+**1\.## Privacy and Data Protection:**AI systems rely heavily on large datasets, often containing personal or sensitive information.
 
 ### **Key concerns:**
 
@@ -11,7 +11,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Lack of transparency in how data is collected, stored, and processed  
 * Violations of privacy laws such as **GDPR**, **CCPA**, etc.
 
-## **2.Bias, Fairness, and Discrimination:**AI models can reflect or amplify biases present in training data.
+**2\.## Bias, Fairness, and Discrimination:**AI models can reflect or amplify biases present in training data.
 
 ### **Risks:**
 
@@ -21,7 +21,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Unequal treatment in banking, insurance, and law enforcement  
 * Social and economic inequalities
 
-## **3\. Lack of Transparency (Black Box Problem):**Many AI systems—especially deep learning—operate in ways difficult for humans to interpret.
+**3\.## Lack of Transparency (Black Box Problem):**Many AI systems—especially deep learning—operate in ways difficult for humans to interpret.
 
 ### **Issues:**
 
@@ -29,7 +29,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Hard to audit, verify, or contest decisions  
 * Accountability becomes unclear
 
-## **4\. Accountability and Liability:**When AI makes a mistake, it is unclear **who is responsible**.
+**4\.## Accountability and Liability:**When AI makes a mistake, it is unclear **who is responsible**.
 
 ### **Legal challenges:**
 
@@ -37,7 +37,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Responsibility in medical misdiagnosis by AI  
 * Shared responsibility among developers, deployers, and users.
 
-## **5\. Intellectual Property (IP) Issues:**
+**5\.## Intellectual Property (IP) Issues:**
 
 ### **Key concerns:**
 
@@ -46,7 +46,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Patentability of AI systems or AI-created inventions.  
 * Plagiarism risks in generative models.
 
-## **6\. Security Risks:**AI systems can be targeted or manipulated.
+**6\.## Security Risks:**AI systems can be targeted or manipulated.
 
 ### **Threats:**
 
@@ -56,7 +56,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Use of AI for cybercrime.  
 * Deepfakes used for fraud or misinformation.
 
-## **7\. Ethical Use of Autonomous Systems:**Autonomous vehicles, drones, and robots raise unique challenges.
+**7\.## Ethical Use of Autonomous Systems:**Autonomous vehicles, drones, and robots raise unique challenges.
 
 ### **Concerns:**
 
@@ -64,7 +64,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Military and weaponized AI.  
 * Over-reliance on automation.
 
-**8\. Job Displacement and Economic Impact:**AI and automation may replace large numbers of jobs.
+**8\.## Job Displacement and Economic Impact:**AI and automation may replace large numbers of jobs.
 
 ### **Issues:**
 
@@ -72,7 +72,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Need for reskilling and upskilling.  
 * Ethical responsibility of companies and governments.
 
-## **9\. Misinformation and Deepfakes:**Generative AI can produce fake images, videos, and text.
+**9\.## Misinformation and Deepfakes:**Generative AI can produce fake images, videos, and text.
 
 ### **Risks:**
 
@@ -81,7 +81,7 @@ Artificial Intelligence is transforming industries, societies, and everyday life
 * Identity fraud.  
 * Loss of trust in digital media.
 
-## **10\. Ethical Frameworks and Governance:**There is a growing need for global standards and regulations for AI.
+**10\.## Ethical Frameworks and Governance:**There is a growing need for global standards and regulations for AI.
 
 ### **Current efforts:**
 
