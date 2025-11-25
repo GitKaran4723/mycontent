@@ -1,10 +1,10 @@
 # **Artificial Intelligence – Robotics:**
 
-## * **What are Robots?**  
+* ## **What are Robots?**  
   → Robots are the artificial agents acting in real world environment.  
 * **Objective**  
   → Robots are aimed at manipulating the objects by perceiving, picking, moving, modifying the physical properties of object, destroying it, or to have an effect thereby freeing manpower from doing repetitive functions without getting bored, distracted, or exhausted.  
-## * **What is Robotics?**  
+* ## **What is Robotics?**  
   → Robotics is a branch of AI, which is composed of  
   Electrical Engineering, Mechanical Engineering, and Computer Science for designing, construction, and application of robots.  
     
