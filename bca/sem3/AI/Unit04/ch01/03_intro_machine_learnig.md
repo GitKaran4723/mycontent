@@ -7,7 +7,7 @@
 Traditional programming requires humans to write rules manually.  
 Machine Learning allows the system to **find patterns automatically**.
 
-### **Example:**If you give many photos of cats and dogs to an ML model:
+### **Example:** If you give many photos of cats and dogs to an ML model:
 
 * It *learns* the features  
 * Then it can **predict** whether a new photo is a cat or dog
