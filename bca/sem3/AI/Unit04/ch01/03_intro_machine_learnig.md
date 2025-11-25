@@ -2,7 +2,7 @@
 
 **Machine Learning (ML)** is a branch of Artificial Intelligence (AI) that enables computers to **learn from data** and make decisions or predictions **without being explicitly programmed**.
 
-## **Why Machine Learning?**
+### **Why Machine Learning?**
 
 Traditional programming requires humans to write rules manually.  
 Machine Learning allows the system to **find patterns automatically**.
