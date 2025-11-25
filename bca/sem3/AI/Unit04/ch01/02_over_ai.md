@@ -1,4 +1,4 @@
-# **Overview of AI Domains:**
+# **Overview of AI Domains:-**
 
 AI is a broad field made up of several domains, each focusing on specific types of intelligence or capabilities. Below are the **main domains of AI**, explained in a simple and organized way.
 
