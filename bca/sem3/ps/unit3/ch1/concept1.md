@@ -15,15 +15,8 @@
 
 
 <div class="ppt-card"
-     data-ppt-url="https://docs.google.com/presentation/d/1VoEBgTpD-tscuk9rES8_qIfAOfxMJKYeiUo5wwfKb-o/embed?start=false&loop=false&delayms=3000"
-     style="cursor:pointer;">
+     data-ppt-url="https://docs.google.com/presentation/d/1VoEBgTpD-tscuk9rES8_qIfAOfxMJKYeiUo5wwfKb-o/embed?start=false&loop=false&delayms=3000">
 
-  <div class="ppt-preview" style="background:#f0f0f0; padding:20px; text-align:center; border-radius:8px; border:1px solid #ddd;">
-    📽️ Watch Slides
-  </div>
-
-  <div class="ppt-title" style="margin-top:10px; font-weight:bold;">
-    Unit 3 – Probability PPT
-  </div>
+  <div class="ppt-title">Unit 3 – Probability PPT</div>
+  <button class="ppt-open-btn">Study PPT</button>
 </div>
-
