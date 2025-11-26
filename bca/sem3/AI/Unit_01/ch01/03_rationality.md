@@ -24,7 +24,7 @@ For example, in a spam filter system, the performance measure could be minimizin
         **4\. Sensors:** Sensors enable the AI agent to gather information from its environment, providing data that informs its decision-making process and actions. These sensors can capture various environmental parameters such as temperature, sound, movement, or visual input. Examples of sensors include cameras, microphones, temperature sensors, and motion sensors.
 
 ## **Environments:-**  
-         **\>** An **environment** is the world in which an agent operates.  
+**\>** An **environment** is the world in which an agent operates.  
 It includes everything outside the agent that the agent can sense and interact with.  
 Example:  
 For a self-driving car, the environment includes:
