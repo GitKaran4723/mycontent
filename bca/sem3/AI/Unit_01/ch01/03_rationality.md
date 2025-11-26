@@ -15,8 +15,9 @@ A rational agent chooses actions that maximize its expected performance, given:
 * They aim to do the right thing based on current knowledge.
 
 ## **PEAS Representation of AI agent**  
-         **\>** PEAS stands for performance measure, environment, actuators and sensors. It is a framework that is used to describe an AI agent. It's a structured approach to design and understand AI systems.  
-        **1\. Performance measure:** Performance measure is a criterion that measures the success of the agent. It is used to evaluate how well the agent is achieving its goal.  
+**\>** PEAS stands for performance measure, environment, actuators and sensors. It is a framework that is used to describe an AI agent. It's a structured approach to design and understand AI systems.  
+        **1\. Performance measure:** 
+        Performance measure is a criterion that measures the success of the agent. It is used to evaluate how well the agent is achieving its goal.  
 For example, in a spam filter system, the performance measure could be minimizing the number of spam emails reaching the inbox.  
         **2\. Environment:** The environment represents the domain or context in which the agent operates and interacts. This can range from physical spaces like rooms to virtual environments such as game worlds or online platforms like the internet.  
         **3\. Actuators:** Actuators are the mechanisms through which the AI agent performs actions or interacts with its environment to achieve its goals. These can include physical actuators like motors and robotic hands, as well as digital actuators like computer screens and text-to-speech converters.  
