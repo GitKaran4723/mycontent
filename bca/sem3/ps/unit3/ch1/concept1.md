@@ -22,5 +22,5 @@
 </div>
 
 
-![Image](https://drive.google.com/uc?export=view&id=1x3naGqRb794Y0KMcg_gV3ZRYYS5BhuNX)
+![Image of Prob](https://drive.google.com/uc?export=view&id=1x3naGqRb794Y0KMcg_gV3ZRYYS5BhuNX)
 
