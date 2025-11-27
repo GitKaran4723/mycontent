@@ -20,3 +20,6 @@
   <div class="ppt-title">Unit 3 – Probability PPT</div>
   <button class="ppt-open-btn">Study PPT</button>
 </div>
+
+
+![No Internet Image](https://lh3.googleusercontent.com/abc123xyz)
