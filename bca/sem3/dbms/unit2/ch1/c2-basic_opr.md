@@ -18,7 +18,7 @@ Relational algebra comprises various basic operators that help us fetch and mani
 The Selection operation (σ) in relational algebra is used to select a subset of tuples (rows) from a relation that satisfy a specific condition.  
  It filters the rows of a relation based on a predicate (logical condition) but does not alter the structure of the table.
 
-### **🔸 Notation:**  **σ\_{condition}(R)**  **where *R* is a relation and *condition* is the filtering criterion.**
+> **🔸 Notation:**  σ\_{condition}(R)  where *R* is a relation and *condition* is the filtering criterion.
 
 ### **🔸 Example:**
 
@@ -49,7 +49,7 @@ The selection operation returns only those tuples that satisfy the condition `Ma
 
 ### **🔸 SQL Equivalent:**
 
-SELECT \* FROM STUDENT WHERE Marks \> 75;
+> SELECT \* FROM STUDENT WHERE Marks \> 75;
 
 ---
 
@@ -108,8 +108,7 @@ The Union operation (∪) is used to combine tuples from two relations and remov
 
 2. The same data types for corresponding attributes.
 
-### **🔸 Notation:**  **R\_1 ∪ R\_2**  
-
+> ### **🔸 Notation:**  R\_1 ∪ R\_2
 ### **🔸 Example:**
 
 Consider two relations FRENCH and GERMAN that represent students studying those languages:
@@ -149,7 +148,7 @@ The Union operation merges data from both relations and removes duplicates autom
 
 ### **🔸 SQL Equivalent:**
 
-SELECT Student\_Name FROM FRENCH  
+> SELECT Student\_Name FROM FRENCH  
 UNION  
 SELECT Student\_Name FROM GERMAN;
 
@@ -164,7 +163,7 @@ The Intersection operation (∩) is used to retrieve only those tuples that are 
 
 ### **🔸 Notation:**
 
-### **R\_1 ∩ R\_2**
+> **R\_1 ∩ R\_2**
 
 ### **🔸 Example:**
 
@@ -204,7 +203,7 @@ The intersection returns only those student names that appear in both FRENCH and
 
 ### **🔸 SQL Equivalent:**
 
-SELECT Student\_Name FROM FRENCH  
+> SELECT Student\_Name FROM FRENCH  
 INTERSECT  
 SELECT Student\_Name FROM GERMAN;
 
@@ -259,7 +258,7 @@ The set difference operation removes all tuples that are common in both relation
 
 ### **🔸 SQL Equivalent:**
 
-SELECT Student\_Name FROM FRENCH  
+> SELECT Student\_Name FROM FRENCH  
 EXCEPT  
 SELECT Student\_Name FROM GERMAN;
 
@@ -276,7 +275,7 @@ The Rename operation (ρ) is used to assign a temporary name to a relation or to
 
 ### **🔸 Notation:**
 
-### **ρ\_{new\_relation\_name}(R)**   **or**  **ρ\_{(new\_relation\_name(new\_attribute\_list))}(R)**  
+> ρ\_{new\_relation\_name}(R)  **or**  ρ\_{(new\_relation\_name(new\_attribute\_list))}(R)  
 
 **This means: rename relation *R* or its attributes temporarily.**
 
@@ -335,7 +334,8 @@ The Cartesian Product (×), also known as the Cross Product, combines every tupl
 
 This operation forms the basis of join operations in relational algebra.
 
-### **🔸 Notation:**  **R × S**  
+### **🔸 Notation:**  
+> **R × S**  
 
 where *R* and *S* are two relations.
 
@@ -381,7 +381,7 @@ This operation is often used as a preliminary step to perform joins (like natura
 
 ### **🔸 SQL Equivalent:**
 
-SELECT \* FROM A CROSS JOIN B;
+> SELECT \* FROM A CROSS JOIN B;
 
 Both produce the Cartesian product of the two tables.
 

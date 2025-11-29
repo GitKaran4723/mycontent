@@ -1,4 +1,4 @@
-**Roles of Database Users and Administrators :** 
+# **Roles of Database Users and Administrators :** 
 
 In a database environment, different types of users and administrators interact with the DBMS depending on their needs, technical skills, and responsibilities.
 
@@ -24,15 +24,15 @@ In a database environment, different types of users and administrators interact 
 
 *   Act as a bridge between users and developers.  Analyze business needs and propose a database-based solution. 
 
-**B. Database Administrators (DBA)** 
+## **B. Database Administrators (DBA)** 
 
 The DBA is responsible for managing, maintaining, and securing the database.
 
  Who is a Database Administrator (DBA)?
 
-        A Database Administrator (DBA) is a specialized IT professional who is responsible for the installation, configuration, operation, and maintenance of a database system. The DBA ensures that the database is secure, available, efficient, and performs well under all conditions. 
+ **A Database Administrator (DBA)** is a specialized IT professional who is responsible for the installation, configuration, operation, and maintenance of a database system. The DBA ensures that the database is secure, available, efficient, and performs well under all conditions. 
 
-**Key Responsibilities of a DBA:**
+## **Key Responsibilities of a DBA:**
 
 Here is a breakdown of the major tasks performed by a DBA:
 

@@ -35,7 +35,7 @@ Types of Database Schemas:
 * This schema represents a higher level of abstraction compared to the physical schema, focusing on logical constraints and how the data is structured, without dealing with the physical storage details.
 
 
-## **🏗️ 3-Tier Schema Architecture in DBMS**
+## ** 3-Tier Schema Architecture in DBMS**
 
 This architecture organizes a database into three distinct levels of abstraction:
 

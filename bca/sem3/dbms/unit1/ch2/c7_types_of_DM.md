@@ -54,14 +54,14 @@ Each model defines how data is **organized**, **connected**, and **accessed**.
 - Member **TWO** has one owner (**ONE**).
 - Member **FIVE** has two owners (**TWO** and **THREE**).
 
-### ✅ Advantages
+### **✅ Advantages**
 1. **Conceptual Simplicity** – Easy to implement.
 2. **Handles More Relationship Types** – Supports 1:1, 1:M, and M:N.
 3. **Ease of Data Access** – Multiple pathways improve access.
 4. **Data Integrity** – Strong links ensure consistency.
 5. **Better Data Independence** – More flexible than hierarchical model.
 
-### ❌ Disadvantages
+### **❌ Disadvantages**
 1. **System Complexity** – Many pointers complicate structure.
 2. **Operational Anomalies** – Insertions, deletions, updates are tricky.
 3. **Lack of Structural Independence** – Changes require app-level updates.
@@ -70,11 +70,11 @@ Each model defines how data is **organized**, **connected**, and **accessed**.
 
 ## **3️⃣ Object-Oriented Data Model**
 
-### Definition
+### **Definition**
 - Combines **object-oriented programming** with **database technology**.
 - Data is stored as **objects**, similar to Java, C++, etc.
 
-### Structure
+### **Structure**
 - Each object contains:
   - **Attributes** (data)
   - **Methods** (functions)
@@ -157,7 +157,7 @@ Each model defines how data is **organized**, **connected**, and **accessed**.
 - Indicates unknown or unavailable data.
 - *Example:* PHONE of student with ROLL_NO = 4 is NULL.
 
-## 🔑 Types of Keys
+## **🔑 Types of Keys**
 
 ### 1. Primary Key
 - Uniquely identifies each tuple.

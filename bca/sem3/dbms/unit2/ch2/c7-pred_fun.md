@@ -32,7 +32,7 @@ WHERE emp\_name LIKE 'A%';
 
 ### **Example 2:**
 
-SELECT emp\_name FROM Employee WHERE emp\_name LIKE '%a';
+>SELECT emp\_name FROM Employee WHERE emp\_name LIKE '%a';
 
 ✅ **Output:**
 
@@ -48,7 +48,7 @@ SELECT emp\_name FROM Employee WHERE emp\_name LIKE '%a';
 
 ### **Example 3:**
 
-SELECT emp\_name FROM Employee WHERE emp\_name LIKE '\_a%';
+>SELECT emp\_name FROM Employee WHERE emp\_name LIKE '\_a%';
 
 ✅ **Output:**
 
@@ -90,7 +90,7 @@ Removes duplicate values in the result set.
 
 ### **Example 1:**
 
-SELECT DISTINCT emp\_country FROM Employee;
+>SELECT DISTINCT emp\_country FROM Employee;
 
 ✅ **Output:**
 
@@ -106,7 +106,7 @@ SELECT DISTINCT emp\_country FROM Employee;
 
 ### **Example 2:**
 
-SELECT DISTINCT emp\_country, emp\_city FROM Employee;
+>SELECT DISTINCT emp\_country, emp\_city FROM Employee;
 
 ✅ **Output:**
 
@@ -129,7 +129,7 @@ Temporary name for columns or tables to make results clearer.
 
 ### **Example 1 – Column Alias:**
 
-SELECT emp\_name AS "Employee Name", emp\_salary AS "Monthly Salary"  
+> SELECT emp\_name AS "Employee Name", emp\_salary AS "Monthly Salary"  
 FROM Employee;
 
 ✅ **Output:**
@@ -146,7 +146,7 @@ FROM Employee;
 
 ### **Example 2 – Table Alias:**
 
-SELECT e.emp\_name, e.emp\_country  
+> SELECT e.emp\_name, e.emp\_country  
 FROM Employee AS e;
 
 ✅ **Output:**  
@@ -160,7 +160,7 @@ Groups rows that have the same values in a column — often used with aggregate 
 
 ### **Example:**
 
-SELECT emp\_country, COUNT(\*) AS TotalEmployees  
+> SELECT emp\_country, COUNT(\*) AS TotalEmployees  
 FROM Employee  
 GROUP BY emp\_country;
 
@@ -186,7 +186,7 @@ Filters results **after grouping** (unlike WHERE which filters before).
 
 ### **Example:**
 
-SELECT emp\_country, SUM(emp\_salary) AS TotalSalary  
+> SELECT emp\_country, SUM(emp\_salary) AS TotalSalary  
 FROM Employee  
 GROUP BY emp\_country  
 HAVING SUM(emp\_salary) \> 150000;
@@ -207,8 +207,7 @@ HAVING SUM(emp\_salary) \> 150000;
 Used to **sort results** (ASC \= ascending by default, DESC \= descending).
 
 ### **Example:**
-
-SELECT emp\_name, emp\_salary  
+> SELECT emp\_name, emp\_salary  
 FROM Employee  
 ORDER BY emp\_salary DESC;
 
@@ -232,8 +231,7 @@ ORDER BY emp\_salary DESC;
 Used to restrict how many rows appear.
 
 ### **Example (MySQL):**
-
-SELECT emp\_name, emp\_salary  
+> SELECT emp\_name, emp\_salary  
 FROM Employee  
 ORDER BY emp\_salary DESC  
 LIMIT 3;

@@ -4,7 +4,7 @@
 
  A Data Model is a conceptual framework that describes how data is structured, stored, and accessed in a database system.
 
- It defines: 
+ **It defines:**
 
 *  What data will be stored.  
 *  How the data is organized.  

@@ -10,7 +10,7 @@ Constraints are vital rules implemented on table columns within a database. Thei
 
 **SQL Example:**
 
-CREATE TABLE Student 
+> CREATE TABLE Student 
 (  
 RollNo INT PRIMARY KEY,  
 Name VARCHAR(100)  
@@ -24,7 +24,7 @@ Name VARCHAR(100)
 
 **SQL Example:**
 
-CREATE TABLE Enrollment (  
+> CREATE TABLE Enrollment (  
 StudentID INT,  
 CourseID INT,  
 FOREIGN KEY (StudentID) REFERENCES Student(RollNo)  
@@ -37,7 +37,7 @@ FOREIGN KEY (StudentID) REFERENCES Student(RollNo)
 
 **SQL Example:**
 
-CREATE TABLE Product (  
+> CREATE TABLE Product (  
 ProductID INT,  
 ProductName VARCHAR(100) NOT NULL  
 );
@@ -50,7 +50,7 @@ ProductName VARCHAR(100) NOT NULL
 
 **SQL Example:**
 
-CREATE TABLE Users (  
+> CREATE TABLE Users (  
 UserID INT,  
 Email VARCHAR(100) UNIQUE  
 );
@@ -62,7 +62,7 @@ Email VARCHAR(100) UNIQUE
 
 **SQL Example:**
 
-CREATE TABLE Account (  
+> CREATE TABLE Account (  
 AccNo INT,  
 Balance DECIMAL CHECK (Balance \>= 0\)  
 );

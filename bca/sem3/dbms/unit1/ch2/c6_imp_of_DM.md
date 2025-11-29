@@ -8,8 +8,6 @@ It plays a critical role in the design, development, and maintenance of a databa
 
  Here are the key reasons:
 
-
-
 #### **1\. Provides a Clear Structure for Database Design**
 
 * Guides developers and designers in building a well-structured and logical database.
@@ -22,12 +20,12 @@ It plays a critical role in the design, development, and maintenance of a databa
 
   * **Relationships** (e.g., *Student* enrolls in *Courses*)
 
-**🔁 Example:**  
+**Example:**  
  A “Student” can enroll in many “Courses” → design a **many-to-many** relationship.
 
 ---
 
-#### **2\. 🔄 Ensures Data Consistency and Integrity**
+#### **2\.  Ensures Data Consistency and Integrity**
 
 * Defines **rules and constraints** such as:
 
@@ -45,12 +43,12 @@ It plays a critical role in the design, development, and maintenance of a databa
 
   * Inconsistencies
 
-**📝 Example:**  
+**Example:**  
  A data model ensures that no student record exists without a valid **Student ID**.
 
 ---
 
-#### **3\. 🗣️ Enhances Communication Between Stakeholders**
+#### **3\.  Enhances Communication Between Stakeholders**
 
 * Acts as a **common language** among:
 
@@ -70,18 +68,18 @@ It plays a critical role in the design, development, and maintenance of a databa
 
 ---
 
-#### **4\. 🔍 Improves Data Retrieval and Performance**
+#### **4\.  Improves Data Retrieval and Performance**
 
 * Helps design tables and relationships for **efficient querying**.
 
 * Reduces redundancy and speeds up data access.
 
-**📌 Example:**  
+**Example:**  
  Indexing frequently searched columns is based on insights from the data model.
 
 ---
 
-#### **5\. 💡 Simplifies Application Development**
+#### **5\. Simplifies Application Development**
 
 * With a clear and well-structured model:
 

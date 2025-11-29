@@ -292,7 +292,7 @@ Although Armstrong's axioms are sound and complete, there are additional rules f
     If X → Y and YZ → W, then XZ → W.
 
 
-## **🧷 Properties of Functional Dependencies**
+## **Properties of Functional Dependencies**
 
 * Define **keys and relationships** among attributes.
 * Aid in **database normalization**.

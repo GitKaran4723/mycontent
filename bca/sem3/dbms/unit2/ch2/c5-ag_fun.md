@@ -42,7 +42,7 @@
 
 ### **Example:**
 
-SELECT COUNT(\*) AS TotalEmployees FROM Employee; \
+>SELECT COUNT(\*) AS TotalEmployees FROM Employee; \
 SELECT COUNT(Salary) AS NonNullSalaries FROM Employee;  
 SELECT COUNT(DISTINCT Department) AS uniquedept FROM Employee;
 
@@ -54,7 +54,7 @@ SELECT COUNT(DISTINCT Department) AS uniquedept FROM Employee;
 * **Ignores** NULL values. 
 
  **Example:**
-SELECT SUM(Salary) AS TotalSalary FROM Employee;\
+>SELECT SUM(Salary) AS TotalSalary FROM Employee;\
  SELECT SUM(DISTINCT Salary) AS UniqueSalarySum FROM Employee;
 
 
@@ -64,7 +64,7 @@ SELECT SUM(Salary) AS TotalSalary FROM Employee;\
 * **Formula:** `AVG = SUM(column)/COUNT(column)` (excluding NULLs). 
 
 ### **Example:**
- SELECT AVG(Salary) AS AverageSalary FROM Employee; \
+>SELECT AVG(Salary) AS AverageSalary FROM Employee; \
  SELECT AVG(DISTINCT Salary) AS DistinctAvgSalary FROM Employee;
 
 
@@ -84,7 +84,7 @@ SELECT MAX(Salary) AS HighestSalary FROM Employee;
 
 **Example:**
 
- SELECT Department, COUNT(\*) AS EmpCount, AVG(Salary) 
+>SELECT Department, COUNT(\*) AS EmpCount, AVG(Salary) 
  AS AvgSalary
 FROM Employee
 GROUP BY Department;
