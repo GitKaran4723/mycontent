@@ -1,6 +1,6 @@
 # **Queries with Constraints**
 
- **1\. Create the Supplier table with Primary Key Constraint**
+### **1\. Create the Supplier table with Primary Key Constraint**
 
 **Query:**  
 > CREATE TABLE Supplier (  
@@ -26,7 +26,7 @@
 
 ---
 
-**2\. Create Supplies table with Foreign Key Constraint**
+### **2\. Create Supplies table with Foreign Key Constraint**
 
 **Query:**  
 > CREATE TABLE Supplies (  
@@ -53,7 +53,7 @@
 
 ---
 
- **3\. Create Part table with UNIQUE Constraint**
+### **3\. Create Part table with UNIQUE Constraint**
 
 **Query:**  
 > CREATE TABLE Part (  
@@ -77,7 +77,7 @@
 
 ---
 
- **4\. Create Supplier table with CHECK Constraint**
+### **4\. Create Supplier table with CHECK Constraint**
 
 **Query:**  
 > CREATE TABLE SupplierCheck (  
@@ -102,7 +102,7 @@
 
 ---
 
-**5\. Create Supplier table with DEFAULT Constraint**
+### **5\. Create Supplier table with DEFAULT Constraint**
 
 **Query:**  
 > CREATE TABLE SupplierDefault (  
@@ -124,5 +124,5 @@
 | city | varchar(50) | YES |  | Bangalore |  |
 | phone | varchar(20) | YES |  | NULL |  |
 
----
+
 

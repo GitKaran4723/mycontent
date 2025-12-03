@@ -1,6 +1,6 @@
 # **TCL Commands:**
 
-**1\. Create Savepoint**
+### **1\. Create Savepoint**
 
 **Query:**  
 > START TRANSACTION;  
@@ -13,7 +13,7 @@ Query OK, 0 rows affected
 
 ---
 
-**2\. Rollback to Savepoint**
+### **2\. Rollback to Savepoint**
 
 **Query:**  
 > ROLLBACK TO SAVEPOINT sp1;
@@ -23,7 +23,7 @@ Query OK, 0 rows affected
 
 ---
 
-**3\. Commit (save the changes)**
+### **3\. Commit (save the changes)**
 
 **Query:**  
 > COMMIT;

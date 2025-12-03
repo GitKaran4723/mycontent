@@ -1,6 +1,6 @@
 # **DML Commands**
 
- **1\. Insert at least 10 records in tables supplier, part and supplies** 
+### **1\. Insert at least 10 records in tables supplier, part and supplies** 
 
 i) Supplier
 
@@ -62,7 +62,7 @@ Query OK, 10 rows affected (Supplies)
 
 ---
 
-**2\. Show contents of Supplier, Part, Supplies.**
+### **2\. Show contents of Supplier, Part, Supplies.**
 
 i) Supplier
 
@@ -131,7 +131,7 @@ iii) Supplies
 | 200010 | 300010 | 11 | 2021-01-10 |
 ---
 
-**3\. Find the name and city of all suppliers**
+### **3\. Find the name and city of all suppliers**
 
 **Query:**  
 > SELECT Sname, city FROM Supplier;
@@ -154,7 +154,7 @@ iii) Supplies
 
 ---
 
-**4\. Find the name and phoneno of all suppliers who stay in 'Delhi'**
+### **4\. Find the name and phoneno of all suppliers who stay in 'Delhi'**
 
 **Query:**  
 > SELECT Sname, phone FROM Supplier WHERE city \= 'Delhi';
@@ -169,7 +169,7 @@ iii) Supplies
  
  ---
 
-**5\. Find all distinct branches of suppliers**
+### **5\. Find all distinct branches of suppliers**
 
 **Query:**  
 > SELECT DISTINCT branch FROM Supplier;
@@ -184,7 +184,7 @@ iii) Supplies
 
 ---
 
-**6\. Delete the record of the supplier whose SID is 204001**
+### **6\. Delete the record of the supplier whose SID is 204001**
 
 **Query:**  
 > DELETE FROM Supplier WHERE SID \= 204001;
@@ -209,7 +209,7 @@ Query OK, 1 row affected
 
 ---
 
-**7\. Delete all records of supplier table**
+### **7\. Delete all records of supplier table**
 
 **Query:**  
 > DELETE FROM Supplier;
@@ -223,7 +223,7 @@ Empty set (0.00 sec)
 
 ---
 
-**8\. Delete all suppliers whose city starts with capital A**
+### **8\. Delete all suppliers whose city starts with capital A**
 
 **Query:**  
 > DELETE FROM Supplier WHERE city LIKE 'A%';
@@ -244,7 +244,7 @@ Query OK, 2 rows affected
 | 200010 | aRwin | regional | Hyderabad | 7005556666 |
 ---
 
-**9\. Find the supplier names which have 'lk' in any position**
+### **9\. Find the supplier names which have 'lk' in any position**
 
 **Query:**  
 > SELECT Sname FROM Supplier WHERE Sname LIKE '%lk%';
@@ -256,7 +256,7 @@ Query OK, 2 rows affected
 | Kolkesh |
 ---
 
-**10\. Find the supplier names where 'R' is in the second position**
+### **10\. Find the supplier names where 'R' is in the second position**
 
 **Query:**  
 > SELECT Sname FROM Supplier WHERE Sname LIKE '\_ R%';
@@ -269,7 +269,7 @@ Query OK, 2 rows affected
 
 ---
 
-**11\. Find the supplier name starting with 'V' and ending with 'A'**
+### **11\. Find the supplier name starting with 'V' and ending with 'A'**
 
 **Query:**  
 > SELECT Sname FROM Supplier WHERE Sname LIKE 'V%a';
@@ -282,7 +282,7 @@ Query OK, 2 rows affected
 
 ---
 
-**12\. Change the city of all suppliers to 'BOMBAY**'
+### **12\. Change the city of all suppliers to 'BOMBAY**'
 
 **Query:**  
 > UPDATE Supplier SET city='BOMBAY';
@@ -308,7 +308,7 @@ SELECT Sname, city FROM Supplier;
 
 ---
 
-**13\. Change the city of supplier 'Vandana' to 'Goa'**
+### **13\. Change the city of supplier 'Vandana' to 'Goa'**
 
 **Query:**  
 > UPDATE Supplier SET city='Goa' WHERE Sname='Vandana';
@@ -322,4 +322,4 @@ SELECT Sname, city FROM Supplier WHERE Sname='Vandana';
 | ----- | ----- |
 | Vandana | Goa |
 
----
+

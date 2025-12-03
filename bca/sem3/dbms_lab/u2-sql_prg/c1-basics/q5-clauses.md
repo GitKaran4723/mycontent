@@ -1,7 +1,7 @@
 # **Queries on GROUP BY, HAVING AND ORDER BY Clauses**  
 
 
-**1\. Display total price of parts of each color**
+### **1\. Display total price of parts of each color**
 
 **Query:**  
 > SELECT color, SUM(price) AS total\_price  
@@ -20,7 +20,7 @@ GROUP BY color;
 
 ---
 
-**2\. Find the branch and the number of suppliers in that branch for branches which have more than 2 suppliers**
+### **2\. Find the branch and the number of suppliers in that branch for branches which have more than 2 suppliers**
 
 **Query:**  
 > SELECT branch, COUNT(\*) AS suppliers\_count  
@@ -38,7 +38,7 @@ HAVING COUNT(\*) \> 2;
 
 ---
 
-**3\. Find all parts sorted by pname in ascending order and price in descending order**
+### **3\. Find all parts sorted by pname in ascending order and price in descending order**
 
 **Query:**  
 > SELECT Pname, price  
@@ -62,7 +62,7 @@ ORDER BY Pname ASC, price DESC;
 
 ---
 
-**4\. Find the branch and the number of suppliers in that branch**
+### **4\. Find the branch and the number of suppliers in that branch**
 
 **Query:**  
 > SELECT branch, COUNT(\*) AS num\_suppliers  

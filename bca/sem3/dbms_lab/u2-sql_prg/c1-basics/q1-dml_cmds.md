@@ -1,4 +1,4 @@
-**Consider the following Schema**   
+### **Consider the following Schema**   
 Supplier(SID, Sname, branch, city, phone)   
 Part(PID, Pname, color, price)   
 Supplies(SID, PID, qty, date\_supplied)
@@ -8,9 +8,9 @@ Supplies(SID, PID, qty, date\_supplied)
 > CREATE DATABASE porter;  
 USE porter;
 
-**DDL Commands** 
+# **DDL Commands** 
 
-**1\. Create the above tables**
+### **1\. Create the above tables**
 
 i) Supplier:
 
@@ -51,7 +51,7 @@ iii) Supplies
 
 
 
-**2.Add a new attribute state in supplier table** 
+### **2.Add a new attribute state in supplier table** 
 
 > ALTER TABLE Supplier  
 ADD COLUMN state VARCHAR(50);
@@ -70,7 +70,7 @@ Output:
 ---
 
 
-**3\.  Remove attribute `city` from Supplier table**  
+### **3\.  Remove attribute `city` from Supplier table**  
    
 **Query:**
 
@@ -91,7 +91,7 @@ DESC Supplier;
 
 ---
 
-**4\. Modify the data type of phone attribute**
+### **4\. Modify the data type of phone attribute**
 
 **Query:**
 
@@ -110,7 +110,7 @@ MODIFY phone BIGINT;
 
 ---
 
-**5\. Change the name of attribute `city` to `address`**
+### **5\. Change the name of attribute `city` to `address`**
 
 **Query:** 
 
@@ -130,7 +130,7 @@ CHANGE COLUMN city address VARCHAR(100);
 
 ---
 
-**6\. Change the table name Supplier → sup**
+### **6\. Change the table name Supplier → sup**
 
 **Query:**
 
@@ -146,7 +146,7 @@ RENAME TO sup;
 | Part |
 ---
 
-**7\.  Use TRUNCATE to delete contents of Supplies table**
+### **7\.  Use TRUNCATE to delete contents of Supplies table**
 
 **Query:** 
 
@@ -158,7 +158,7 @@ Empty set (0.00 sec)
 
 ---
 
-**8\.  Remove the Part table from database**
+### **8\.  Remove the Part table from database**
 
 > DROP TABLE Part;
 
@@ -169,4 +169,4 @@ Empty set (0.00 sec)
 | Supplies |
 | sup |
 
----
+

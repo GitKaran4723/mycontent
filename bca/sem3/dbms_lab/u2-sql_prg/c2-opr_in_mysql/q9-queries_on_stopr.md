@@ -2,7 +2,7 @@
 
 
 
-**1\. List all parts except 'NUT' and 'BOLT' in ascending order of costs**
+### **1\. List all parts except 'NUT' and 'BOLT' in ascending order of costs**
 
 **Query:**  
 > SELECT Pname, price FROM Part  
@@ -24,7 +24,7 @@ ORDER BY price ASC;
 
 ---
 
-**2\. Display all parts that have not been supplied so far**
+### **2\. Display all parts that have not been supplied so far**
 
 **Query:**  
 > SELECT p.PID, p.Pname, p.price  
@@ -40,7 +40,7 @@ WHERE sp.PID IS NULL;
 
 ---
 
-**3\. Suppliers who have supplied a 'green' part costing 500 AND a 'red' part costing 400**
+### **3\. Suppliers who have supplied a 'green' part costing 500 AND a 'red' part costing 400**
 
 **Query:**
 
@@ -65,7 +65,7 @@ Empty set
 
 ---
 
-**4\. Suppliers who have supplied a 'green' part costing 500 OR a 'red' part costing 400**
+### **4\. Suppliers who have supplied a 'green' part costing 500 OR a 'red' part costing 400**
 
 **Query:**  
 >SELECT DISTINCT s.Sname  
@@ -87,7 +87,7 @@ ORDER BY s.SID;
 
 ---
 
-**5\. Suppliers who have supplied ALL parts that are 'red' in color**
+### **5\. Suppliers who have supplied ALL parts that are 'red' in color**
 
 **Query:**  
 \-- count total distinct red parts, then find suppliers whose distinct red-supplied count equals that total  

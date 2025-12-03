@@ -1,7 +1,7 @@
 # **Queries on Operators**  
 
 
-**1\. Find the pname, phoneno and cost of parts which have cost \>= 200 AND \<= 600**
+### **1\. Find the pname, phoneno and cost of parts which have cost \>= 200 AND \<= 600**
 
 **Query:**  
 >SELECT p.Pname, s.phone, p.price  
@@ -24,7 +24,7 @@ WHERE p.price \>= 200 AND p.price \<= 600;
 
 ---
 
-**2\. Find the sname, SID and branch of suppliers who are in 'local' branch or 'global' branch**
+### **2\. Find the sname, SID and branch of suppliers who are in 'local' branch or 'global' branch**
 
 **Query:**  
 >SELECT Sname, SID, branch FROM Supplier WHERE branch IN ('local','global');
@@ -44,7 +44,7 @@ WHERE p.price \>= 200 AND p.price \<= 600;
 
 ---
 
-**3\. Find the pname, phoneno and cost of parts for which cost is BETWEEN 200 AND 600**
+### **3\. Find the pname, phoneno and cost of parts for which cost is BETWEEN 200 AND 600**
 
 **Query:**  
 > SELECT p.Pname, s.phone, p.price  
@@ -67,7 +67,7 @@ WHERE p.price BETWEEN 200 AND 600;
 
 ---
 
-**4\. Find the pname and color of parts, which has the word 'NET' anywhere in its pname**
+### **4\. Find the pname and color of parts, which has the word 'NET' anywhere in its pname**
 
 **Query:**  
 > SELECT Pname, color FROM Part WHERE Pname LIKE '%NET%';
@@ -81,7 +81,7 @@ WHERE p.price BETWEEN 200 AND 600;
 
 ---
 
-**5\. Find the PID and pname of parts with pname either 'NUT' or 'BOLT'**
+### **5\. Find the PID and pname of parts with pname either 'NUT' or 'BOLT'**
 
 **Query:**  
 > SELECT PID, Pname FROM Part WHERE Pname IN ('NUT','BOLT');
@@ -95,7 +95,7 @@ WHERE p.price BETWEEN 200 AND 600;
 
 ---
 
-**6\. List the suppliers who supplied parts on '2000-05-01', '2021-01-12', '2000-12-17', '2021-01-10'**
+### **6\. List the suppliers who supplied parts on '2000-05-01', '2021-01-12', '2000-12-17', '2021-01-10'**
 
 **Query:**  
 > SELECT DISTINCT s.Sname, s.SID  
@@ -121,7 +121,7 @@ ORDER BY s.SID;
 
 ---
 
-**7\. Find all the distinct costs of parts**
+### **7\. Find all the distinct costs of parts**
 
 **Query:**  
 > SELECT DISTINCT price FROM Part ORDER BY price;
@@ -139,4 +139,4 @@ ORDER BY s.SID;
 | 500.00 |
 | 600.00 |
 
----
+

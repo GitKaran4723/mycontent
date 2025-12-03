@@ -1,6 +1,6 @@
 # **Set Theory Operators** 
 
-**1\. Use of UNION operator (with union compatibility)**
+### **1\. Use of UNION operator (with union compatibility)**
 
 **Query:**  
 > SELECT Sname AS name FROM Supplier  
@@ -35,7 +35,7 @@ SELECT Pname AS name FROM Part;
 
 ---
 
-**2\. Use of INTERSECT operator (with union compatibility)**
+### **2\. Use of INTERSECT operator (with union compatibility)**
 
 **Query:**  
 > SELECT DISTINCT Sname AS name FROM Supplier  
@@ -46,7 +46,7 @@ Empty set (no supplier name matches any part name)
 
 ---
 
-**3\. Use of MINUS operator (EXCEPT in SQL)**
+### **3\. Use of MINUS operator (EXCEPT in SQL)**
 
 MySQL does NOT support MINUS.  
 We simulate using LEFT JOIN \+ NULL filter.
@@ -79,7 +79,7 @@ WHERE Part.Pname IS NULL;
 
 ---
 
-**4\. Cartesian product of two tables**
+### **4\. Cartesian product of two tables**
 
 **Query:**  
 > SELECT Supplier.Sname, Part.Pname  

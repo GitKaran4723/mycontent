@@ -1,7 +1,7 @@
 # **Joins**   
 
 
- **1\. INNER JOIN on two tables**
+### **1\. INNER JOIN on two tables**
 
 **Query:**  
 > SELECT Supplier.Sname, Part.Pname, Supplies.qty  
@@ -26,7 +26,7 @@ INNER JOIN Part ON Supplies.PID \= Part.PID;
 
 ---
 
-**✅ 2\. NATURAL JOIN on two tables**
+### **2\. NATURAL JOIN on two tables**
 
 **Query:**  
 > SELECT Sname, SID, qty, date\_supplied  
@@ -50,7 +50,7 @@ NATURAL JOIN Supplies;
 
 ---
 
-**3\. LEFT OUTER JOIN**
+### **3\. LEFT OUTER JOIN**
 
 **Query:**  
 > SELECT Supplier.Sname, Supplies.PID, Supplies.qty  
@@ -76,7 +76,7 @@ LEFT JOIN Supplies ON Supplier.SID \= Supplies.SID;
 
 ---
 
-**4\. RIGHT OUTER JOIN**
+### **4\. RIGHT OUTER JOIN**
 
 **Query:**  
 > SELECT Supplier.Sname, Supplies.PID, Supplies.qty  
@@ -100,7 +100,7 @@ RIGHT JOIN Supplies ON Supplier.SID \= Supplies.SID;
 
 ---
 
-**5\. FULL OUTER JOIN**
+### **5\. FULL OUTER JOIN**
 
 **Query:**  
 > SELECT Supplier.Sname, Supplies.PID, Supplies.qty  
@@ -127,5 +127,5 @@ RIGHT JOIN Supplies ON Supplier.SID \= Supplies.SID;
 | SiRaj | NULL | NULL |
 | MaRta | 300007 | 25 |
 | aRwin | 300010 | 11 |
----
+
 
