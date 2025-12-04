@@ -75,19 +75,19 @@ print(goal)
 
 ```
 def weather(h, t, w):
-    if h \== "high" and t \== "low" and w \== "low":
+    if h == "high" and t == "low" and w == "low":
         print("Weather is Sunny")  
-    elif h \== "high" and w \== "low":
+    elif h == "high" and w == "low":
         print("Weather is Rainy")  
-    elif w \== "high" and t \== "low":  
+    elif w == "high" and t == "low":  
         print("Weather is Windy") 
-    elif h \== "high" and w \== "high":  
+    elif h == "high" and w == "high":  
         print("Weather is Stormy") 
     else:  
         print("Weather is Uncertain") 
-h \= input("Enter the Humidity: ")  
-w \= input("Enter the Wind: ")
-t \= input("Enter the Temperature: ")  
+h = input("Enter the Humidity: ")  
+w = input("Enter the Wind: ")
+t = input("Enter the Temperature: ")  
 weather(h, t, w)
 ```
 
