@@ -3,6 +3,7 @@
 → Uncertainty is when there’s not enough information or ambiguity in data or decision-making. It is a fundamental concept in AI, as real-world data is often noisy and incomplete. AI systems must account for uncertainty to make informed decisions. 
 
 ## **Reasons for Uncertainty in Artificial Intelligence:**   
+
 **1\. Partially Observable Environment:**   
 The entire environment is not always in reach of the agent. There are some parts of the environment which are out of the reach of the agent and hence they are left unobserved. 
 
