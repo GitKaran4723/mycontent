@@ -205,7 +205,7 @@ plt.show()
 show_predictions(x_test, y_true, y_pred, class_names, count=10)
 ```
 
-### **Output:**  
+### **Output 1:**  
 **![][image1]**
 ![](![Image](https://drive.google.com/uc?export=view&id=1iYskrEi2nvQ1kgWTxdW5xBUH9472PR3j))
 
