@@ -49,8 +49,7 @@ print("Named Entities:", ner)
 ### **Output:**
 
 - **Sentences:\[‘This is a Uiversity’\]**
-
-    **\> Sentences:1**
+**\> Sentences:1**
 
 - **First sentence tokens:\[‘This’, ’is’, ’a’, ’university’\]**
 
@@ -59,8 +58,7 @@ print("Named Entities:", ner)
 - **Stems(porter):\[‘univers’\]**
 
 - **POS tags(first 12):\[(‘This’, ‘DT’),(‘is’, ‘VBZ’),(‘a’,**
-
-                          **‘DT’),(‘university’, ‘NN’)\]**
+**‘DT’),(‘university’, ‘NN’)\]**
 
 - **Noun phrase chunks(sentence 1):\[Tree(‘S’, \[(‘This’, ‘DT’), (‘is’, ‘**  
 
@@ -69,6 +67,7 @@ print("Named Entities:", ner)
 - **Named entities (Sentence 1): \[Tree(‘S’, \[(‘This’, ‘DT’), (‘is’,**  
 
                             **‘VBZ’), (‘a’, ‘DT’), ( ‘university’, ‘NN’)\])\]**
+
 
 ## **11.Perform Image classification for a given dataset using CNN. You may use Tensorflow/Keras.**
 
@@ -208,6 +207,8 @@ show_predictions(x_test, y_true, y_pred, class_names, count=10)
 
 ### **Output:**  
 **![][image1]**
+![](![Image](https://drive.google.com/uc?export=view&id=1iYskrEi2nvQ1kgWTxdW5xBUH9472PR3j))
+
 
 **![][image2]**
 
