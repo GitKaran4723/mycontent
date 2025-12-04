@@ -2,21 +2,21 @@
 
 ```
 def primefactors(n):  
-    factors\=\[\]  
-    while n % 2 \== 0:  
+    factors=[]  
+    while n % 2 == 0:  
         factors.append(2)  
         n//=2  
-    i\=3  
-    while i\*i \<= n:  
-        while n % i \==0:  
+    i=3  
+    while i*i <= n:  
+        while n % i ==0:  
             factors.append(i)  
             n //=i  
-        i \+= 2  
-    if n\>2:  
+        i += 2  
+    if n>2:  
         factors.append(n)  
     return factors  
-num\=int(input("Enter a number: "))  
-if num \<= 1 :  
+num=int(input("Enter a number: "))  
+if num <= 1 :  
     print("Prime factors are not defined for numbers less than 2")  
 else:  
     print("Prime numbers are", num,"are",primefactors(num))
@@ -41,8 +41,8 @@ else:
 3)  **Must contain atleast one alphabet which is in uppercase.**
 
 ```
-def is\_valid\_password(password):  
-    if len(password) \< 8:  
+def is_valid_password(password):  
+    if len(password) < 8:  
         return "Must have atleast 8 characters"  
     if not any(ch.isdigit() for ch in password):  
         return " must have atleast 1 digit"  
@@ -51,8 +51,8 @@ def is\_valid\_password(password):
     if not any(not ch.isalnum() for ch in password):  
         return "must have atleast 1 special character"  
     return "valid password"  
-password\=input("Enter a password: ")  
-msg\=is\_valid\_password(password)  
+password=input("Enter a password: ")  
+msg=is_valid_password(password)  
 print(msg)  
 ```   
 
@@ -83,39 +83,39 @@ print(msg)
    
 ```
 from collections import Counter 
-def list\_operations(): 
+def list_operations(): 
     try:
-        numbers\=list(map(int,input("Enter a number seperated by space: ").split()))  
+        numbers=list(map(int,input("Enter a number seperated by space: ").split()))  
     except ValueError:  
-        print("Invalid input\! Please enter only interger")
+        print("Invalid input! Please enter only interger")
         return
     if not numbers:
         print("List is empty")  
         return
     print("Original list: ",numbers)
-    mean\=sum(numbers)/len(numbers)  
+    mean=sum(numbers)/len(numbers)  
     print("Mean :",mean)  
-    sorted\_numbers\=sorted(numbers)  
-    n\=len(sorted\_numbers)  
-    if n % 2 \== 1:  
-        median\=sorted\_numbers\[n//2\]
+    sorted_numbers=sorted(numbers)  
+    n=len(sorted_numbers)  
+    if n % 2 == 1:  
+        median=sorted_numbers[n//2]
     else:
-        median\=(sorted\_numbers\[n//2\-1\]\+sorted\_numbers\[n//2\])/2  
-    counts\=Counter(numbers)  
-    max\_freq\=max(counts.values()) 
-    mode\=\[num for num,freq in counts.items() if freq\==max\_freq\]  
-    if max\_freq\==1:  
+        median=(sorted_numbers[n//2-1]+sorted_numbers[n//2])/2  
+    counts=Counter(numbers)  
+    max_freq=max(counts.values()) 
+    mode=[num for num,freq in counts.items() if freq==max_freq]  
+    if max_freq==1:  
         print("Mode: No mode(all values occurs only once."))
     else: 
-        print("Mode: ",mode if len(mode)\>1 else mode\[0\])  
+        print("Mode: ",mode if len(mode)>1 else mode[0])  
         print("Median: ",median)  
         print("Mode: ",mode)  
         print("Maximum: ",max(numbers)) 
         print("Minimun: ",min(numbers))  
-        print("Sorted list is: ",sorted\_numbers) 
-        unique\_list\=sorted(set(numbers))  
-        print("List without duplicate: ",unique\_list) 
-list\_operations()
+        print("Sorted list is: ",sorted_numbers) 
+        unique_list=sorted(set(numbers))  
+        print("List without duplicate: ",unique_list) 
+list_operations()
 ```
 
 ### **Output:**
