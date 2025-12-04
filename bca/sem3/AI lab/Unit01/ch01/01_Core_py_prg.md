@@ -1,7 +1,7 @@
 ## **01.Write a Python program which accepts a number and prints its prime factors.**
 
 # Hello
-![Image](![Image](https://lh3.googleusercontent.com/d/1iYskrEi2nvQ1kgWTxdW5xBUH9472PR3j))
+![Image](https://lh3.googleusercontent.com/d/1iYskrEi2nvQ1kgWTxdW5xBUH9472PR3j)
 
 ```
 def primefactors(n):  
