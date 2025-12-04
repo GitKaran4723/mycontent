@@ -1,5 +1,6 @@
 ## **01.Write a Python program which accepts a number and prints its prime factors.**
 
+```
 def primefactors(n):  
     factors\=\[\]  
     while n % 2 \== 0:  
@@ -19,6 +20,8 @@ if num \<= 1 :
     print("Prime factors are not defined for numbers less than 2")  
 else:  
     print("Prime numbers are", num,"are",primefactors(num))
+``` 
+
 
 ### **Output:**
 
@@ -37,6 +40,7 @@ else:
 2)  **Must have atleast one digit and one special character.**  
 3)  **Must contain atleast one alphabet which is in uppercase.**
 
+```
 def is\_valid\_password(password):  
     if len(password) \< 8:  
         return "Must have atleast 8 characters"  
@@ -50,7 +54,7 @@ def is\_valid\_password(password):
 password\=input("Enter a password: ")  
 msg\=is\_valid\_password(password)  
 print(msg)  
-   
+```   
 
 ### **Output:**
 
@@ -77,9 +81,9 @@ print(msg)
 3)  **Sort the list.**  
 4)  **Remove duplicate values from the list.**  
    
-
-from collections import Counter**  
-def list\_operations():**  
+```
+from collections import Counter 
+def list\_operations(): 
     try:
         numbers\=list(map(int,input("Enter a number seperated by space: ").split()))  
     except ValueError:  
@@ -112,6 +116,7 @@ def list\_operations():**
         unique\_list\=sorted(set(numbers))  
         print("List without duplicate: ",unique\_list) 
 list\_operations()
+```
 
 ### **Output:**
 
