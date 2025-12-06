@@ -2,15 +2,15 @@
 
 ### **01\. Write a PL/SQL Code to add two numbers:**
 
->DELIMITER //
-CREATE PROCEDURE add()  
+>DELIMITER //  
+ CREATE PROCEDURE add_num()  
     BEGIN  
     DECLARE a INT DEFAULT 10;  
     DECLARE b INT DEFAULT 20;  
     SELECT a \+ b AS sum;  
-    END //
+    END //  
 DELIMITER ;  
-CALL add();
+CALL add_num();
 
 **Output:**
 
@@ -20,7 +20,7 @@ CALL add();
 
 ### **02\. Write a PL/SQL code for Fibonacci series:**
 
-> DELIMITER //
+> DELIMITER //  
 CREATE PROCEDURE fibo(IN n INT)  
 BEGIN  
     DECLARE a INT DEFAULT 0;  
@@ -29,14 +29,14 @@ BEGIN
     DECLARE i INT DEFAULT 3;
     SELECT a AS fibo;  
     SELECT b AS fibo;
-    WHILE i \<= n DO  
-        SET c \= a \+ b;  
+    WHILE i <= n DO  
+        SET c = a + b;  
         SELECT c AS fibo;  
-        SET a \= b;  
-        SET b \= c;  
-        SET i \= i \+ 1;  
+        SET a = b;  
+        SET b = c;  
+        SET i = i + 1;  
     END WHILE;  
-END //
+END //  
 DELIMITER ;  
 CALL FIBO(7);
 
@@ -54,16 +54,16 @@ CALL FIBO(7);
 
 ### **03\.  Write a PL/SQL Code for greatest of 3 numbers** 
 
-> DELIMITER //
+> DELIMITER //  
 CREATE PROCEDURE got(a INT, b INT, c INT)  
 BEGIN  
     DECLARE greatest INT;
-    IF a \>= b AND a \>= c THEN  
-        SET greatest \= a;  
-    ELSEIF b \>= c THEN  
-        SET greatest \= b;  
+    IF a >= b AND a >= c THEN  
+        SET greatest = a;  
+    ELSEIF b >= c THEN  
+        SET greatest = b;  
     ELSE  
-        SET greatest \= c;  
+        SET greatest = c;  
     END IF;
     SELECT greatest AS 'Greatest Number';  
 END //
@@ -78,13 +78,13 @@ CALL got(25, 42, 17);
 
 ### **04\. Write a PL/SQL code for area and circumference of a circle** 
 
-> DELIMITER //
+> DELIMITER //  
 CREATE PROCEDURE ac(IN r FLOAT)  
 BEGIN  
     DECLARE pi FLOAT DEFAULT 3.14;  
-    SELECT pi \* r \* r AS Area;  
-    SELECT 2 \* pi \* r AS Circumference;  
-END //
+    SELECT pi * r * r AS Area;  
+    SELECT 2 * pi * r AS Circumference;  
+END //  
 DELIMITER ;  
 CALL ac(7);
 
@@ -100,18 +100,18 @@ CALL ac(7);
 
 ### **05\. Write a PL/SQL code for factorial of a number:**
 
-> DELIMITER //
+> DELIMITER //  
 CREATE PROCEDURE fact(IN n INT)  
 BEGIN  
     DECLARE i INT DEFAULT 1;  
     DECLARE f INT DEFAULT 1;
-    WHILE i \<= n DO  
-        SET f \= f \* i;  
-        SET i \= i \+ 1;  
+    WHILE i <= n DO  
+        SET f = f * i;  
+        SET i = i + 1;  
     END WHILE;
     SELECT f AS factorial;  
 END //
-DELIMITER ;  
+DELIMITER;  
 CALL fact(5);
 
 **Output:**
