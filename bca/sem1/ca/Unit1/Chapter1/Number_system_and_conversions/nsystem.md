@@ -34,7 +34,7 @@ A **number system** defines how numbers are represented using digits and a **bas
 * Each digit is called a **bit**
 
 * Example:  
-  $(1011)_2$ \= 1 × 2³ \+ 0 × 2² \+ 1 × 2¹ \+ 1 × 2⁰ \= 11₁₀
+  $(1011)_2$ = 1 × 2³ \+ 0 × 2² \+ 1 × 2¹ \+ 1 × 2⁰ \= 11₁₀
 
 ---
 
