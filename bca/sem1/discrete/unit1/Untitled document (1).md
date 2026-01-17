@@ -87,3 +87,22 @@ $$
 a^3 + 5 - \frac{8}{4} \cdot 5 = a^3 - 5
 $$
 $f^{-1}(n) = \frac{n - 1}{2}$
+$$
+\documentclass{article}
+\usepackage{tikz}
+\begin{document}
+
+\begin{tikzpicture}
+% Circles
+\draw[fill=blue!20, opacity=0.5] (0,0) circle (2) node[left] {Cricket};
+\draw[fill=red!20, opacity=0.5] (3,0) circle (2) node[right] {Hockey};
+
+% Labels
+\node at (-1,0) {15};   % Cricket only
+\node at (1.5,0) {5};   % Both
+\node at (4,0) {20};    % Hockey only
+
+\end{tikzpicture}
+
+\end{document}
+             $$
