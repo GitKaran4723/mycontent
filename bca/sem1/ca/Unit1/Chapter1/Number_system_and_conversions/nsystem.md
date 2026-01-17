@@ -130,13 +130,13 @@ Steps:
 Example: Convert 25₁₀ to Binary
 
 Division Table:  
- 25 ÷ 2 \= 12 remainder 1  
- 12 ÷ 2 \= 6 remainder 0  
- 6 ÷ 2 \= 3 remainder 0  
- 3 ÷ 2 \= 1 remainder 1  
- 1 ÷ 2 \= 0 remainder 1
+ 25 ÷ 2 = 12 remainder 1  
+ 12 ÷ 2 = 6 remainder 0  
+ 6 ÷ 2 = 3 remainder 0  
+ 3 ÷ 2 = 1 remainder 1  
+ 1 ÷ 2 = 0 remainder 1
 
-**Binary \= 11001₂ ✅**
+**Binary = 11001₂ ✅**
 
 ---
 
@@ -156,11 +156,11 @@ Steps:
 Example: Convert 0.625₁₀ to Binary
 
 Multiplication Table:  
- 0.625 × 2 \= 1.25 → Integer part \= 1  
- 0.25 × 2 \= 0.5 → Integer part \= 0  
- 0.5 × 2 \= 1.0 → Integer part \= 1
+ 0.625 × 2 = 1.25 → Integer part \= 1  
+ 0.25 × 2 = 0.5 → Integer part \= 0  
+ 0.5 × 2 = 1.0 → Integer part \= 1
 
-**Binary \= 0.101₂ ✅**
+**Binary = 0.101₂ ✅**
 
 ---
 
@@ -201,11 +201,11 @@ Powers of 2 are represented using an exponent notation where 2 is the base and t
 **Example:** Convert 125₁₀ to Octal
 
 Division Table:  
- 125 ÷ 8 \= 15 remainder 5  
- 15 ÷ 8 \= 1 remainder 7  
- 1 ÷ 8 \= 0 remainder 1
+ 125 ÷ 8 = 15 remainder 5  
+ 15 ÷ 8 = 1 remainder 7  
+ 1 ÷ 8 = 0 remainder 1
 
-**Octal \= 175₈**  
+**Octal = 175₈**  
  💡 Note: "Rem" stands for remainder obtained by division.
 
 2️⃣ **Decimal → Octal (Fractional Part)**  
@@ -224,9 +224,9 @@ Division Table:
 **Example:** Convert 0.375₁₀ to Octal
 
 Multiplication Table:  
- 0.375 × 8 \= 3.0 → Integer part \= 3
+ 0.375 × 8 = 3.0 → Integer part \= 3
 
-**Octal \= 0.3₈**
+**Octal = 0.3₈**
 
 ---
 
@@ -251,13 +251,12 @@ Multiplication Table:
 * Read integer remainders **bottom to top** ⬆️
 
 * Read fractional digits **top to bottom** ⬇️  
-* 
 
 **DECIMAL TO HEXADECIMAL CONVERSION**
 
 Hexadecimal number system uses base 16\.  
  Digits used: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F  
- (A \= 10, B \= 11, C \= 12, D \= 13, E \= 14, F \= 15\)
+ (A = 10, B = 11, C = 12, D = 13, E = 14, F = 15\)
 
 ---
 
@@ -277,9 +276,9 @@ Steps:
 5. Read the remainders from bottom to top
 
 Example: Convert 254 to Hexadecimal  
- 254 ÷ 16 \= 15 remainder 14 (E)  
- 15 ÷ 16 \= 0 remainder 15 (F)  
- Hexadecimal \= FE
+ 254 ÷ 16 = 15 remainder 14 (E)  
+ 15 ÷ 16 = 0 remainder 15 (F)  
+ Hexadecimal = FE
 
 ---
 
@@ -297,8 +296,8 @@ Steps:
 4. Stop when fraction becomes 0 or desired precision is reached
 
 Example: Convert 0.625 to Hexadecimal  
- 0.625 × 16 \= 10.0 → A  
- Hexadecimal \= 0.A
+ 0.625 × 16 = 10.0 → A  
+ Hexadecimal = 0.A
 
 ---
 
@@ -309,7 +308,7 @@ Example: Convert 26.625 to Hexadecimal
 * Integer part: 26 → 1A
 
 * Fractional part: 0.625 → 0.A  
-   Hexadecimal \= 1A.A
+   Hexadecimal = 1A.A
 
 ---
 
@@ -321,49 +320,49 @@ Example: Convert 26.625 to Hexadecimal
 
 * Positive powers: repeated multiplication by 10
 
-* Zero power: 10⁰ \= 1
+* Zero power: 10⁰ = 1
 
 * Negative powers: repeated division by 10
 
 ---
 
 1. **Positive Powers of 10**  
-    10⁰ \= 1  
-    10¹ \= 10  
-    10² \= 100  
-    10³ \= 1,000  
-    10⁴ \= 10,000  
-    10⁵ \= 100,000  
-    10⁶ \= 1,000,000
+    10⁰ = 1  
+    10¹ = 10  
+    10² = 100  
+    10³ = 1,000  
+    10⁴ = 10,000  
+    10⁵ = 100,000  
+    10⁶ = 1,000,000
 
-Rule: 10ⁿ \= 10 × 10 × … × 10 (n times)
+Rule: 10ⁿ = 10 × 10 × … × 10 (n times)
 
 ---
 
 2. **Zero Power of 10**  
-    10⁰ \= 1  
+    10⁰ = 1  
     Rule: Any non-zero number raised to the power 0 is 1
 
 **Reason (Using Laws of Exponents):**  
  For any non-zero number aaa:  
- a^m ÷ a^n \= a^(m−n)
+ a^m ÷ a^n = a^(m−n)
 
-If m \= n:  
- a^n ÷ a^n \= a^(n−n) \= a^0
+If m = n:  
+ a^n ÷ a^n = a^(n−n) = a^0
 
-But a^n ÷ a^n \= 1, so a^0 \= 1
+But a^n ÷ a^n = 1, so a^0 = 1
 
 ---
 
 3. **Negative Powers of 10**  
-    10⁻¹ \= 0.1  
-    10⁻² \= 0.01  
-    10⁻³ \= 0.001  
-    10⁻⁴ \= 0.0001  
-    10⁻⁵ \= 0.00001  
-    10⁻⁶ \= 0.000001
+    10⁻¹ = 0.1  
+    10⁻² = 0.01  
+    10⁻³ = 0.001  
+    10⁻⁴ = 0.0001  
+    10⁻⁵ = 0.00001  
+    10⁻⁶ = 0.000001
 
-Rule: 10⁻ⁿ \= 1 / 10ⁿ
+Rule: 10⁻ⁿ = 1 / 10ⁿ
 
 ---
 
@@ -373,7 +372,7 @@ Quick Tips:
 
 * Negative powers → move decimal point to the left
 
-* 10⁰ \= 1 → acts as the neutral element
+* 10⁰ = 1 → acts as the neutral element
 
 Key Points:
 
@@ -407,7 +406,7 @@ Key Points:
 
 2. Assign powers of 2 to each bit from right to left (0, 1, 2…).
 
-3. Multiply each bit by 2^position.
+3. Multiply each bit by $2^{position}$.
 
 4. Add all results.
 
@@ -418,9 +417,9 @@ Key Points:
 | $2^{position}$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
 | Multiply | 1×8 | 0×4 | 1×2 | 1×1 |
 
-**Sum:** 8 \+ 0 \+ 2 \+ 1 \= 11
+**Sum:** 8 \+ 0 \+ 2 \+ 1 = 11
 
-✅ **Decimal \= 11₁₀**
+✅ **Decimal = 11₁₀**
 
 ---
 
@@ -442,7 +441,7 @@ Key Points:
 
 * Convert: 101 → 5, 101 → 5
 
-✅ **Octal \= 55₈**
+✅ **Octal = 55₈**
 
 ---
 
@@ -464,39 +463,39 @@ Key Points:
 
 * Convert: 1011 → B, 0110 → 6
 
-✅ **Hexadecimal \= B6₁₆**
+✅ **Hexadecimal = B6₁₆**
 
 ---
 
 **🔢 Powers of 2 (Positive, Zero, and Negative)**
 
 **Positive Powers of 2:**  
- $2^0$ \= 1  
- $2^1$ \= 2  
- $2^2$ \= 4  
- $2^3$ \= 8  
- $2^4$ \= 16  
- $2^5$ \= 32  
- $2^6$ \= 64  
- $2^7$ \= 128  
- $2^8$ \= 256  
- $2^9$ \= 512  
- $2^{10}$ \= 1024  
- $2^{11}$ \= 2048  
- $2^{12}$ \= 4096  
- $2^{13}$ \= 8192  
- $2^{14}$ \= 16384  
- $2^{15}$ \= 32768
+ $2^0$ = 1  
+ $2^1$ = 2  
+ $2^2$ = 4  
+ $2^3$ = 8  
+ $2^4$ = 16  
+ $2^5$ = 32  
+ $2^6$ = 64  
+ $2^7$ = 128  
+ $2^8$ = 256  
+ $2^9$ = 512  
+ $2^{10}$ = 1024  
+ $2^{11}$ = 2048  
+ $2^{12}$ = 4096  
+ $2^{13}$ = 8192  
+ $2^{14}$ = 16384  
+ $2^{15}$ = 32768
 
 **Negative Powers of 2:**  
- $2\^{-1}$ \= 0.5  
- $2\^{-2}$ \= 0.25  
- $2\^{-3}$ \= 0.125  
- $2\^{-4}$ \= 0.0625  
- $2\^{-5}$ \= 0.03125  
- $2\^{-6}$ \= 0.015625  
- $2\^{-7}$ \= 0.0078125  
- $2\^{-8}$ \= 0.00390625
+ $2^{-1}$ = 0.5  
+ $2^{-2}$ = 0.25  
+ $2^{-3}$ = 0.125  
+ $2^{-4}$ = 0.0625  
+ $2^{-5}$ = 0.03125  
+ $2^{-6}$ = 0.015625  
+ $2^{-7}$ = 0.0078125  
+ $2^{-8}$ = 0.00390625
 
 **💡 Tip:**
 
@@ -532,7 +531,7 @@ Key Points:
 
 * 5 → 101
 
-✅ **Binary \= 111101₂**
+✅ **Binary = 111101₂**
 
 ---
 
@@ -557,9 +556,9 @@ Key Points:
 | $8^{position}$ | $8^1$ | $8^0$ |
 | Multiply | 7×8 \= 56 | 5×1 \= 5 |
 
-**Sum:** 56 \+ 5 \= 61
+**Sum:** 56 \+ 5 = 61
 
-✅ **Decimal \= 61₁₀**
+✅ **Decimal = 61₁₀**
 
 ---
 
@@ -581,7 +580,7 @@ Key Points:
 
 * Convert each group: 0011 → 3, 1101 → D
 
-✅ **Hexadecimal \= 3D₁₆**
+✅ **Hexadecimal = 3D₁₆**
 
 📌 **Tips:**
 
@@ -599,7 +598,7 @@ Key Points:
 
 * Positive powers → repeated multiplication by 8
 
-* Zero power → 8⁰ \= 1
+* Zero power → 8⁰ = 1
 
 * Negative powers → repeated division by 8
 
@@ -607,21 +606,21 @@ Key Points:
 
 ### **1️⃣ Positive Powers of 8**
 
-8⁰ \= 1  
- 8¹ \= 8  
- 8² \= 64  
- 8³ \= 512  
- 8⁴ \= 4,096  
- 8⁵ \= 32,768  
- 8⁶ \= 262,144
+8⁰ = 1  
+ 8¹ = 8  
+ 8² = 64  
+ 8³ = 512  
+ 8⁴ = 4,096  
+ 8⁵ = 32,768  
+ 8⁶ = 262,144
 
-**Rule:** 8ⁿ \= 8 × 8 × … × 8 (n times)
+**Rule:** 8ⁿ = 8 × 8 × … × 8 (n times)
 
 ---
 
 ### **2️⃣ Zero Power of 8**
 
-8⁰ \= 1
+8⁰ = 1
 
 **Reason:** Any non-zero number raised to 0 is 1
 
@@ -629,13 +628,13 @@ Key Points:
 
 ### **3️⃣ Negative Powers of 8**
 
-8⁻¹ \= 1 / 8 \= 0.125  
- 8⁻² \= 1 / 64 \= 0.015625  
- 8⁻³ \= 1 / 512 \= 0.001953125  
- 8⁻⁴ \= 1 / 4,096 \= 0.000244140625  
- 8⁻⁵ \= 1 / 32,768 \= 0.000030517578125
+8⁻¹ = 1 / 8 \= 0.125  
+ 8⁻² = 1 / 64 \= 0.015625  
+ 8⁻³ = 1 / 512 \= 0.001953125  
+ 8⁻⁴ = 1 / 4,096 \= 0.000244140625  
+ 8⁻⁵ = 1 / 32,768 \= 0.000030517578125
 
-**Rule:** 8⁻ⁿ \= 1 / 8ⁿ
+**Rule:** 8⁻ⁿ = 1 / 8ⁿ
 
 ---
 
@@ -645,7 +644,7 @@ Key Points:
 
 * Negative powers → divide repeatedly
 
-* 8⁰ \= 1 → neutral element
+* 8⁰ = 1 → neutral element
 
 # Hexadecimal conversions
 
@@ -676,11 +675,11 @@ Key Points:
 | Digit | 1 | A(10 ) |
 | ----- | ----- | ----- |
 | $16^{position}$ | $16^1$ | $16^0$ |
-| Multiply | 1×16 \= 16 | 10×1 \= 10 |
+| Multiply | 1×16 = 16 | 10×1 = 10 |
 
-**Sum:** 16 \+ 10 \= 26
+**Sum:** 16 \+ 10 = 26
 
-✅ **Decimal \= 26₁₀**
+✅ **Decimal = 26₁₀**
 
 ---
 
@@ -700,7 +699,7 @@ Key Points:
 
 * A → 1010
 
-✅ **Binary \= 00011010₂** (or 11010₂ removing leading zeros)
+✅ **Binary = 00011010₂** (or 11010₂ removing leading zeros)
 
 ---
 
@@ -724,15 +723,15 @@ Key Points:
 
 * Convert each group: 000 → 0, 110 → 6, 010 → 2
 
-✅ **Octal \= 062₈**
+✅ **Octal = 062₈**
 
 ---
 
 📌 **Tips:**
 
-* **Hex → Decimal:** Multiply digits by 16^position
+* **Hex → Decimal:** Multiply digits by $16^{position}$
 
-* **Hex → Binary:** 1 hex digit \= 4 binary bits
+* **Hex → Binary:** 1 hex digit = 4 binary bits
 
 * **Hex → Octal:** Convert via binary, then group in 3s
 
@@ -744,7 +743,7 @@ Key Points:
 
 * Positive powers → repeated multiplication by 16
 
-* Zero power → 16⁰ \= 1
+* Zero power → 16⁰ = 1
 
 * Negative powers → repeated division by 16
 
@@ -752,21 +751,21 @@ Key Points:
 
 ### **1️⃣ Positive Powers of 16**
 
-16⁰ \= 1  
- 16¹ \= 16  
- 16² \= 256  
- 16³ \= 4,096  
- 16⁴ \= 65,536  
- 16⁵ \= 1,048,576  
- 16⁶ \= 16,777,216
+16⁰ = 1  
+ 16¹ = 16  
+ 16² = 256  
+ 16³ = 4,096  
+ 16⁴ = 65,536  
+ 16⁵ = 1,048,576  
+ 16⁶ = 16,777,216
 
-**Rule:** 16ⁿ \= 16 × 16 × … × 16 (n times)
+**Rule:** 16ⁿ = 16 × 16 × … × 16 (n times)
 
 ---
 
 ### **2️⃣ Zero Power of 16**
 
-16⁰ \= 1
+16⁰ = 1
 
 **Reason:** Any non-zero number raised to 0 is 1
 
@@ -774,13 +773,13 @@ Key Points:
 
 ### **3️⃣ Negative Powers of 16**
 
-16⁻¹ \= 1 / 16 \= 0.0625  
- 16⁻² \= 1 / 256 \= 0.00390625  
- 16⁻³ \= 1 / 4,096 \= 0.000244140625  
- 16⁻⁴ \= 1 / 65,536 \= 0.0000152587890625  
- 16⁻⁵ \= 1 / 1,048,576 \= 0.00000095367431640625
+16⁻¹ = 1 / 16 = 0.0625  
+ 16⁻² = 1 / 256 = 0.00390625  
+ 16⁻³ = 1 / 4,096 = 0.000244140625  
+ 16⁻⁴ = 1 / 65,536 = 0.0000152587890625  
+ 16⁻⁵ = 1 / 1,048,576 = 0.00000095367431640625
 
-**Rule:** 16⁻ⁿ \= 1 / 16ⁿ
+**Rule:** 16⁻ⁿ = 1 / 16ⁿ
 
 ---
 
@@ -790,5 +789,5 @@ Key Points:
 
 * Negative powers → divide repeatedly
 
-* 16⁰ \= 1 → neutral element
+* 16⁰ = 1 → neutral element
 
