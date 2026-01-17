@@ -79,5 +79,7 @@ For small sets, you can think of (A \\times B) as a **grid/table**:
 
 Each cell represents an ordered pair.
 
----
-
+-$$--
+5+8=13
+       $$
+       
