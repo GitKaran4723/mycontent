@@ -556,7 +556,7 @@ Key Points:
 
 | Digit | 7 | 5 |
 | ----- | ----- | ----- |
-| 8position | 81 | 80 |
+| $8^{position}$ | $8^1$ | $8^0$ |
 | Multiply | 7×8 \= 56 | 5×1 \= 5 |
 
 **Sum:** 56 \+ 5 \= 61
@@ -669,7 +669,7 @@ Key Points:
 
 2. Assign powers of 16 to each digit from right to left.
 
-3. Multiply each digit by 16^position (convert A–F → 10–15).
+3. Multiply each digit by $16^{position}$ (convert A–F → 10–15).
 
 4. Sum all results.
 
@@ -677,7 +677,7 @@ Key Points:
 
 | Digit | 1 | A(10 ) |
 | ----- | ----- | ----- |
-| 16position | 161 | 160 |
+| $16^{position}$ | $16^1$ | $16^0$ |
 | Multiply | 1×16 \= 16 | 10×1 \= 10 |
 
 **Sum:** 16 \+ 10 \= 26
