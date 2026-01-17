@@ -308,13 +308,18 @@ Discard carry:
 
 ## **`Final Answer`**
 
-`$644_8$÷$4_8$=$161_8$​​`
+\[
+644_8 \div 4_8 = 161_8
+\]
+
 
 ---
 
 ## **`Verification (Optional but Confirms Accuracy)`**
 
-`$161_8$×$4_8$=$644_8$  ✔`
+\[
+161_8 \times 4_8 = 644_8
+\]  ✔
 
 ---
 
