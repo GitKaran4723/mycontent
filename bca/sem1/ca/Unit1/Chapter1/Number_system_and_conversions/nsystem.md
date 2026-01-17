@@ -13,19 +13,19 @@ A **number system** defines how numbers are represented using digits and a **bas
 
 ---
 
-## **1️⃣ Decimal Number System (Base 10\)**
+## **1️⃣ Decimal Number System (Base 10)**
 
 * Used by humans
 
 * Digits: **0–9**
 
 * Example:  
-  345₁₀ \= 3 × 10² \+ 4 × 10¹ \+ 5 × 10⁰
+  345₁₀ = 3 × 10² + 4 × 10¹ + 5 × 10⁰
 
 
 ---
 
-## **2️⃣ Binary Number System (Base 2\)**
+## **2️⃣ Binary Number System (Base 2)**
 
 * Used internally by computers
 
