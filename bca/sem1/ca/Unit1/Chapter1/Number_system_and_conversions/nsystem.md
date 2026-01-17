@@ -45,7 +45,7 @@ A **number system** defines how numbers are represented using digits and a **bas
 * Shorthand for binary (3 bits \= 1 octal digit)
 
 * Example:  
-  $(17)_8$ \= $(1111)_2$ \= $(15)_{10}$  
+  (17)₈ = (1111)₂ = (15)₁₀  
 
 ---
 
@@ -58,7 +58,7 @@ A **number system** defines how numbers are represented using digits and a **bas
 * Used in **memory addresses, machine code**
 
 * Example:  
-   $(2F)_{16}  \= $(47)_{10}$
+   (2F)₁₆ = (47)₁₀
 
 | Hex | Binary |
 | ----- | ----- |
