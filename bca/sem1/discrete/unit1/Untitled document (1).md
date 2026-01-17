@@ -83,6 +83,6 @@ Each cell represents an ordered pair.
 5+8=13
        $$
 
-\[
+$$
 a^3 + 5 - \frac{8}{4} \cdot 5 = a^3 - 5
-\]
+$$
