@@ -58,7 +58,7 @@ A **number system** defines how numbers are represented using digits and a **bas
 * Used in **memory addresses, machine code**
 
 * Example:  
-   $(2F)_{16} = (47)_{10}$
+   $(2F)_{16}  \= $(47)_{10}$
 
 | Hex | Binary |
 | ----- | ----- |
