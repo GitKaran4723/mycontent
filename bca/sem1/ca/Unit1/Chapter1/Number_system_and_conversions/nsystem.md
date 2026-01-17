@@ -546,7 +546,7 @@ Key Points:
 
 2. Assign powers of 8 to each digit from right to left.
 
-3. Multiply each digit by $8^position$.
+3. Multiply each digit by $8^{position}$.
 
 4. Sum all results.
 
