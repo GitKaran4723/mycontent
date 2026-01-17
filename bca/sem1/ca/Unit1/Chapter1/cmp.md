@@ -1,7 +1,5 @@
 # Complements in Number System
 
-# **Complements in Number System**
-
 ## **1\. What is a Complement? (Definition)**
 
 A **complement** of a number is a method used in number systems to:
@@ -237,8 +235,6 @@ Step 1: 7’s complement \= `251₈`
  ✔ Decimal → 9’s & 10’s complement
 
 # Binary Subtraction Using Complements
-
-# **Binary Subtraction Using Complements**
 
 In binary number system:
 
