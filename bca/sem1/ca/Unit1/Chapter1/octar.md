@@ -308,18 +308,13 @@ Discard carry:
 
 ## **`Final Answer`**
 
-\[
-644_8 \div 4_8 = 161_8
-\]
-
+644₈ ÷ 4₈ = 161₈
 
 ---
 
 ## **`Verification (Optional but Confirms Accuracy)`**
 
-\[
-161_8 \times 4_8 = 644_8
-\]  ✔
+161₈ × 4₈ = 644₈ ✔
 
 ---
 
