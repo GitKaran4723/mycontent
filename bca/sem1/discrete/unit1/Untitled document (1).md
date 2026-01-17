@@ -83,33 +83,6 @@ Each cell represents an ordered pair.
 5+8=13
        $$
 
-\documentclass{article}
-\usepackage{amsmath}
-
-\begin{document}
-
-Consider the expression:
 \[
-a^3 + 5 - \frac{8}{4} \cdot 5
+a^3 + 5 - \frac{8}{4} \cdot 5 = a^3 - 5
 \]
-
-Step 1: Simplify the division and multiplication:
-\[
-\frac{8}{4} \cdot 5 = 2 \cdot 5 = 10
-\]
-
-Step 2: Substitute back into the expression:
-\[
-a^3 + 5 - 10
-\]
-
-Step 3: Combine like terms:
-\[
-5 - 10 = -5
-\]
-
-\[
-\therefore a^3 + 5 - \frac{8}{4} \cdot 5 = a^3 - 5
-\]
-
-\end{document}
