@@ -34,7 +34,7 @@ A **number system** defines how numbers are represented using digits and a **bas
 * Each digit is called a **bit**
 
 * Example:  
-  $(1011)_2$ = 1 × 2³ \+ 0 × 2² \+ 1 × 2¹ \+ 1 × 2⁰ \= 11₁₀
+  $(1011)_2$ = 1 × 2³ \+ 0 × 2² \+ 1 × 2¹ \+ 1 × 2⁰ = 11₁₀
 
 ---
 
@@ -156,9 +156,9 @@ Steps:
 Example: Convert 0.625₁₀ to Binary
 
 Multiplication Table:  
- 0.625 × 2 = 1.25 → Integer part \= 1  
- 0.25 × 2 = 0.5 → Integer part \= 0  
- 0.5 × 2 = 1.0 → Integer part \= 1
+ 0.625 × 2 = 1.25 → Integer part = 1  
+ 0.25 × 2 = 0.5 → Integer part = 0  
+ 0.5 × 2 = 1.0 → Integer part = 1
 
 **Binary = 0.101₂ ✅**
 
@@ -224,7 +224,7 @@ Division Table:
 **Example:** Convert 0.375₁₀ to Octal
 
 Multiplication Table:  
- 0.375 × 8 = 3.0 → Integer part \= 3
+ 0.375 × 8 = 3.0 → Integer part = 3
 
 **Octal = 0.3₈**
 
@@ -345,12 +345,12 @@ Rule: 10ⁿ = 10 × 10 × … × 10 (n times)
 
 **Reason (Using Laws of Exponents):**  
  For any non-zero number aaa:  
- a^m ÷ a^n = a^(m−n)
+ $a^m$ ÷ $a^n$ = $a^{(m−n)}$
 
 If m = n:  
- a^n ÷ a^n = a^(n−n) = a^0
+ $a^n$ ÷ $a^n$ = $a^{(n−n)}$ = $a^0$
 
-But a^n ÷ a^n = 1, so a^0 = 1
+But $a^n$ ÷ $a^n$ = 1, so $a^0$ = 1
 
 ---
 
@@ -554,7 +554,7 @@ Key Points:
 | Digit | 7 | 5 |
 | ----- | ----- | ----- |
 | $8^{position}$ | $8^1$ | $8^0$ |
-| Multiply | 7×8 \= 56 | 5×1 \= 5 |
+| Multiply | 7×8 = 56 | 5×1 = 5 |
 
 **Sum:** 56 \+ 5 = 61
 
@@ -628,11 +628,11 @@ Key Points:
 
 ### **3️⃣ Negative Powers of 8**
 
-8⁻¹ = 1 / 8 \= 0.125  
- 8⁻² = 1 / 64 \= 0.015625  
- 8⁻³ = 1 / 512 \= 0.001953125  
- 8⁻⁴ = 1 / 4,096 \= 0.000244140625  
- 8⁻⁵ = 1 / 32,768 \= 0.000030517578125
+8⁻¹ = 1 / 8 = 0.125  
+ 8⁻² = 1 / 64 = 0.015625  
+ 8⁻³ = 1 / 512 = 0.001953125  
+ 8⁻⁴ = 1 / 4,096 = 0.000244140625  
+ 8⁻⁵ = 1 / 32,768 = 0.000030517578125
 
 **Rule:** 8⁻ⁿ = 1 / 8ⁿ
 
