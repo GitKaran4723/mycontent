@@ -133,7 +133,7 @@ Error correcting codes are **crucial for memory reliability**.
 `2^r ≥ k + r + 1`
 
 where  
- `k` \= data bits, `r` \= parity bits
+ `k` = data bits, `r` = parity bits
 
 #### **Example:**
 
@@ -186,7 +186,7 @@ Used in **modern ECC RAM**.
 
 3. If:
 
-   * Syndrome \= 0 → no error
+   * Syndrome = 0 → no error
 
    * Syndrome ≠ 0 → error detected
 
