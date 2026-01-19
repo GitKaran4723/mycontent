@@ -50,7 +50,7 @@
 
    * If **sum ≤ 1001 (9)** and **no carry**, result is valid
 
-   * If **sum \> 1001** **OR** **carry \= 1**, result is **invalid**
+   * If **sum \> 1001** **OR** **carry = 1**, result is **invalid**
 
 3. If invalid → **add 0110 (6)** to correct
 
@@ -60,7 +60,7 @@
 
 ## **Why Add 0110?**
 
-* Binary maximum for BCD \= `1001` (9)
+* Binary maximum for BCD = `1001` (9)
 
 * Binary `1010–1111` are invalid
 
@@ -126,7 +126,7 @@
 `-------`  
 `1 0011`
 
-Carry \= 1 → added to next digit
+Carry = 1 → added to next digit
 
 ---
 
@@ -138,7 +138,7 @@ Carry \= 1 → added to next digit
 
 `63`
 
-✔ Correct (28 \+ 35 \= 63\)
+✔ Correct (28 \+ 35 = 63\)
 
 ---
 
@@ -211,7 +211,7 @@ BCD subtraction is performed using **10’s complement method**.
 
 `18`
 
-✔ Correct (45 − 27 \= 18\)
+✔ Correct (45 − 27 = 18\)
 
 ---
 
@@ -258,7 +258,7 @@ BCD subtraction is performed using **10’s complement method**.
 
 `−26`
 
-✔ Correct (32 − 58 \= −26)
+✔ Correct (32 − 58 = −26)
 
 ---
 
@@ -278,7 +278,7 @@ BCD subtraction is performed using **10’s complement method**.
 
 ✔ BCD uses **4 bits per decimal digit**  
  ✔ Valid codes: `0000–1001`  
- ✔ Correction factor \= **0110**  
+ ✔ Correction factor = **0110**  
  ✔ Subtraction uses **10’s complement**  
  ✔ Widely used in calculators and banking systems
 
