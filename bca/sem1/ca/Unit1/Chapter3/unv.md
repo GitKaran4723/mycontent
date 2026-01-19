@@ -26,9 +26,9 @@ A **NAND gate** is a combination of an **AND gate followed by a NOT gate**.
 
 ### **2.2 Boolean Expression**
 
-Y \= NOT (A \* B)  
+Y = NOT (A \* B)  
  or  
- Y \= (A \* B)’
+ Y = (A \* B)’
 
 ### **2.3 Truth Table**
 
@@ -43,13 +43,13 @@ Y \= NOT (A \* B)
 
 * **NOT Gate using NAND**  
    Connect both inputs of NAND to the same input:  
-   Y \= NOT (A \* A) \= NOT A
+   Y = NOT (A \* A) = NOT A
 
 * **AND Gate using NAND**  
-   Y \= NOT (A NAND B) \= A \* B
+   Y = NOT (A NAND B) = A \* B
 
 * **OR Gate using NAND (via De Morgan’s Theorem)**  
-   Y \= (NOT A) NAND (NOT B) \= A \+ B
+   Y = (NOT A) NAND (NOT B) = A \+ B
 
 ### **2.5 Applications of NAND Gate**
 
@@ -74,9 +74,9 @@ A **NOR gate** is a combination of an **OR gate followed by a NOT gate**.
 
 ### **3.2 Boolean Expression**
 
-Y \= NOT (A \+ B)  
+Y = NOT (A \+ B)  
  or  
- Y \= (A \+ B)’
+ Y = (A \+ B)’
 
 ### **3.3 Truth Table**
 
@@ -91,13 +91,13 @@ Y \= NOT (A \+ B)
 
 * **NOT Gate using NOR**  
    Connect both inputs of NOR to the same input:  
-   Y \= NOT (A \+ A) \= NOT A
+   Y = NOT (A \+ A) = NOT A
 
 * **OR Gate using NOR**  
-   Y \= NOT (A NOR B) \= A \+ B
+   Y = NOT (A NOR B) = A \+ B
 
 * **AND Gate using NOR (via De Morgan’s Theorem)**  
-   Y \= (NOT A) NOR (NOT B) \= A \* B
+   Y = (NOT A) NOR (NOT B) = A \* B
 
 ### **3.5 Applications of NOR Gate**
 
