@@ -12,7 +12,7 @@ The number of elements in the set or a measure of its size is known as the **car
 
 Some of the common sets with cardinality are:
 
- ###  **1. Cardinality of a Finite Set**
+ ### **1. Cardinality of a Finite Set**
 
    **Cardinality** of a finite set refers to the number of elements in the set. If a set S is finite, its cardinality is simply the count of distinct elements within the set.
 
