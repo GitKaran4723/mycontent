@@ -109,7 +109,7 @@ This is popularly known as the "inclusion-exclusion principle".
 
 *n(A U B U C) \= n (A) \+ n(B) \+ n(C) \- n(A ∩ B) \- n(B ∩ C) \- n(C ∩ A) \+ n (A ∩ B ∩ C).*
 
-### **COUNTING BASICS** ### 
+### **COUNTING BASICS** 
 
 Basic counting is about finding how many outcomes or objects are possible in a situation without listing them all.
 
