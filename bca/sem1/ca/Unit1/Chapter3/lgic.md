@@ -51,7 +51,7 @@ Logic gates are classified into:
  If any input is 0, the output is 0\.
 
 **Boolean Expression:**  
- Y \= A \* B
+ Y = A \* B
 
 **Truth Table:**
 
@@ -82,7 +82,7 @@ Logic gates are classified into:
  The output is 0 only when **all inputs are 0**.
 
 **Boolean Expression:**  
- Y \= A \+ B
+ Y = A \+ B
 
 **Truth Table:**
 
@@ -110,7 +110,7 @@ Logic gates are classified into:
  A **NOT gate** produces an output that is the **complement of the input**.
 
 **Boolean Expression:**  
- Y \= NOT A
+ Y = NOT A
 
 **Truth Table:**
 
@@ -141,7 +141,7 @@ Logic gates are classified into:
  The output is 0 when the inputs are the same.
 
 **Boolean Expression:**  
- Y \= A XOR B
+ Y = A XOR B
 
 **Truth Table:**
 
@@ -173,7 +173,7 @@ Logic gates are classified into:
  An **XNOR gate** produces an output **1 when both inputs are the same**.
 
 **Boolean Expression:**  
- Y \= NOT (A XOR B)
+ Y = NOT (A XOR B)
 
 **Truth Table:**
 
