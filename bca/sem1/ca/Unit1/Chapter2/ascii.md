@@ -56,13 +56,12 @@ Total possible characters:
 
  `2⁷ = 128 characters`
 
-* 
+
 
 Binary values range from:
 
  `0000000 (0) to 1111111 (127)`
 
-* 
 
 ---
 
@@ -164,7 +163,6 @@ Total characters:
 
  `2⁸ = 256`
 
-* 
 
 ---
 
