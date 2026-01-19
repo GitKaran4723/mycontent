@@ -413,8 +413,8 @@ Key Points:
 **Example:** Convert 1011₂ to Decimal
 
 | Bit | 1 | 0 | 1 | 1 |
-| ----- | ----- | ----- | ----- | ----- |
-| $2^{position}$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
+|-----|---|---|---|---|
+| 2<sup>position</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
 | Multiply | 1×8 | 0×4 | 1×2 | 1×1 |
 
 **Sum:** 8 \+ 0 \+ 2 \+ 1 = 11
