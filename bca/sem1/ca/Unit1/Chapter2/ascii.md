@@ -1,6 +1,6 @@
 # **Character Encoding Schemes**
 
-## **ASCII, EBCDIC, and UNICODE (Complete Explanation)**
+## **ASCII, EBCDIC, and UNICODE **
 
 ---
 
