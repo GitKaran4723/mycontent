@@ -14,7 +14,7 @@ Some of the common sets with cardinality are:
 
  ###  **1. Cardinality of a Finite Set**
 
-   ### **Cardinality** of a finite set refers to the number of elements in the set. If a set S is finite, its cardinality is simply the count of distinct elements within the set.
+   **Cardinality** of a finite set refers to the number of elements in the set. If a set S is finite, its cardinality is simply the count of distinct elements within the set.
 
 The total number in the set is known as the cardinality of a power set.
 
