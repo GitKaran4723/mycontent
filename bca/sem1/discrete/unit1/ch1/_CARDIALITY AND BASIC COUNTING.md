@@ -12,7 +12,7 @@ The number of elements in the set or a measure of its size is known as the **car
 
 Some of the common sets with cardinality are:
 
-### **1 Cardinality of a Finite Set**
+### **1. Cardinality of a Finite Set**
 
 **Cardinality** of a finite set refers to the number of elements in the set. If a set S is finite, its cardinality is simply the count of distinct elements within the set.
 
@@ -20,7 +20,7 @@ The total number in the set is known as the cardinality of a power set.
 
 *For example: If A \= {1, 2, 3, 4, 5}, then |A| \= 5\.*
 
-### **2 Cardinality of an Infinite Set**
+### **2. Cardinality of an Infinite Set**
 
 A set is countably infinite if its elements can be put into a one-to-one correspondence with the natural numbers N \= {1, 2, 3, . . . }. This means that you can list the elements of the set in a sequence (even if the sequence goes on forever).
 
@@ -32,7 +32,7 @@ The cardinality of a countably infinite set is denoted by ℵ0.
 * ***Integers:** The set of integers Z={. . . ,−2, −1, 0, 1, 2, . . . } is countably infinite because you can list them in a sequence like 0, 1, −1, 2, −2, . . .*  
 * ***Rational Numbers:** The set of rational numbers Q \= {a/b ∣ a,b ∈ Z, b ≠ 0} is countably infinite, though it's less obvious. The rationals can be arranged in a sequence by arranging fractions by their sum of numerator and denominator.*
 
-### **3 Cardinality of a Countable Set**
+### **3. Cardinality of a Countable Set**
 
 A set is countable if:
 
@@ -44,7 +44,7 @@ If a set is countable and infinite, it is known as a countably infinite set. Exa
 * For a finite countable set, its cardinality is simply the number of elements it contains.  
 * However, for an infinite countable set, its cardinality is the same as that of the natural numbers.
 
-### **4 Cardinality of an Uncountable Set**
+### **4. Cardinality of an Uncountable Set**
 
 A set is uncountable if:
 
@@ -56,7 +56,7 @@ If a set is uncountable, it is infinite and its elements cannot be listed in seq
 * For an uncountable set, its elements cannot be listed in a sequence.  
 * The cardinality of an uncountable set is greater than that of the natural numbers.
 
-### **5 Cardinality of a Power Set**
+### **5. Cardinality of a Power Set**
 
 ***Power Set** of a set S is the set of all possible subsets of S, including the empty set and S itself.*
 
@@ -79,7 +79,7 @@ For any finite set S with n elements: ∣P(S)∣ \= 2n
 
 *Since S has 2 elements, the cardinality of the power set P(S) is 22 \= 4\.*
 
-### **6 Cardinality of Cartesian Products**
+### **6. Cardinality of Cartesian Products**
 
 The Cartesian product of two sets A and B, denoted by A × B, is the set of all ordered pairs (a, b) where a ∈ A and b ∈ B.
 
@@ -111,9 +111,7 @@ This is popularly known as the "inclusion-exclusion principle".
 
 ### **COUNTING BASICS** 
 
-Basic counting is about finding how many outcomes or objects are possible in a situation without listing them all.
-
----
+Basic counting is about finding how many outcomes or objects are possible in a situation without listing them all
 
 ## **1 Rule of Sum (Addition Principle)**
 
@@ -158,7 +156,7 @@ Total outfits:
 
 ## **Counting Using Sets**
 
-  If a process has steps represented by sets:
+    process has steps represented by sets:
 
 * Step 1 has ∣A∣|A|∣A∣ choices
 
