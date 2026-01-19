@@ -1,6 +1,6 @@
 # **Character Encoding Schemes**
 
-## **ASCII, EBCDIC, and UNICODE **
+## **ASCII, EBCDIC, and UNICODE (Complete Explanation)**
 
 ---
 
@@ -34,7 +34,7 @@ Since computers understand only **0s and 1s**, each character is assigned a **un
 
 **ASCII** is a **7-bit character encoding standard** developed to represent English characters and control symbols.
 
-**ASCII \= American Standard Code for Information Interchange**
+**ASCII = American Standard Code for Information Interchange**
 
 ---
 
@@ -142,7 +142,7 @@ Total characters:
 
 **EBCDIC** is an **8-bit character encoding scheme** developed by **IBM**.
 
-**EBCDIC \= Extended Binary Coded Decimal Interchange Code**
+**EBCDIC = Extended Binary Coded Decimal Interchange Code**
 
 ---
 
@@ -229,7 +229,7 @@ Includes:
 
 **UNICODE** is a **universal character encoding standard** designed to represent **every character of every language**.
 
-**UNICODE \= Universal Code (not an acronym officially)**
+**UNICODE = Universal Code (not an acronym officially)**
 
 ---
 
