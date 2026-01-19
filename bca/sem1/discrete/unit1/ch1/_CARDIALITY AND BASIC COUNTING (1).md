@@ -34,7 +34,7 @@ The cardinality of a countably infinite set is denoted by ℵ0.
 
  ### **3. Cardinality of a Countable Set**
 
-    A set is countable if:
+A set is countable if:
 
 * It is finite  
 * It is infinite, but you can list its elements one by one (like 1st, 2nd, 3rd, …), meaning there's a bijection with natural numbers N.
