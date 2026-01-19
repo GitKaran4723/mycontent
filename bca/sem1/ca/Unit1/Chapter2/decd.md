@@ -304,7 +304,7 @@ Binary change from 3 → 4: **3 bits change**
 
 ### **Golden Rule**
 
-1. **MSB (Most Significant Bit) of Gray \= MSB of Binary**
+1. **MSB (Most Significant Bit) of Gray = MSB of Binary**
 
 2. Each next Gray bit is obtained by:
 
@@ -359,13 +359,13 @@ XOR each pair of adjacent binary bits
 
 ### **Explanation:**
 
-* Gray MSB \= Binary MSB \= **1**
+* Gray MSB = Binary MSB = **1**
 
-* 1 ⊕ 0 \= **1**
+* 1 ⊕ 0 = **1**
 
-* 0 ⊕ 1 \= **1**
+* 0 ⊕ 1 = **1**
 
-* 1 ⊕ 1 \= **0**
+* 1 ⊕ 1 = **0**
 
 ### **Final Gray Code:**
 
@@ -387,13 +387,13 @@ Explanation:
 
 * MSB → 1
 
-* 1 ⊕ 1 \= 0
+* 1 ⊕ 1 = 0
 
-* 1 ⊕ 0 \= 1
+* 1 ⊕ 0 = 1
 
-* 0 ⊕ 0 \= 0
+* 0 ⊕ 0 = 0
 
-* 0 ⊕ 1 \= 1
+* 0 ⊕ 1 = 1
 
 ### **Gray Code:**
 
@@ -613,8 +613,8 @@ That’s why the process is **sequential**.
 
 ## **8\. Simple Way to Remember**
 
-**Gray \= change information**  
- **Binary \= actual value**
+**Gray = change information**  
+ **Binary = actual value**
 
 ---
 
