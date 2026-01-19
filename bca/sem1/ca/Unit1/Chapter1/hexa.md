@@ -22,7 +22,7 @@ So after 9 comes **A, B, C, D, E, F**, then it rolls over.
 
 Hexadecimal is widely used in computing because:
 
-* It maps neatly to **binary** (1 hex digit \= 4 binary bits)
+* It maps neatly to **binary** (1 hex digit = 4 binary bits)
 
 * It is shorter and easier to read than long binary numbers
 
@@ -43,10 +43,10 @@ Just like decimal is based on powers of 10, hex is based on **powers of 16**.
 
 | Position | Power of 16 |
 | ----- | ----- |
-| 1st (rightmost) | 16⁰ \= 1 |
-| 2nd | 16¹ \= 16 |
-| 3rd | 16² \= 256 |
-| 4th | 16³ \= 4096 |
+| 1st (rightmost) | 16⁰ = 1 |
+| 2nd | 16¹ = 16 |
+| 3rd | 16² = 256 |
+| 4th | 16³ = 4096 |
 
 ### **Example**
 
@@ -95,9 +95,9 @@ Convert to decimal:
 
 Step by step:
 
-* 3 \+ F \= 18₁₀ \= **12₁₆** → write 2, carry 1
+* 3 \+ F = 18₁₀ = **12₁₆** → write 2, carry 1
 
-* A \+ 1 \+ carry \= 12₁₀ \= **C**
+* A \+ 1 \+ carry = 12₁₀ = **C**
 
 Result:
 
@@ -111,11 +111,11 @@ Result:
 `+ 2B9`  
 `------`
 
-* 7 \+ 9 \= 16 → 0, carry 1
+* 7 \+ 9 = 16 → 0, carry 1
 
-* E(14) \+ B(11) \+ 1 \= 26 → 1A → write A, carry 1
+* E(14) \+ B(11) \+ 1 = 26 → 1A → write A, carry 1
 
-* 4 \+ 2 \+ 1 \= 7
+* 4 \+ 2 \+ 1 = 7
 
 Result:
 
@@ -143,11 +143,11 @@ Result:
 
 * 5 − A → borrow from B
 
-* 5 \+ 16 \= 21 → 21 − 10 \= 11 (B)
+* 5 \+ 16 = 21 → 21 − 10 = 11 (B)
 
 * B becomes A
 
-* A − 3 \= 7
+* A − 3 = 7
 
 Result:
 
@@ -165,11 +165,11 @@ Result:
 
 * After borrowing:
 
-  * 16 − 15 \= 1
+  * 16 − 15 = 1
 
   * Next column becomes F
 
-* F − 2 \= D
+* F − 2 = D
 
 Result:
 
@@ -193,11 +193,11 @@ Result:
 
 `A × 4`
 
-* A \= 10
+* A = 10
 
-* 10 × 4 \= 40₁₀
+* 10 × 4 = 40₁₀
 
-* 40₁₀ \= 28₁₆
+* 40₁₀ = 28₁₆
 
 Answer:
 
@@ -211,9 +211,9 @@ Answer:
 `×  3`  
 `-----`
 
-* F × 3 \= 45 → 2D → write D, carry 2
+* F × 3 = 45 → 2D → write D, carry 2
 
-* 2 × 3 \+ 2 \= 8
+* 2 × 3 \+ 2 = 8
 
 Result:
 
@@ -237,11 +237,11 @@ Result:
 
 `9C ÷ 4`
 
-* 9C₁₆ \= 156₁₀
+* 9C₁₆ = 156₁₀
 
-* 156 ÷ 4 \= 39
+* 156 ÷ 4 = 39
 
-* 39₁₀ \= 27₁₆
+* 39₁₀ = 27₁₆
 
 Answer:
 
@@ -253,7 +253,7 @@ Answer:
 
 ### **Hex → Binary**
 
-Each hex digit \= **4 bits**
+Each hex digit = **4 bits**
 
 | Hex | Binary |
 | ----- | ----- |
