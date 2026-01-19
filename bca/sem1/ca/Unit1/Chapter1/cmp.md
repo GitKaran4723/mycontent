@@ -61,9 +61,9 @@ The **(r − 1)’s complement** of a number is obtained by **subtracting each d
 
 ## **Examples**
 
-### **Binary System (r \= 2\)**
+### **Binary System (r = 2\)**
 
-* (r − 1\) \= 1
+* (r − 1\) = 1
 
 * **1’s complement**
 
@@ -75,13 +75,13 @@ The **(r − 1)’s complement** of a number is obtained by **subtracting each d
 `1 → 0`  
 `0 → 1`
 
-**1’s complement \= `0101`**
+**1’s complement = `0101`**
 
 ---
 
-### **Decimal System (r \= 10\)**
+### **Decimal System (r = 10\)**
 
-* (r − 1\) \= 9
+* (r − 1\) = 9
 
 * **9’s complement**
 
@@ -92,13 +92,13 @@ The **(r − 1)’s complement** of a number is obtained by **subtracting each d
 `9 − 4 = 5`  
 `9 − 5 = 4`
 
-**9’s complement \= `654`**
+**9’s complement = `654`**
 
 ---
 
-### **Octal System (r \= 8\)**
+### **Octal System (r = 8\)**
 
-* (r − 1\) \= 7
+* (r − 1\) = 7
 
 **Example:**  
  `526₈`
@@ -107,7 +107,7 @@ The **(r − 1)’s complement** of a number is obtained by **subtracting each d
 `7 − 2 = 5`  
 `7 − 6 = 1`
 
-**7’s complement \= `251₈`**
+**7’s complement = `251₈`**
 
 ---
 
@@ -141,9 +141,9 @@ The **r’s complement** of a number is obtained by:
 
 ## **Examples**
 
-### **Binary System (r \= 2\)**
+### **Binary System (r = 2\)**
 
-* r’s complement \= **2’s complement**
+* r’s complement = **2’s complement**
 
 **Example:**  
  Binary number: `1010`
@@ -159,13 +159,13 @@ Step 2: Add 1
 `------`  
 `0110`
 
-**2’s complement \= `0110`**
+**2’s complement = `0110`**
 
 ---
 
-### **Decimal System (r \= 10\)**
+### **Decimal System (r = 10\)**
 
-* r’s complement \= **10’s complement**
+* r’s complement = **10’s complement**
 
 **Example:**  
  Decimal number: `345`
@@ -177,18 +177,18 @@ Step 2: Add 1
 
 `654 + 1 = 655`
 
-**10’s complement \= `655`**
+**10’s complement = `655`**
 
 ---
 
-### **Octal System (r \= 8\)**
+### **Octal System (r = 8\)**
 
-* r’s complement \= **8’s complement**
+* r’s complement = **8’s complement**
 
 **Example:**  
  `526₈`
 
-Step 1: 7’s complement \= `251₈`  
+Step 1: 7’s complement = `251₈`  
  Step 2: Add 1
 
 `251 + 1 = 252₈`
@@ -228,7 +228,7 @@ Step 1: 7’s complement \= `251₈`
 
 # **9\. Key Exam Points**
 
-✔ r \= base of number system  
+✔ r = base of number system  
  ✔ (r − 1)’s complement → digit subtraction  
  ✔ r’s complement → add 1  
  ✔ Binary → 1’s & 2’s complement  
@@ -238,11 +238,11 @@ Step 1: 7’s complement \= `251₈`
 
 In binary number system:
 
-* Base **r \= 2**
+* Base **r = 2**
 
-* **(r – 1)’s complement \= 1’s complement**
+* **(r – 1)’s complement = 1’s complement**
 
-* **r’s complement \= 2’s complement**
+* **r’s complement = 2’s complement**
 
 Binary subtraction can be done **without direct subtraction**, by using **addition and complements**.
 
@@ -324,7 +324,7 @@ In this method:
 
 ### **Step 3: End-around carry**
 
-Carry \= `1`
+Carry = `1`
 
 `1001 + 1 = 1010`
 
@@ -332,7 +332,7 @@ Carry \= `1`
 
 `1010₂ (10)`
 
-✔ Correct because 13 − 3 \= 10
+✔ Correct because 13 − 3 = 10
 
 ---
 
@@ -365,7 +365,7 @@ Take 1’s complement of result:
 
 `−0100₂ (−4)`
 
-✔ Correct because 5 − 9 \= −4
+✔ Correct because 5 − 9 = −4
 
 ---
 
@@ -438,7 +438,7 @@ In this method:
 
 `0111₂ (7)`
 
-✔ Correct because 10 − 3 \= 7
+✔ Correct because 10 − 3 = 7
 
 ---
 
@@ -479,7 +479,7 @@ Take 2’s complement of result:
 
 `−0011₂ (−3)`
 
-✔ Correct because 5 − 8 \= −3
+✔ Correct because 5 − 8 = −3
 
 ---
 
@@ -505,11 +505,11 @@ Take 2’s complement of result:
 
 # **6\. Exam-Ready Summary**
 
-* Binary base **r \= 2**
+* Binary base **r = 2**
 
-* 1’s complement \= invert bits
+* 1’s complement = invert bits
 
-* 2’s complement \= invert bits \+ 1
+* 2’s complement = invert bits \+ 1
 
 * Carry → positive
 
