@@ -412,8 +412,8 @@ Key Points:
 
 **Example:** Convert 1011₂ to Decimal
 
-| BIT | 1 | 0 | 1 | 1 |
-|-----|---|---|---|---|
+| BIT | 1 | 0 | 1 | 1 | 1 |
+|-----|---|---|---|---|---|
 | 2<sup>position</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
 | Multiply | 1×8 | 0×4 | 1×2 | 1×1 |
 
