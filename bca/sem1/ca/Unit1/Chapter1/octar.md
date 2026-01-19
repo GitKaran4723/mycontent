@@ -64,13 +64,12 @@ Each **octal digit corresponds to 3 binary bits**.
 
 ## **4\. Octal Addition**
 
----
 
 ### **Rules for Octal Addition**
 
 1. Add digits column-wise (right to left)
 
-2. If **sum \< 8** → write sum
+2. If **sum < 8** → write sum
 
 3. If **sum ≥ 8**:
 
@@ -113,7 +112,6 @@ Each **octal digit corresponds to 3 binary bits**.
 
 ## **5\. Octal Subtraction (Direct Method)**
 
----
 
 ### **Rules for Octal Subtraction**
 
@@ -121,11 +119,11 @@ Each **octal digit corresponds to 3 binary bits**.
 
 2. If **top digit ≥ bottom digit**, subtract directly
 
-3. If **top digit \< bottom digit**:
+3. If **top digit < bottom digit**:
 
    * Borrow **1 from next column**
 
-   * Borrowed value \= **8**
+   * Borrowed value = **8**
 
 ---
 
@@ -207,7 +205,7 @@ Subtract each digit from **7**
 
 `654₈ − 237₈`
 
-8’s complement of 237₈ \= `541₈`
+8’s complement of 237₈ = `541₈`
 
 Add:
 
@@ -225,8 +223,6 @@ Discard carry:
 ---
 
 ## **7\. Octal Multiplication**
-
----
 
 ### **Rules**
 
@@ -260,7 +256,6 @@ Discard carry:
 
 ## **8\. Octal Division**
 
----
 
 ### **Rules**
 
@@ -268,7 +263,7 @@ Discard carry:
 
 * Quotient digits must be **0–7**
 
-* Remainder \< divisor
+* Remainder < divisor
 
 ---
 
@@ -350,13 +345,13 @@ Discard carry:
 
 ## **11\. Exam-Ready Summary**
 
-* Base of octal \= **8**
+* Base of octal = **8**
 
-* Digits \= **0 to 7**
+* Digits = **0 to 7**
 
-* Carry and borrow \= **8**
+* Carry and borrow = **8**
 
 * Complements: **7’s and 8’s**
 
-* Each octal digit \= **3 binary bits**
+* Each octal digit = **3 binary bits**
 
