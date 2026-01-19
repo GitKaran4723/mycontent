@@ -34,7 +34,7 @@ The cardinality of a countably infinite set is denoted by ℵ0.
 
  ### **3. Cardinality of a Countable Set**
 
-   ### A set is countable if:
+    A set is countable if:
 
 * It is finite  
 * It is infinite, but you can list its elements one by one (like 1st, 2nd, 3rd, …), meaning there's a bijection with natural numbers N.
@@ -48,7 +48,7 @@ If a set is countable and infinite, it is known as a countably infinite set. Exa
 
 A set is uncountable if:
 
-* It is infinite, and  
+* It is infinite  
 * Its elements cannot be listed not even in an infinite list like a1, a2, a3.
 
 If a set is uncountable, it is infinite and its elements cannot be listed in sequence; it is called an uncountably infinite set.
@@ -58,7 +58,7 @@ If a set is uncountable, it is infinite and its elements cannot be listed in seq
 
  ### **5. Cardinality of a Power Set**
 
-***Power Set** of a set S is the set of all possible subsets of S, including the empty set and S itself.*
+**Power Set** of a set S is the set of all possible subsets of S, including the empty set and S itself.
 
 If a set A has n elements, then the cardinality of its power set is equal to 2n, which is the number of subsets of the set A.
 
