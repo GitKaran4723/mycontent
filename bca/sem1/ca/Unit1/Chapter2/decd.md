@@ -1,5 +1,3 @@
-# 1
-
 # **DECIMAL CODES** 
 
 ---
@@ -274,8 +272,6 @@ If invalid:
 
 * Most widely used decimal code is **8421 BCD**
 
-# .
-
 # **Binary to Gray Code Conversion** 
 
 ---
@@ -482,8 +478,6 @@ Example:
 * Used mainly for **error reduction**
 
 * Not meant for arithmetic operations
-
-# 2
 
 # **Gray Code to Binary Code Conversion** 
 
