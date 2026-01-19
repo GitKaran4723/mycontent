@@ -158,7 +158,7 @@ Stores:
 
 ### **4.6 Central Processing Unit (CPU)**
 
-CPU \= **ALU \+ Control Unit \+ Registers**
+CPU = **ALU \+ Control Unit \+ Registers**
 
 * Heart of the digital computer
 
