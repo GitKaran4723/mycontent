@@ -414,13 +414,13 @@ Key Points:
 
 <pre>
 BIT        1    0    1    1
-2^position 2^3  2^2  2^1  2^0
+2ⁿ position 2³  2²  2¹  2⁰
 Multiply   1×8  0×4  1×2  1×1
+</pre>
+
 
 Sum: 8 + 0 + 2 + 1 = 11
 Decimal = 11₁₀
-</pre>
-
 
 
 **Sum:** 8 \+ 0 \+ 2 \+ 1 = 11
