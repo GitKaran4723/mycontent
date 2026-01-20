@@ -27,11 +27,11 @@ Some of the common sets with cardinality are:
 
 The total number in the set is known as the cardinality of a power set.
 
-*For example: If A \= {1, 2, 3, 4, 5}, then |A| \= 5\.*
+*For example: If A = {1, 2, 3, 4, 5}, then |A| = 5*
 
 ## **2. Cardinality of an Infinite Set**
 
-A set is countably infinite if its elements can be put into a one-to-one correspondence with the natural numbers N \= {1, 2, 3, . . . }. This means that you can list the elements of the set in a sequence (even if the sequence goes on forever).
+A set is countably infinite if its elements can be put into a one-to-one correspondence with the natural numbers N = {1, 2, 3, . . . }. This means that you can list the elements of the set in a sequence (even if the sequence goes on forever).
 
 The cardinality of a countably infinite set is denoted by ℵ0.
 
@@ -39,7 +39,7 @@ The cardinality of a countably infinite set is denoted by ℵ0.
 
 * ***Natural Numbers:** The set of natural numbers N={1, 2, 3, . . .} is countably infinite.*  
 * ***Integers:** The set of integers Z={. . . ,−2, −1, 0, 1, 2, . . . } is countably infinite because you can list them in a sequence like 0, 1, −1, 2, −2, . . .*  
-* ***Rational Numbers:** The set of rational numbers Q \= {a/b ∣ a,b ∈ Z, b ≠ 0} is countably infinite, though it's less obvious. The rationals can be arranged in a sequence by arranging fractions by their sum of numerator and denominator.*
+* ***Rational Numbers:** The set of rational numbers Q = {a/b ∣ a,b ∈ Z, b ≠ 0} is countably infinite, though it's less obvious. The rationals can be arranged in a sequence by arranging fractions by their sum of numerator and denominator.*
 
 ## **3. Cardinality of a Countable Set**
 
@@ -73,20 +73,20 @@ If a set A has n elements, then the cardinality of its power set is equal to 2n,
 
 If a set S has n elements, the power set P(S) will have 2n elements. This is because each element in S can either be included in or excluded from a subset, leading to 2n possible subsets.
 
-For any finite set S with n elements: ∣P(S)∣ \= 2n
+For any finite set S with n elements: ∣P(S)∣ = 2n
 
-*Consider the set S \= {a, b}.*
+**Consider the set S = {a, b}.**
 
-*Subsets of S are:*
+**Subsets of S are:**
 
-* *{} (the empty set)*  
-* *{a}*  
-* *{b}*  
-* *{a, b}*
+* **{} (the empty set)**  
+* **{a}**  
+* **{b}**  
+* **{a, b}**
 
-*The power set P(S) is {{}, {a}, {b}, {a, b}}*
+**The power set P(S) is {{}, {a}, {b}, {a, b}}**
 
-*Since S has 2 elements, the cardinality of the power set P(S) is 22 \= 4\.*
+**Since S has 2 elements, the cardinality of the power set P(S) is 22 = 4.**
 
 ## **6. Cardinality of Cartesian Products**
 
@@ -94,29 +94,29 @@ The Cartesian product of two sets A and B, denoted by A × B, is the set of all 
 
 The cardinality of the Cartesian product A x B is the total number of ordered pairs formed from A and B. It is given by:
 
-*|  A x B | \=| A | x | B |*
+**|  A x B | =| A | x | B |**
 
 * Where |A| and |B| are cardinalities of sets A and B.
 
-**Finite Set Example:** If A \= {1, 2} and B \= {x, y, z}, then A × B \= {(1, x), (1, y), (1, z), (2, x), (2, y), (2, z)}, so ∣A × B∣ \= 6\.
+**Finite Set Example:** If A = {1, 2} and B = {x, y, z}, then A × B = {(1, x), (1, y), (1, z), (2, x), (2, y), (2, z)}, so ∣A × B∣ = 6.
 
-**Infinite Set Example:** If A \= {1, 2,3,4,........} and B \= {10,20,30,........}, then |A × B| \= {(1, 10), (1, 20), (1, 30),...........,(2, 10), (2, 20), (2, 30)}.
+**Infinite Set Example:** If A = {1, 2,3,4,........} and B = {10,20,30,........}, then |A × B| = {(1, 10), (1, 20), (1, 30),...........,(2, 10), (2, 20), (2, 30)}.
 
 ### **Formulas Related to Cardinality**
 
 * If A and B are two disjoint sets, then
 
-*n(A U B) \= n(A) \+ n (B).*
+**n(A U B) = n(A) \+ n (B).**
 
 * For any two sets A and B,
 
-*n (A U B) \= n(A) \+ n (B) \- n (A ∩ B).*
+**n (A U B) = n(A) \+ n (B) \- n (A ∩ B).**
 
 This is popularly known as the "inclusion-exclusion principle".
 
 * For any three sets A, B, and C,
 
-*n(A U B U C) \= n (A) \+ n(B) \+ n(C) \- n(A ∩ B) \- n(B ∩ C) \- n(C ∩ A) \+ n (A ∩ B ∩ C).*
+**n(A U B U C) = n (A) \+ n(B) \+ n(C) \- n(A ∩ B) \- n(B ∩ C) \- n(C ∩ A) \+ n (A ∩ B ∩ C).**
 
 #  **Basic Counting**
 
@@ -128,7 +128,7 @@ This is popularly known as the "inclusion-exclusion principle".
 
 Used when **choices do not overlap**.
 
-If one task can be done in mmm ways and another in nnn ways, and you can choose **only one**, then total ways:
+If one task can be done in m ways and another in nnn ways, and you can choose **only one**, then total ways:
  **m+n**
 
 **Example**  
@@ -142,7 +142,7 @@ Total choices:
 
 Used when **choices happen in sequence**.
 
-If one task can be done in mmm ways and after that another in nnn ways, then total ways:
+If one task can be done in m ways and after that another in n ways, then total ways:
   **m×n**
 
 **Example**
@@ -154,8 +154,6 @@ Total outfits:
 4×3=12
 
 ## **Counting Using Sets**
-
-If a process has steps represented by sets:
 
 * Step 1 has ∣A∣ choices   
 * Step 2 has ∣B∣ choices
