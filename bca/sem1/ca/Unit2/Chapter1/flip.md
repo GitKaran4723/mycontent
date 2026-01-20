@@ -79,7 +79,12 @@ An **SR Flip-Flop** is a bistable device with **two inputs: S (Set) and R (Reset
 
 4. **S=1, R=1:** S=1, R=1: Both outputs would become 0 (invalid), which is undefined behavior.
 
+
+
 ![Truth Table Of SR Flipflop](https://media.geeksforgeeks.org/wp-content/uploads/20230602210012/sr6.png)
+
+
+![Function Table of SR Flipflop](https://media.geeksforgeeks.org/wp-content/uploads/20230602210243/sr8.png)
 
 ---
 
