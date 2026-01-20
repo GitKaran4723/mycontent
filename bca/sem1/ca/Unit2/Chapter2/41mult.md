@@ -65,9 +65,8 @@ A **4-to-1 multiplexer** has:
 
 The output can be expressed as:
 
-Y=S1‾ S0‾D0+S1‾S0D1+S1S0‾D2+S1S0D3Y = $$
-Y = \overline{S_1} \, \overline{S_0} D_0 + \overline{S_1} S_0 D_1 + S_1 \overline{S_0} D_2 + S_1 S_0 D_3
-$$
+Y=S1‾ S0‾D0+S1‾S0D1+S1S0‾D2+S1S0D3Y = \( Y = \overline{S_1} \, \overline{S_0} D_0 + \overline{S_1} S_0 D_1 + S_1 \overline{S_0} D_2 + S_1 S_0 D_3 \)
+
 
 
 Where:
