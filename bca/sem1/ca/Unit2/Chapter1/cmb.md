@@ -56,12 +56,12 @@ It is called *half* adder because it **does not consider carry input from a prev
 
 ### **Truth Table of Half Adder**
 
-| A | B | Sum (S) | Carry (C) |
-| ----- | ----- | ----- | ----- |
-| 0 | 0 | 0 | 0 |
-| 0 | 1 | 1 | 0 |
-| 1 | 0 | 1 | 0 |
-| 1 | 1 | 0 | 1 |
+| A | B | SUM (S) | CARRY (C) |
+|---|---|---------|-----------|
+| 0 | 0 |    0    |     0     |
+| 0 | 1 |    1    |     0     |
+| 1 | 0 |    1    |     0     |
+| 1 | 1 |    0    |     1     |
 
 ---
 
