@@ -100,12 +100,15 @@ Suppose a sequential circuit has **1 D flip-flop** and 1 input X.
 
 **State Table:**
 
-| Present State Q | Input X | Next State Q' | Description |
-| ----- | ----- | ----- | ----- |
-| 0 | 0 | 0 | No change |
-| 0 | 1 | 1 | Toggle to 1 |
-| 1 | 0 | 1 | No change |
-| 1 | 1 | 0 | Toggle to 0 |
+<pre>
+| Present State Q | Input X | Next State Q' | Description   |
+|-----------------|---------|---------------|---------------|
+| 0               | 0       | 0             | No change     |
+| 0               | 1       | 1             | Toggle to 1   |
+| 1               | 0       | 1             | No change     |
+| 1               | 1       | 0             | Toggle to 0   |
+</pre>
+
 
 *   
   Here, **D = Q\_next** (D Flip-Flop rule)
@@ -227,12 +230,15 @@ Simply: It’s a **visual version of the State Table**.
 
 **State Table:**
 
+<pre>
 | Q (Present) | X | Q' (Next) |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
+|-------------|---|-----------|
+| 0           | 0 | 0         |
+| 0           | 1 | 1         |
+| 1           | 0 | 1         |
+| 1           | 1 | 0         |
+</pre>
+
 
 **State Diagram:**
 
@@ -264,12 +270,15 @@ Simply: It’s a **visual version of the State Table**.
 
 3. Draw state table:
 
+<pre>
 | Q | X | Q' |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
+|---|---|----|
+| 0 | 0 | 0  |
+| 0 | 1 | 1  |
+| 1 | 0 | 1  |
+| 1 | 1 | 0  |
+</pre>
+
 
 4.   
    Draw state diagram:
