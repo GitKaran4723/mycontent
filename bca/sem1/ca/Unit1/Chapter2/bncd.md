@@ -298,12 +298,14 @@ Used in RAM, communication systems
 
 ## **8\. Comparison of Important Codes**
 
-| Code | Weighted | Self-Complementing | Error Reduction |
-| ----- | ----- | ----- | ----- |
-| Binary | ✔ | ✘ | ✘ |
-| BCD | ✔ | ✘ | ✘ |
-| Excess-3 | ✘ | ✔ | ✘ |
-| Gray | ✘ | ✘ | ✔ |
+<pre>
+CODE        WEIGHTED   SELF-COMPLEMENTING   ERROR REDUCTION
+Binary      ✔          ✘                    ✘
+BCD         ✔          ✘                    ✘
+Excess-3    ✘          ✔                    ✘
+Gray        ✘          ✘                    ✔
+</pre>
+
 
 ---
 
