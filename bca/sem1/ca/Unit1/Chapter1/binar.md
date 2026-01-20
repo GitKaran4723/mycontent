@@ -120,12 +120,13 @@ A   B   RESULT
 
 ### **Multiplication Rules**
 
-| A | B | Product |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+<pre>
+A   B   PRODUCT
+0   0      0
+0   1      0
+1   0      0
+1   1      1
+</pre>
 
 ---
 
