@@ -1,4 +1,3 @@
-# Tab 1
 
 ## **Shift Registers** 
 
@@ -154,7 +153,6 @@ For a 4-bit SISO register with input sequence `1, 0, 1, 1`:
 
 Shift registers are essential **building blocks of sequential logic**, used in **memory, data transfer, and digital signal processing**.
 
-# Tab 2
 
 ## **SISO (Serial-In Serial-Out) Shift Register – Full Explanation**
 
@@ -290,7 +288,6 @@ Let’s assume the **serial input sequence** is `1, 0, 1, 1` and initial registe
 | Operation | Shifts data one position per clock pulse |
 | Applications | Data transfer, storage, delay circuits |
 
-# Tab 3
 
 ## **SIPO (Serial-In Parallel-Out) Shift Register – Full Explanation**
 
