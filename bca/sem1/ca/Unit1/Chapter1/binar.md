@@ -60,12 +60,13 @@ Binary arithmetic follows simple rules based on **0 and 1**.
 
 ### **Addition Rules**
 
-| A | B | Sum | Carry |
-| ----- | ----- | ----- | ----- |
-| 0 | 0 | 0 | 0 |
-| 0 | 1 | 1 | 0 |
-| 1 | 0 | 1 | 0 |
-| 1 | 1 | 0 | 1 |
+<pre>
+A   B   SUM   CARRY
+0   0    0      0
+0   1    1      0
+1   0    1      0
+1   1    0      1
+</pre>
 
 ---
 
