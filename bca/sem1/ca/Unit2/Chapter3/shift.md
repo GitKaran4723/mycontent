@@ -438,7 +438,7 @@ Assume **serial input sequence** `1, 0, 1, 1` and initial state `0000`:
 
 * **SIPO:** Data shifts serially in, but outputs are **all bits in parallel**.
 
-# Tab 4
+
 
 ## **PISO (Parallel-In Serial-Out) Shift Register – Full Explanation**
 
@@ -581,7 +581,7 @@ Assume **parallel input = 1011** and initial register state `0000`:
 
 * **PISO:** Parallel input → Serial output
 
-# Tab 5
+
 
 ## **PIPO (Parallel-In Parallel-Out) Shift Register – Full Explanation**
 
