@@ -67,12 +67,13 @@ An **SR Flip-Flop** is a bistable device with **two inputs: S (Set) and R (Reset
 
 ### **4\. Operation of SR Flip-Flop**
 
-| S | R | Q (Next State) | Q’ (Next State) | Description |
-| ----- | ----- | ----- | ----- | ----- |
-| 0 | 0 | Q (No change) | Q’ (No change) | Memory state (retains previous value) |
-| 0 | 1 | 0 | 1 | Reset: Q is cleared to 0 |
-| 1 | 0 | 1 | 0 | Set: Q is set to 1 |
-| 1 | 1 | Invalid | Invalid | Forbidden state (not allowed) |
+<pre>
+S   R   Q (Next State)   Q' (Next State)   DESCRIPTION
+0   0   Q (No change)    Q' (No change)    Memory state (retains previous value)
+0   1   0                1                 Reset: Q is cleared to 0
+1   0   1                0                 Set: Q is set to 1
+1   1   Invalid          Invalid           Forbidden state (not allowed)
+</pre>
 
 **Explanation:**
 
@@ -195,12 +196,13 @@ A **D Flip-Flop** is a **bistable memory device** that stores the value of the *
 
 ### **4\. Truth Table**
 
-| D | Q (Previous) | Q' (Current) | Description |
-| ----- | ----- | ----- | ----- |
-| 0 | 1 | 0 | Stores 0 at clock edge |
-| 1 | 1 | 1 | Stores 1 at clock edge |
-| 0 | 0 | 0 | Stores 0 at clock edge |
-| 1 | 0 | 1 | Stores 1 at clock edge |
+<pre>
+D   Q (Previous)   Q' (Current)   DESCRIPTION
+0   1               0             Stores 0 at clock edge
+1   1               1             Stores 1 at clock edge
+0   0               0             Stores 0 at clock edge
+1   0               1             Stores 1 at clock edge
+</pre>
 
 ✅ **Explanation:**
 
@@ -324,16 +326,18 @@ Unlike SR flip-flop, **J = K = 1 is a valid state**.
 
 ### **4\. Truth Table**
 
-| J | K | Q (Previous) | Q’ (Current) | Description |
-| ----- | ----- | ----- | ----- | ----- |
-| 0 | 0 | 0 | 0 | No change |
-| 0 | 0 | 1 | 1 | No change |
-| 0 | 1 | 0 | 0 | Reset Q = 0 |
-| 0 | 1 | 1 | 0 | Reset Q = 0 |
-| 1 | 0 | 0 | 1 | Set Q = 1 |
-| 1 | 0 | 1 | 1 | Set Q = 1 |
-| 1 | 1 | 0 | 1 | Toggle Q |
-| 1 | 1 | 1 | 0 | Toggle Q |
+<pre>
+J   K   Q (Previous)   Q' (Current)   DESCRIPTION
+0   0   0               0              No change
+0   0   1               1              No change
+0   1   0               0              Reset: Q = 0
+0   1   1               0              Reset: Q = 0
+1   0   0               1              Set: Q = 1
+1   0   1               1              Set: Q = 1
+1   1   0               1              Toggle Q
+1   1   1               0              Toggle Q
+</pre>
+
 
 ---
 
@@ -434,12 +438,13 @@ A **T Flip-Flop** (Toggle Flip-Flop) is a **bistable memory device** that **togg
 
 ### **4\. Truth Table**
 
-| T | Q (Previous) | Q’ (Current) | Description |
-| ----- | ----- | ----- | ----- |
-| 0 | 0 | 0 | No change |
-| 0 | 1 | 1 | No change |
-| 1 | 0 | 1 | Toggle (0 → 1\) |
-| 1 | 1 | 0 | Toggle (1 → 0\) |
+<pre>
+T   Q (Previous)   Q' (Current)   DESCRIPTION
+0   0               0              No change
+0   1               1              No change
+1   0               1              Toggle (0 → 1)
+1   1               0              Toggle (1 → 0)
+</pre>
 
 ---
 
