@@ -90,12 +90,13 @@ A   B   SUM   CARRY
 
 ### **Subtraction Rules**
 
-| A | B | Result |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
-| 0 | 1 | 1 (Borrow from next bit) |
+<pre>
+A   B   RESULT
+0   0     0
+1   0     1
+1   1     0
+0   1     1  (Borrow from next bit)
+</pre>
 
 ---
 
