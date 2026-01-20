@@ -64,12 +64,15 @@ These tables show the **required input values** for a flip-flop to achieve a des
 
 #### **B. T Flip-Flop Excitation Table**
 
-| Q (Present) | Q\_next | T (Input) |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
+<pre>
+| Q (Present) | Q_next | T (Input) |
+|-------------|--------|-----------|
+| 0           | 0      | 0         |
+| 0           | 1      | 1         |
+| 1           | 0      | 1         |
+| 1           | 1      | 0         |
+</pre>
+
 
 **Observation:** T = Q ⊕ Q\_next
 
@@ -77,12 +80,15 @@ These tables show the **required input values** for a flip-flop to achieve a des
 
 #### **C. JK Flip-Flop Excitation Table**
 
-| Q (Present) | Q\_next | J | K |
-| ----- | ----- | ----- | ----- |
-| 0 | 0 | 0 | X |
-| 0 | 1 | 1 | X |
-| 1 | 0 | X | 1 |
-| 1 | 1 | X | 0 |
+<pre>
+| Q (Present) | Q_next | J | K |
+|-------------|--------|---|---|
+| 0           | 0      | 0 | X |
+| 0           | 1      | 1 | X |
+| 1           | 0      | X | 1 |
+| 1           | 1      | X | 0 |
+</pre>
+
 
 (X = don't care)
 
