@@ -169,12 +169,13 @@ A full adder can be constructed using:
 
 ## **4\. Comparison: Half Adder vs Full Adder**
 
-| Feature | Half Adder | Full Adder |
-| ----- | ----- | ----- |
-| Inputs | 2 | 3 |
-| Carry Input | No | Yes |
-| Outputs | Sum, Carry | Sum, Carry |
-| Used in Multi-bit Addition | No | Yes |
+<pre>
+FEATURE                     HALF ADDER        FULL ADDER
+Inputs                      2                 3
+Carry Input                 No                Yes
+Outputs                     Sum, Carry        Sum, Carry
+Used in Multi-bit Addition  No                Yes
+</pre>
 
 ---
 
