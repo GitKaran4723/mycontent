@@ -264,13 +264,14 @@ BCD subtraction is performed using **10’s complement method**.
 
 # **5\. Comparison: BCD vs Binary Arithmetic**
 
-| Feature | BCD | Binary |
-| ----- | ----- | ----- |
-| Digits | Decimal digits | Bits |
-| Speed | Slower | Faster |
-| Correction needed | Yes | No |
-| Accuracy | High | High |
-| Usage | Financial systems | CPUs |
+<pre>
+FEATURE            BCD                BINARY
+Digits             Decimal digits     Bits
+Speed              Slower             Faster
+Correction needed  Yes                No
+Accuracy           High               High
+Usage              Financial systems  CPUs
+</pre>
 
 ---
 

@@ -8,7 +8,7 @@ Hex uses **16 symbols**:
 
 | Decimal | Hex |
 | ----- | ----- |
-| 0–9 | 0–9 |
+| 0–9 | Remains same(0–9) |
 | 10 | A |
 | 11 | B |
 | 12 | C |

@@ -60,12 +60,13 @@ Binary arithmetic follows simple rules based on **0 and 1**.
 
 ### **Addition Rules**
 
-| A | B | Sum | Carry |
-| ----- | ----- | ----- | ----- |
-| 0 | 0 | 0 | 0 |
-| 0 | 1 | 1 | 0 |
-| 1 | 0 | 1 | 0 |
-| 1 | 1 | 0 | 1 |
+<pre>
+A   B   SUM   CARRY
+0   0    0      0
+0   1    1      0
+1   0    1      0
+1   1    0      1
+</pre>
 
 ---
 
@@ -89,12 +90,13 @@ Binary arithmetic follows simple rules based on **0 and 1**.
 
 ### **Subtraction Rules**
 
-| A | B | Result |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
-| 0 | 1 | 1 (Borrow from next bit) |
+<pre>
+A   B   RESULT
+0   0     0
+1   0     1
+1   1     0
+0   1     1  (Borrow from next bit)
+</pre>
 
 ---
 
@@ -118,12 +120,13 @@ Binary arithmetic follows simple rules based on **0 and 1**.
 
 ### **Multiplication Rules**
 
-| A | B | Product |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+<pre>
+A   B   PRODUCT
+0   0      0
+0   1      0
+1   0      0
+1   1      1
+</pre>
 
 ---
 
