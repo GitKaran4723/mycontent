@@ -12,4 +12,4 @@ The **union of set** A and B, denoted by **A ∪ B,** is the set of distinct ele
 
 *The area shaded in green represents A ∪ B or the union of sets A and B.*
 
-https://docs.google.com/document/d/19_klHjkaRSWlRX-9RE0dq1JdqItwJNPG7Fv_z9FSK2w/edit?usp=sharing
+[https://docs.google.com/document/d/19_klHjkaRSWlRX-9RE0dq1JdqItwJNPG7Fv_z9FSK2w/edit?usp=sharing]
