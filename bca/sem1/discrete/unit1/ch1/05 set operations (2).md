@@ -27,8 +27,8 @@ The **intersection of set** A and B, denoted by **A ∩ B**, is the set of eleme
 The area shaded in yellow represents A∩B or the intersection of sets A and B, which includes the elements common to both sets A and B.
 ![intersection](https://lh3.googleusercontent.com/d/1yLIVzjfMW2w5Y-N3g6m-c6hlyYXJPe_A)
 
-***Example:** Find the intersection of A = {2, 3, 4} and B = {3, 4, 5}
-***Solution:**  A ∩ B = {3, 4}.
+**Example:** Find the intersection of A = {2, 3, 4} and B = {3, 4, 5}
+**Solution:**  A ∩ B = {3, 4}.
 
 ***The intersection of sets A and B can also be interpreted as:***
 
@@ -49,6 +49,8 @@ So if you try to find their intersection, you’ll get the empty set, which we d
 
 The sets A and B are disjoint, meaning they have no common elements (no overlap).
 ![disjoint](https://lh3.googleusercontent.com/d/1NDEKKZBndFxS7pT1jqf6nSZN_D2p_Qzj)
+
+
  **For Example:** Let A = {1, 3, 5, 7, 9} and B = {2, 4, 6, 8}
 
 **Solution:** A and B are disjoint sets since both of them have no common elements.
@@ -62,6 +64,8 @@ X' = {a : a∈ U and a ∉ X}
 
 In the diagram below, set A' includes all elements not in A, relative to the universal set
 ![complement](https://lh3.googleusercontent.com/d/1lld71xjr3INPzA7d3KiCeYX8A6MmpfwR)
+
+
 **Example:** Let U = {1, 2, 3, 4, 5, 6, 7, 8} And A = {1, 2, 5, 6}
 
 **Solution:**  the **complement** of A, denoted as A′.
