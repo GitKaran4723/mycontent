@@ -186,12 +186,13 @@ Used in:
 
 ## **6\. Comparison of Decimal Codes**
 
-| Code | Weighted | Self-Complementing | Usage |
-| ----- | ----- | ----- | ----- |
-| 8421 BCD | ✔ | ✘ | Displays, calculators |
-| 2421 | ✔ | ✔ | Arithmetic circuits |
-| XS-3 | ✘ | ✔ | Digital subtraction |
-| Gray | ✘ | ✘ | Error reduction |
+<pre>
+CODE       WEIGHTED   SELF-COMPLEMENTING   USAGE
+8421 BCD   ✔          ✘                    Displays, calculators
+2421       ✔          ✔                    Arithmetic circuits
+XS-3       ✘          ✔                    Digital subtraction
+Gray       ✘          ✘                    Error reduction
+</pre>
 
 ---
 
@@ -320,12 +321,13 @@ Where **⊕ (XOR)** means:
 
 ## **4\. XOR Truth Table**
 
-| Binary A | Binary B | A ⊕ B |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
+<pre>
+BINARY A   BINARY B   A ⊕ B
+0          0          0
+0          1          1
+1          0          1
+1          1          0
+</pre>
 
 ---
 
@@ -353,9 +355,11 @@ XOR each pair of adjacent binary bits
 
 ### **Step-by-Step Table**
 
-| Binary | 1 | 0 | 1 | 1 |
-| ----- | ----- | ----- | ----- | ----- |
-| Gray | 1 | 1 | 1 | 0 |
+<pre>
+BINARY   1   0   1   1
+GRAY     1   1   1   0
+</pre>
+
 
 ### **Explanation:**
 
@@ -379,9 +383,11 @@ XOR each pair of adjacent binary bits
 
 `11001`
 
-| Binary | 1 | 1 | 0 | 0 | 1 |
-| ----- | ----- | ----- | ----- | ----- | ----- |
-| Gray | 1 | 0 | 1 | 0 | 1 |
+<pre>
+BINARY   1   1   0   0   1
+GRAY     1   0   1   0   1
+</pre>
+
 
 Explanation:
 
@@ -403,16 +409,17 @@ Explanation:
 
 ## **8\. Table Conversion Example (0–7)**
 
-| Decimal | Binary | Gray |
-| ----- | ----- | ----- |
-| 0 | 000 | 000 |
-| 1 | 001 | 001 |
-| 2 | 010 | 011 |
-| 3 | 011 | 010 |
-| 4 | 100 | 110 |
-| 5 | 101 | 111 |
-| 6 | 110 | 101 |
-| 7 | 111 | 100 |
+<pre>
+DECIMAL   BINARY   GRAY
+0         000      000
+1         001      001
+2         010      011
+3         011      010
+4         100      110
+5         101      111
+6         110      101
+7         111      100
+</pre>
 
 ---
 
@@ -586,12 +593,14 @@ This continues until the last bit.
 
 `0110`
 
-| Gray Bit | Binary Bit |
-| ----- | ----- |
-| 0 | 0 |
-| 1 | 1 |
-| 1 | 0 |
-| 0 | 0 |
+<pre>
+GRAY BIT   BINARY BIT
+0          0
+1          1
+1          0
+0          0
+</pre>
+
 
 ### **Final Binary:**
 

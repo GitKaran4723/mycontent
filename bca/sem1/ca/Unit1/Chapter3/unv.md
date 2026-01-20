@@ -32,12 +32,14 @@ Y = NOT (A \* B)
 
 ### **2.3 Truth Table**
 
-| A | B | Y |
-| ----- | ----- | ----- |
-| 0 | 0 | 1 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
+<pre>
+A   B   Y
+0   0   1
+0   1   1
+1   0   1
+1   1   0
+</pre>
+
 
 ### **2.4 Realizing Other Gates Using NAND**
 
@@ -80,12 +82,14 @@ Y = NOT (A \+ B)
 
 ### **3.3 Truth Table**
 
-| A | B | Y |
-| ----- | ----- | ----- |
-| 0 | 0 | 1 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 0 |
+<pre>
+A   B   Y
+0   0   1
+0   1   0
+1   0   0
+1   1   0
+</pre>
+
 
 ### **3.4 Realizing Other Gates Using NOR**
 

@@ -55,12 +55,14 @@ Logic gates are classified into:
 
 **Truth Table:**
 
-| A | B | Y |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+<pre>
+A   B   Y
+0   0   0
+0   1   0
+1   0   0
+1   1   1
+</pre>
+
 
 **Working:**  
  The AND gate performs **logical multiplication**. The output is high only when **all input conditions are satisfied**.
@@ -86,12 +88,14 @@ Logic gates are classified into:
 
 **Truth Table:**
 
-| A | B | Y |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 1 |
+<pre>
+A   B   Y
+0   0   0
+0   1   1
+1   0   1
+1   1   1
+</pre>
+
 
 **Working:**  
  The OR gate performs **logical addition**.
@@ -145,12 +149,13 @@ Logic gates are classified into:
 
 **Truth Table:**
 
-| A | B | Y |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
+<pre>
+A   B   Y
+0   0   0
+0   1   1
+1   0   1
+1   1   0
+</pre>
 
 **Working:**  
  The XOR gate performs **modulo-2 addition**.
@@ -177,12 +182,14 @@ Logic gates are classified into:
 
 **Truth Table:**
 
-| A | B | Y |
-| ----- | ----- | ----- |
-| 0 | 0 | 1 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+<pre>
+A   B   Y
+0   0   1
+0   1   0
+1   0   0
+1   1   1
+</pre>
+
 
 **Applications:**
 
