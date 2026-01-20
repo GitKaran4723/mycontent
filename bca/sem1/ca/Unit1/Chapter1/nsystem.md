@@ -67,6 +67,10 @@ A **number system** defines how numbers are represented using digits and a **bas
 
 ---
 
+**Diagram of Number System**
+
+![Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20250328165428555908/Number-System.webp)
+
 ## **🔁 Number System Conversions**
 
 ### **Decimal → Binary**
