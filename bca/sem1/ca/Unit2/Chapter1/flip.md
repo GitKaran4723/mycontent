@@ -308,6 +308,8 @@ It is widely used in **counters and sequential circuits** because of its toggle 
 * **J = 1, K = 1** → Toggle Q (Q → Q’)
 
 Unlike SR flip-flop, **J = K = 1 is a valid state**.
+
+
 **JK Flip-Flop Diagram and Truth Table:**
 ![JK Flip-Flop Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20240912114055/JK-Flip-Flop.png)
 
