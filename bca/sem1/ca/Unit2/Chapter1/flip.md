@@ -164,6 +164,17 @@ A **D Flip-Flop** is a **bistable memory device** that stores the value of the *
 
 * **Outputs remain constant** between clock edges, regardless of changes in D.
 
+![D Flip-Flop Image](https://media.geeksforgeeks.org/wp-content/uploads/20250407160315528101/22.webp)
+
+
+
+
+
+
+
+
+![D Flip-Flop Truth Table](https://media.geeksforgeeks.org/wp-content/uploads/20230526160600/hioja.png)
+
 ---
 
 ### **4\. Truth Table**
@@ -287,6 +298,8 @@ It is widely used in **counters and sequential circuits** because of its toggle 
 
 Unlike SR flip-flop, **J = K = 1 is a valid state**.
 
+![JK Flip-Flop Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20240912114055/JK-Flip-Flop.png)
+
 ---
 
 ### **4\. Truth Table**
@@ -366,6 +379,8 @@ A **T Flip-Flop** (Toggle Flip-Flop) is a **bistable memory device** that **togg
 
 * It is widely used in **counters and frequency dividers** because of its toggling behavior.
 
+![T Flip-Flop](https://media.geeksforgeeks.org/wp-content/uploads/20250407130300749137/t3.png)
+
 ---
 
 ### **2\. Inputs and Outputs**
@@ -386,6 +401,8 @@ A **T Flip-Flop** (Toggle Flip-Flop) is a **bistable memory device** that **togg
 * **T = 1** → Output **toggles** (Q → Q’) on each clock edge
 
 ✅ Key Point: T Flip-Flop is **edge-triggered**, so output changes only **at clock edges**.
+
+![T Flip-Flop Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20250407142240378264/t2.jpg)
 
 ---
 
