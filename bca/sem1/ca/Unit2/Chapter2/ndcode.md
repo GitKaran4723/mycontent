@@ -91,7 +91,6 @@ For a **2-to-4 NAND decoder**, the outputs are:
 
 * Active output goes **LOW**, inactive outputs stay **HIGH**.
 
-*(You can insert your diagram here.)*
 
 ---
 
