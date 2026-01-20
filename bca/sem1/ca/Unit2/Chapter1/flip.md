@@ -83,7 +83,19 @@ An **SR Flip-Flop** is a bistable device with **two inputs: S (Set) and R (Reset
 
 ![Truth Table Of SR Flipflop](https://media.geeksforgeeks.org/wp-content/uploads/20230602210012/sr6.png)
 
+
+
+
+
+
+
+
+
+
+
 **Functional Table of SR Flip-flop:**
+
+
 ![Function Table of SR Flipflop](https://media.geeksforgeeks.org/wp-content/uploads/20230602210243/sr8.png)
 
 ---
