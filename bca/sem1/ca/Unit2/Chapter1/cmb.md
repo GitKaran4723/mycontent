@@ -122,16 +122,15 @@ A **Full Adder** is a combinational circuit that **adds three single-bit binary 
 ### **Truth Table of Full Adder**
 
 <pre>
-A  B  CIN | SUM (S) | CARRY (COUT)
---------------------------------
-0  0   0  |    0    |      0
-0  0   1  |    1    |      0
-0  1   0  |    1    |      0
-0  1   1  |    0    |      1
-1  0   0  |    1    |      0
-1  0   1  |    0    |      1
-1  1   0  |    0    |      1
-1  1   1  |    1    |      1
+A   B   CIN   SUM(S)   CARRY(COUT)
+0   0    0      0          0
+0   0    1      1          0
+0   1    0      1          0
+0   1    1      0          1
+1   0    0      1          0
+1   0    1      0          1
+1   1    0      0          1
+1   1    1      1          1
 </pre>
 
 
