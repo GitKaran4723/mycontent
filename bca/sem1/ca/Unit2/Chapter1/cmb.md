@@ -134,10 +134,11 @@ A **Full Adder** is a combinational circuit that **adds three single-bit binary 
 
 ### **Logic Expressions**
 
-* **Sum:**  
-   S=A⊕B⊕CinS = A \\oplus B \\oplus CinS=A⊕B⊕Cin  
-* **Carry:**  
-   Cout=AB+BCin+ACinCout = AB \+ BCin \+ ACinCout=AB+BCin+ACin
+**Sum:**
+S = A ⊕ B ⊕ Cin
+
+**Carry:**
+Cout = AB + BCin + ACin
 
 
 
