@@ -48,12 +48,15 @@ These tables show the **required input values** for a flip-flop to achieve a des
 
 #### **A. D Flip-Flop Excitation Table**
 
-| Q (Present) | Q\_next | D (Input) |
-| ----- | ----- | ----- |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+<pre>
+| Q (Present) | Q_next | D (Input) |
+|-------------|--------|-----------|
+| 0           | 0      | 0         |
+| 0           | 1      | 1         |
+| 1           | 0      | 0         |
+| 1           | 1      | 1         |
+</pre>
+
 
 **Observation:** D = Q\_next
 
