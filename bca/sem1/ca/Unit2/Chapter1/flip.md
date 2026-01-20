@@ -45,6 +45,11 @@ An **SR Flip-Flop** is a bistable device with **two inputs: S (Set) and R (Reset
 
 * **Q’** → Complement of Q (always opposite of Q)
 
+
+
+**Diagram of SR Flip-Flop**
+
+
 ![Diagram of SR-Flipflop](https://media.geeksforgeeks.org/wp-content/uploads/20240513153126/Untitled-Diagram---2024-05-13T153118202.webp)
 
 ---
