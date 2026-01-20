@@ -138,7 +138,7 @@ A **Full Adder** is a combinational circuit that **adds three single-bit binary 
    S=A⊕B⊕CinS = A \\oplus B \\oplus CinS=A⊕B⊕Cin  
 * **Carry:**  
    Cout=AB+BCin+ACinCout = AB \+ BCin \+ ACinCout=AB+BCin+ACin
-
+![Full Adder Diagram](https://www.poriyaan.in/media/imgPori/images51/Qvr64Nz.jpg)
 ---
 
 ### **Full Adder Using Half Adders**
