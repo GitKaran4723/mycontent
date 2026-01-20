@@ -1,4 +1,4 @@
-## **NAND Gate Decoder **
+## NAND Gate Decoder 
 
 ---
 
