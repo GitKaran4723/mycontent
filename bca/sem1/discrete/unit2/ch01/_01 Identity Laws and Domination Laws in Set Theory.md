@@ -1,19 +1,4 @@
----
-
-# **Identity Laws and Domination Laws in Set Theory**
-
-In set theory, laws of sets describe how set operations behave.  
-Two important such laws are Identity Laws and Domination Laws.
-
-We assume:
-
-* U = Universal set (contains all elements under discussion)  
-* ∅ = Empty set (contains no elements)  
-* A = Any arbitrary set
-
----
-
-## **1\. Identity Laws**
+# ** Identity Laws**
 
 Identity laws state that there exist certain sets which, when combined with another set using union or intersection, do not change the original set.
 
@@ -59,7 +44,7 @@ Then: A ∩ U = { 2, 4 }
 The universal set is the identity element for intersection.
 
 
-# **2\. Domination Laws**
+# ** Domination Laws**
 
 **Definition**
 
