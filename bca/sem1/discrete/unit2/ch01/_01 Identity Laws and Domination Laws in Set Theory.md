@@ -1,4 +1,4 @@
-# ** Identity Laws**
+# **Identity Laws**
 
 Identity laws state that there exist certain sets which, when combined with another set using union or intersection, do not change the original set.
 
@@ -44,7 +44,7 @@ Then: A ∩ U = { 2, 4 }
 The universal set is the identity element for intersection.
 
 
-# ** Domination Laws**
+# **Domination Laws**
 
 **Definition**
 
