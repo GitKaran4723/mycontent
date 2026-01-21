@@ -55,22 +55,3 @@ The sets A and B are disjoint, meaning they have no common elements (no overlap)
 
 **Solution:** A and B are disjoint sets since both of them have no common elements.
 
-## ***4. Complement of a Set***
-
-If U is a universal set and X is any subset of U, then the complement of X consists of all the elements in U that are not in X.
-X' = {a : a∈ U and a ∉ X}
-
-### ***Venn Diagram For Complement of a Set***
-
-In the diagram below, set A' includes all elements not in A, relative to the universal set
-![complement](https://lh3.googleusercontent.com/d/1lld71xjr3INPzA7d3KiCeYX8A6MmpfwR)
-
-
-**Example:** Let U = {1, 2, 3, 4, 5, 6, 7, 8} And A = {1, 2, 5, 6}
-
-**Solution:**  the **complement** of A, denoted as A′.
-
-  A′ = {3, 4, 7, 8}
-
- 
-
