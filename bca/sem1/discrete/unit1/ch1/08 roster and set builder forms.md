@@ -32,7 +32,7 @@ The set-builder form defines a set by stating a rule or property that all elemen
 ## **Converting Between Forms**
 
 **Roster → Set-Builder**
-{ 2, 4, 6, 8 } ⇒ { x∣x \= 2n,  n ∈ N,  1 ≤ n ≤ 4}  
+{ 2, 4, 6, 8 } ⇒ { x∣x = 2n,  n ∈ N,  1 ≤ n ≤ 4}  
 
 **Set-Builder → Roster**  
-{ x ∈ Z∣ −2 ≤ x ≤2}⇒{−2,−1,0,1,2}
+{ x ∈ Z∣ −2 ≤ x ≤ 2 } ⇒ { −2, −1, 0, 1, 2 }
