@@ -1,4 +1,4 @@
-# **Stack Organization – Full Explanation**
+# **Stack Organization **
 
 ---
 
