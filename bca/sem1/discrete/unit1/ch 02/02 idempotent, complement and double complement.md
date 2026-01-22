@@ -18,7 +18,7 @@ The union idempotence law states that:
 
 ***A ∪ A = A***
 
-# ** Complement Laws**
+# **Complement Laws**
 
 ## **1. Union complement**
 
