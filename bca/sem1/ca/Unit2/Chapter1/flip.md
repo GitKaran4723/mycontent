@@ -50,7 +50,7 @@ An **SR Flip-Flop** is a bistable device with **two inputs: S (Set) and R (Reset
 **Diagram of SR Flip-Flop**
 
 
-![Diagram of SR-Flipflop](https://media.geeksforgeeks.org/wp-content/uploads/20240513153126/Untitled-Diagram---2024-05-13T153118202.webp)
+![Diagram of SR-Flipflop](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097389/Sr_Flip_Flop_Diagram._mpfchk.webp)
 
 ---
 
@@ -87,7 +87,7 @@ S   R   Q (Next State)   Q' (Next State)   DESCRIPTION
 
 **Truth Table of SR Flip-Flop:**
 
-![Truth Table Of SR Flipflop](https://media.geeksforgeeks.org/wp-content/uploads/20230602210012/sr6.png)
+![Truth Table Of SR Flipflop](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097391/Truth_Table_of_SR_Flip_Flop_vseycu.png)
 
 
 
@@ -102,7 +102,7 @@ S   R   Q (Next State)   Q' (Next State)   DESCRIPTION
 **Functional Table of SR Flip-flop:**
 
 
-![Function Table of SR Flipflop](https://media.geeksforgeeks.org/wp-content/uploads/20230602210243/sr8.png)
+![Function Table of SR Flipflop](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097380/Functional_Table_of_SR_FLipFLop_abphps.png)
 
 ---
 
@@ -172,7 +172,7 @@ A **D Flip-Flop** is a **bistable memory device** that stores the value of the *
 
 **D Flip-Flop Image:**
 
-![D Flip-Flop Image](https://media.geeksforgeeks.org/wp-content/uploads/20250407160315528101/22.webp)
+![D Flip-Flop Image](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097379/D_Flip_FLop_IMage_zrib2s.webp)
 
 
 
@@ -184,7 +184,7 @@ A **D Flip-Flop** is a **bistable memory device** that stores the value of the *
 
 **Truth Table of D Flip-Flop:**
 
-![D Flip-Flop Truth Table](https://media.geeksforgeeks.org/wp-content/uploads/20230526160600/hioja.png)
+![D Flip-Flop Truth Table](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097379/D_FLip_FLop_Truth_Table_vlqkef.png)
 
 
 
@@ -318,7 +318,7 @@ Unlike SR flip-flop, **J = K = 1 is a valid state**.
 
 
 **JK Flip-Flop Diagram and Truth Table:**
-![JK Flip-Flop Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20240912114055/JK-Flip-Flop.png)
+![JK Flip-Flop Diagram](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097381/JK_FLip_Flop_Diagram_and_Truth_Table._dcxh7k.png)
 
 
 
@@ -406,7 +406,7 @@ A **T Flip-Flop** (Toggle Flip-Flop) is a **bistable memory device** that **togg
 **Block Diagram of T Flip-Flop:**
 
 
-![T Flip-Flop](https://media.geeksforgeeks.org/wp-content/uploads/20250407130300749137/t3.png)
+![T Flip-Flop](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097390/T_FLip_FLop_psufzc.png)
 
 ---
 
@@ -432,7 +432,7 @@ A **T Flip-Flop** (Toggle Flip-Flop) is a **bistable memory device** that **togg
 
 **T Flip-Flop Truth Table:**
 
-![T Flip-Flop Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20250407142240378264/t2.jpg)
+![T Flip-Flop Diagram](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097390/T_FLip_Flop_Truth_Table._smxpec.jpg)
 
 ---
 
