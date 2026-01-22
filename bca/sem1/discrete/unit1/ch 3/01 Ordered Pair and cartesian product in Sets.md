@@ -88,7 +88,7 @@ Let a ∈ A then the number of ordered pair (a, b) such that b ∈ B is |B|
 
 Therefore we have |B| choices for b for each a where a ∈ A therefore the number of element in A × B is |A| × |B|
 
-**4\. A × B = ∅, if either A = ∅ or B \= ∅**
+**4\. A × B = ∅, if either A = ∅ or B = ∅**
 
 **Proof:** 
 
