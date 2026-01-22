@@ -4,7 +4,7 @@ In **set theory,** ordered pairs are often used to define relations between elem
 
 In set theory, ordered pairs are instrumental in establishing relations between elements of different sets.
 
- **example*:**
+ **example:**
 
  *A={(1,2),(3,4),(5,6)}*
 
@@ -118,7 +118,7 @@ Suppose A × B = ∅. This means there are no ordered pairs (a, b) where a ∈ A
 
 *Cardinality: ∣R∣ = 4\.*
 
-***Problem 4\.** If A × B = {(a, x), (a, y ), (b, x ), (b, y)}, find A and B?*
+***Problem 4:** If A × B = {(a, x), (a, y ), (b, x ), (b, y)}, find A and B?*
 
 ***Solution:***
 
