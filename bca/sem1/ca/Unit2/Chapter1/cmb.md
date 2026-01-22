@@ -81,7 +81,7 @@ A   B   SUM(S)   CARRY(C)
 * Sum is implemented using an **XOR gate**
 
 * Carry is implemented using an **AND gate**
-![Half Adder Logic Diagram](https://www.electronics-tutorial.net/wp-content/uploads/2015/09/HA.png)
+![Half Adder Logic Diagram](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097380/Half_Adder_diagram_b0kcjh.png)
 
 ---
 
@@ -146,7 +146,7 @@ Cout = AB + BCin + ACin
 
 
 
-![Full Adder Diagram](https://www.poriyaan.in/media/imgPori/images51/Qvr64Nz.jpg)
+![Full Adder Diagram](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769097380/Full_adder_diagram_wd2lm1.jpg)
 ---
 
 ### **Full Adder Using Half Adders**
