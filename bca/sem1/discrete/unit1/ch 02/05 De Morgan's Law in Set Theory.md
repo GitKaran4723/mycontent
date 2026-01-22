@@ -32,7 +32,7 @@ then p ∈ X ⇒ p ∈ (A ∪ B)'
 ⇒ p ∈ A' and p ∈ B' 
 ⇒ p ∈ A' ∩ B' 
 ⇒ p ∈ Y
-```
+
 
 ∴ X ⊂ Y              . . . (i)
 
@@ -48,6 +48,7 @@ Again, let q be any element of Y, then q ∈ Y ⇒ q ∈ A' ∩ B'
 From (i) and (ii) X = Y
 
 (A ∪ B)' = A' ∩ B'
+```
 
 ## **Second De Morgan's Law**
 
@@ -66,6 +67,7 @@ It is also called **De Morgan's Law of Intersection**.
 
 ### **Proof Using Algebra of Sets**
 
+```
 Second De Morgan's law: (A ∩ B)' = A' ∪ B'
 
 Let X = (A ∩ B)' and Y = A' ∪ B'  
@@ -92,6 +94,7 @@ From (i) and (ii) X = Y
 
 (A ∩ B)' = A' ∪ B'
 
+```
 ## **Solved Question on De Morgan's Law**
 
 **Question 1:** Given that U = {2, 3, 7, 8, 9}, A = {2, 7} and B = {2, 3, 9}. Prove De Morgan's Second Law.
