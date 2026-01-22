@@ -22,7 +22,14 @@ It is also called **De Morgan's Law of Union.**
 
 ### **Proof Using Algebra of Sets**
 
- We need to prove, (A ∪ B)' = A' ∩ B' Let X = (A ∪ B)' and Y = A' ∩ B' Let p be any element of X, then p ∈ X ⇒ p ∈ (A ∪ B)' ⇒ p ∉ (A ∪ B) ⇒ p ∉ A or p ∉ B ⇒ p ∈ A' and p ∈ B' ⇒ p ∈ A' ∩ B' ⇒ p ∈ Y
+We need to prove, (A ∪ B)' = A' ∩ B'
+Let X = (A ∪ B)' and Y = A' ∩ B' Let p be any element of X,
+then p ∈ X ⇒ p ∈ (A ∪ B)'
+⇒ p ∉ (A ∪ B)
+⇒ p ∉ A or p ∉ B
+⇒ p ∈ A' and p ∈ B' 
+⇒ p ∈ A' ∩ B'
+⇒ p ∈ Y
 
 ∴ X ⊂ Y              . . . (i)
 
