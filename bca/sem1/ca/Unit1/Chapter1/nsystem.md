@@ -69,7 +69,7 @@ A **number system** defines how numbers are represented using digits and a **bas
 
 **Diagram of Number System**
 
-![Diagram](https://media.geeksforgeeks.org/wp-content/uploads/20250328165428555908/Number-System.webp)
+![Diagram](https://drive.google.com/file/d/13aBtI_ViRQ4i6VfYjZQ4w5zauinYclCj/view?usp=sharing)
 
 ## **🔁 Number System Conversions**
 

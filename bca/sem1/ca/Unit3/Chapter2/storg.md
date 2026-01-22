@@ -1,4 +1,4 @@
-# Stack Organization **
+# Stack Organization 
 
 ---
 
