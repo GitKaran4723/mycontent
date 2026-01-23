@@ -36,6 +36,10 @@
 
 * Used in **financial, calculator, and display systems**
 
+**Diagram of BCD **
+
+![Diagram](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769179504/bcd-number-system-l_mhqfa2.jpg)
+
 ---
 
 # **3\. BCD Addition**
