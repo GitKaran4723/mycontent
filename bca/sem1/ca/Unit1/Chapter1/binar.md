@@ -54,6 +54,10 @@ Same as a decimal point but used in binary numbers.
 
 Binary arithmetic follows simple rules based on **0 and 1**.
 
+**Binary Rules Diagram**
+
+![Diagram](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769178815/Table-Listing-Binary-Arithmatic-Operations_rbtwzx.jpg)
+
 ---
 
 ## **4\. Binary Addition**
