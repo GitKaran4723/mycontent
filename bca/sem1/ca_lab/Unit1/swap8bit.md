@@ -32,6 +32,7 @@ HLT
 
 ![Output](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769238682/firstprogop8085_qihby1.png)
 
+
 ## **Logic of Code:**
 
 ### **🧠 Step-by-Step Logic**
