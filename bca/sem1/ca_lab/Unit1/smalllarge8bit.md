@@ -160,6 +160,7 @@ HLT
 **b. Write an 8085 Program to find the smallest of two numbers** 
 
 **Code:**  
+```asm
 **LXI H,8000H**  
 **MOV C,M**  
 **INX H**   
@@ -170,6 +171,7 @@ HLT
 **MOV A,B**  
 **STORE: STA 8002H**  
 **HLT**
+```
 
 **Input:**
 
