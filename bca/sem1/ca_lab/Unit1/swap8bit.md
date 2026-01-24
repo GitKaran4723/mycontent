@@ -1,14 +1,16 @@
 **PROGRAM- 1**  
  **Write an 8085 Program to swap two 8-bit numbers**
 
-**Code :**   
-LDA 8000H  
-MOV B,A  
-LDA 8001H  
-STA 8000H  
-MOV A,B  
-STA 8001H  
-HLT 
+Code:
+
+LDA 8000H
+MOV B,A
+LDA 8001H
+STA 8000H
+MOV A,B
+STA 8001H
+HLT
+
 
 **Input:**
 
