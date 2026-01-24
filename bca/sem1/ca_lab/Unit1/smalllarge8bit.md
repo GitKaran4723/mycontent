@@ -24,6 +24,8 @@
 | **8001H** | **115** |
 | **8002H** | **0** |
 
+![Input11](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769241220/SECONDPROG1STIP_u1izmx.png)
+
 **Output:**
 
 | Address | Data |
@@ -32,7 +34,7 @@
 | **8001H** | **115** |
 | **8002H** | **115** |
 
- 
+ ![Output11](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769241220/SECONDPROG1STAOP_w1iqqc.png)
 
 ## **🧠 Step-by-Step Logic**
 
@@ -175,6 +177,8 @@
 | **8001H** | **250** |
 | **8002H** | **0** |
 
+![Input21](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769250819/s2ip_njv6rh.png)
+
 **Output:** 
 
 | Address | Data |
@@ -182,6 +186,8 @@
 | **8000H** | **100** |
 | **8001H** | **250** |
 | **8002H** | **100** |
+
+![Input22](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769250819/s2op_mmlrx0.png)
 
 ## **🔹 Step-by-Step Logic**
 
