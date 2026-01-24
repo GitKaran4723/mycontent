@@ -21,12 +21,16 @@ HLT
 | **8000H** | **15** |
 | **8001H** | **10** |
 
+![Diagram](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769238682/firstprog8085_oyo7dy.png)
+
 **Output:** 
 
 | Address | Data |
 | :---- | :---- |
 | **8000H** | **10** |
 | **8001H** | **15** |
+
+![Output](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769238682/firstprogop8085_qihby1.png)
 
 **Logic of Code:**
 
