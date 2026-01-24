@@ -5,16 +5,17 @@
    
 
 **Code:**  
-**LXI H,8000H**  
-**MOV C,M**  
-**INX H**   
-**MOV B,M**  
-**MOV A,C**  
-**CMP B**  
-**JNC STORE**  
-**MOV A,B**  
-**STORE:  STA 8002H**  
-**HLT**
+```asm
+LXI H,8000H
+MOV C,M
+INX H
+MOV B,M
+MOV A,C
+CMP B
+JNC STORE
+MOV A,B
+STORE: STA 8002H
+HLT
 
 **Input:**
 
