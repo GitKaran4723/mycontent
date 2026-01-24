@@ -16,6 +16,7 @@ JNC STORE
 MOV A,B
 STORE: STA 8002H
 HLT
+```
 
 **Input:**
 
