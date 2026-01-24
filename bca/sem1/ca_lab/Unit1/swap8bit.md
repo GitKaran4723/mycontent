@@ -3,6 +3,7 @@
 
 Code:
 
+```asm
 LDA 8000H
 MOV B,A
 LDA 8001H
@@ -10,6 +11,7 @@ STA 8000H
 MOV A,B
 STA 8001H
 HLT
+```
 
 
 **Input:**
