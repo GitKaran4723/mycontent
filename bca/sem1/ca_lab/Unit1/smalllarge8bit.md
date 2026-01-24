@@ -142,20 +142,13 @@ HLT
 
 ### **✅  Registers Used in this program**
 
-| Register | Purpose |
-| :---: | :---: |
+| REGISTER     | PURPOSE                                                    |
+|--------------|------------------------------------------------------------|
+| A (ACCUMULATOR) | Holds one of the numbers temporarily and stores the larger number before storing to memory |
+| B            | Holds the second number (from 8001H) for comparison        |
+| C            | Holds the first number (from 8000H) temporarily            |
+| H-L PAIR (HL)| Used as a memory pointer to access 8000H and 8001H         |
 
-| A (Accumulator) | Holds one of the numbers temporarily and stores the larger number before storing to memory |
-| :---- | :---- |
-
-| B | Holds the second number (from 8001H) for comparison |
-| :---- | :---- |
-
-| C | Holds the first number (from 8000H) temporarily |
-| :---- | :---- |
-
-| H-L pair (HL) | Used as a memory pointer to access 8000H and 8001H |
-| :---- | :---- |
 
 **b. Write an 8085 Program to find the smallest of two numbers** 
 
