@@ -59,7 +59,7 @@ HLT
 
   ---
 
-  ### **3\. `JZ ZERO`**
+### **3\. `JZ ZERO`**
 
 * **If result is zero → BIT-4 = 0**
 
@@ -67,7 +67,7 @@ HLT
 
   ---
 
-  ### **4\. `MVI A, 0FFH`**
+### **4\. `MVI A, 0FFH`**
 
 * **Executes when BIT-4 = 1**
 
@@ -75,7 +75,7 @@ HLT
 
   ---
 
-  ### **5\. `JMP STORE`**
+### **5\. `JMP STORE`**
 
 **Jumps to STORE, skipping ZERO block.**
 
@@ -89,7 +89,7 @@ HLT
 
   ---
 
-  ### **7\. `STORE: STA 8001H`**
+### **7\. `STORE: STA 8001H`**
 
 **Stores accumulator content into memory location 8001H.**
 
