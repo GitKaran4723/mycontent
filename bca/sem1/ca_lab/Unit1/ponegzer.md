@@ -2,18 +2,21 @@
 **8085 Program to find whether an 8-bit number is positive, negative or zero. If**   
 **positive display EE, if negative display FF, if zero display DD**
 
-**Code:**  
-**LDA 8000H**  
-**CPI 00H**  
-**JZ ZERO**  
-**JM NEGATIVE**  
-**MVI A,0EEH**  
-**JMP STORE**  
-**NEGATIVE:  MVI A,0FFH**  
-**JMP STORE**  
-**ZERO:  MVI A,0DDH**  
-**STORE:  STA  8001H**  
-**HLT**
+LDA 8000H
+CPI 00H
+JZ ZERO
+JM NEGATIVE
+MVI A,0EEH
+JMP STORE
+
+NEGATIVE:  MVI A,0FFH
+JMP STORE
+
+ZERO:      MVI A,0DDH
+
+STORE:     STA 8001H
+HLT
+
 
 **Input:**
 
