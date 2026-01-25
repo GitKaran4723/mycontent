@@ -2,6 +2,7 @@
 **8085 Program to find whether an 8-bit number is positive, negative or zero. If**   
 **positive display EE, if negative display FF, if zero display DD**
 
+``` asm
 LDA 8000H
 CPI 00H
 JZ ZERO
@@ -16,6 +17,8 @@ ZERO:      MVI A,0DDH
 
 STORE:     STA 8001H
 HLT
+
+```
 
 
 **Input:**
