@@ -25,12 +25,16 @@ HLT
 | **8000H** | **78** |
 | **8001H** | **0** |
 
+![Diagram](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769355880/ThirdPRogIP1_c4vnid.png)
+
 **Output:**
 
 | Address | Data |
 | :---- | :---- |
 | **8000H** | **78** |
 | **8001H** | **238** |
+
+![Output](https://res.cloudinary.com/dvxz7qw4v/image/upload/v1769355880/ThirdPRogramOP1_gy14cf.png)
 
 **Possible Outputs(Depending on Inputs):**
 
