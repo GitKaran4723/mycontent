@@ -195,27 +195,14 @@ HLT
 
 ## **🔹 Mnemonics Used**
 
-| Mnemonic | Purpose |
-| :---: | :---: |
+| **Mnemonic** | **Purpose**                                      |
+|:------------:|:-------------------------------------------------|
+| **LDA**      | Loads 8-bit data from memory into accumulator    |
+| **MOV**      | Copies data between registers                    |
+| **ANI**      | Performs AND operation to mask a nibble          |
+| **RLC**      | Rotates accumulator left                         |
+| **ADD**      | Adds contents of a register to accumulator       |
+| **STA**      | Stores accumulator content into memory           |
+| **HLT**      | Terminates program execution                     |
 
-| LDA | Loads 8-bit data from memory into accumulator |
-| :---- | :---- |
-
-| MOV | Copies data between registers |
-| :---- | :---- |
-
-| ANI | Performs AND operation to mask a nibble |
-| :---- | :---- |
-
-| RLC | Rotates accumulator left |
-| :---- | :---- |
-
-| ADD | Adds contents of a register to accumulator |
-| :---- | :---- |
-
-| STA | Stores accumulator content into memory |
-| :---- | :---- |
-
-| HLT | Terminates program execution |
-| :---- | :---- |
 
