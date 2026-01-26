@@ -4,7 +4,7 @@
 
 Code:
 
-<pre><code class="language-asm">
+<pre><code>
 LDA 8000H  
 RLC  
 RLC  
@@ -13,6 +13,7 @@ RLC
 STA 8001H  
 HLT
 </code></pre>
+
 
 
 ---
