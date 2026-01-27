@@ -111,5 +111,5 @@ A **Hasse diagram** is a **graphical representation** of a finite poset.
 3. Reflexive and transitive relations are omitted.  
 4. Larger elements are placed higher than smaller ones.
 
----
+
 
