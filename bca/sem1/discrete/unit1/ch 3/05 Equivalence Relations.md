@@ -4,7 +4,7 @@ An **equivalence relation** is a type of relation that satisfies three fundament
 
 ## **Properties of Equivalence Relation**
 
-*  Equivalence relations are often denoted by the symbol "≡" or by writing "∼" between related elements.
+* Equivalence relations are often denoted by the symbol "≡" or by writing "∼" between related elements.
 * An example of an equivalence relation is the "congruence modulo n" relation in modular arithmetic, where two integers are related if their difference is a multiple of n. This relation is reflexive, symmetric, and transitive.  
 * Equivalence relations are widely used in mathematics, computer science, and other fields for classifying objects, defining partitions, and simplifying complex problems.
 
