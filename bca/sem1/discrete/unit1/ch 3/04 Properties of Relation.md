@@ -18,7 +18,7 @@ A reflexive relation is a type of **binary relation** on a set where every eleme
 
 ## **Solved Problems on Reflexive Relation**
 
-**Problem 1:** Consider a set A = 1, 2, 3, and let R be a relation on A defined by R = (1, 1), (2, 2), (3, 3), (1, 2), (2, 1). Determine whether the relation R is reflexive.  
+**1:** Consider a set A = 1, 2, 3, and let R be a relation on A defined by R = (1, 1), (2, 2), (3, 3), (1, 2), (2, 1). Determine whether the relation R is reflexive.  
 **Solution:**
 
 *A relation is reflexive if every element in the set is related to itself. In this case, we need to check whether (a, a) is in R for every a in A. Let's check:*
@@ -29,9 +29,9 @@ A reflexive relation is a type of **binary relation** on a set where every eleme
 
 *Since every element in A is related to itself, the relation R is reflexive.*
 
-***Problem 2:** Consider the set C = a, b, c, and define a relation T on C by T = (a, a), (b, b), (c, c), (a, b), (b, a), (b, c), (c, b). Determine whether the relation T is reflexive.*
+**2:** Consider the set C = a, b, c, and define a relation T on C by T = (a, a), (b, b), (c, c), (a, b), (b, a), (b, c), (c, b). Determine whether the relation T is reflexive.
 
-***Solution:***
+**Solution:**
 
 *To check if T is reflexive, we need to ensure that (a, a), (b, b), and (c, c) are all in T. Let's check:*
 
@@ -45,7 +45,7 @@ A reflexive relation is a type of **binary relation** on a set where every eleme
 
 Symmetric relations are a type of relation where the two elements of set X are related with relation R, then reversing the order of the elements is also related with the relation R. In other words, a symmetric relation is defined as if xRy then yRx, where x and y are two elements of set S and R is a relation. A relation R on a set A is symmetric if, whenever
 
-**(x, y) ∈ R, then (y, x) ∈ R.**
+***(x, y) ∈ R, then (y, x) ∈ R.***
 
 ### **Properties of Symmetric Relations**
 
@@ -79,7 +79,7 @@ where,
 
 ## **Solved Problems on Symmetric Relation**
 
-**Example 1:** Check whether the relation R \= {(2, 5), (3, 3)} is symmetric or not?
+**1:** Check whether the relation R = {(2, 5), (3, 3)} is symmetric or not?
 
 **Solution:**
 
@@ -91,7 +91,7 @@ where,
 
 *R is not symmetric.*
 
-**Example 2:** Prove that the given relation R = {(1, 2), (2, 1), (4, 4), (5, 7), (7, 5)} is a symmetric relation?
+**2:** Prove that the given relation R = {(1, 2), (2, 1), (4, 4), (5, 7), (7, 5)} is a symmetric relation?
 
 **Solution:**
 
@@ -110,7 +110,7 @@ where,
 
 An asymmetric relation is a specific type of binary relation on a set where the order of elements matters. In an asymmetric relation, if the pair (a, b) is in the relation, then the pair (b, a) must not be in the relation for any elements a and b from the set. In other words, the relationship is one-directional or asymmetric.
 
-***∀ a, b ∈ A**, if **(a, b) ∈ R** then **(b, a) ∉ R***  
+**∀ a, b ∈ A**, if **(a, b) ∈ R** then **(b, a) ∉ R**  
 where ,
 
 R is a subset of (A x A)  
@@ -134,13 +134,13 @@ Some of the properties of Asymmetric Relations are:
 * R = {(a, b), (b, a)} is not asymmetric relation but  
 * R = {(a, b)} is a symmetric relation.
 
-## **4. Antisymmetric Relation**
+# **4. Antisymmetric Relation**
 
 The relation is said to be an antisymmetric relation if in a set S the two elements p and q are related with relation R then, p \= q. Also, if for every (p, q) ∈ R, (q, p) ∉ R then, R is antisymmetric. Mathematically, the antisymmetric relation is defined as:
 
 If x and y are two elements in set X and R is a relation then, conditions for relation to be antisymmetric:
 
-***(x, y) ∈ R then, (y, x) ∉ R***
+**(x, y) ∈ R then, (y, x) ∉ R**
 
 ### **Properties of Antisymmetric Relations**
 
@@ -171,7 +171,7 @@ The formula for number of antisymmetric relations with n-elements is given by:
 
 ## **Problems on Antisymmetric Relations**
 
-**1: Check whether the relation R = {(1,4), (2,5)} is antisymmetric or not?**
+**1:** Check whether the relation R = {(1,4), (2,5)} is antisymmetric or not?
 
 **Solution:**
 
@@ -181,9 +181,9 @@ The formula for number of antisymmetric relations with n-elements is given by:
 *(2, 5\) ∈ R and (5, 2\) ∉ R.*  
 *R is antisymmetric.*
 
-***2: Prove the given relation R = {(2,2), (3,7)} is an antisymmetric relation?***
+**2:** Prove the given relation R = {(2,2), (3,7)} is an antisymmetric relation?
 
-***Solution:***
+**Solution:**
 
 *R = {(2, 2), (3, 7)}*  
 *The above relation is antisymmetric as*  
@@ -191,7 +191,7 @@ The formula for number of antisymmetric relations with n-elements is given by:
 *(3, 7\) ∈ R and (7, 3\) ∉ R.*  
 *R is antisymmetric.*
 
-# ***5\. Transitive Relations***
+# **5.  Transitive Relations**
 
  Transitive Relation is one of the necessary conditions for an **equivalence relation** as for any relation to be that needs to be Transitive at first.
 
@@ -213,7 +213,7 @@ Some examples of transitive relationships are:
 
 ## **Solved Examples of Transitive Relation**
 
-**1: Consider a set of natural numbers and define a relation R as follows: (1, 2), (2, 3), (1, 3). Check if relation R is transitive.**
+**1:** Consider a set of natural numbers and define a relation R as follows: (1, 2), (2, 3), (1, 3). Check if relation R is transitive.
 
 **Solution:**
 
