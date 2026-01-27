@@ -134,7 +134,8 @@ Hence, the transitive property is proved.
   *⇒ (P1, P3) ⋿ R*  
   *Hence R is transitive.*
 
-**2:** Show that the relation R in the set A = {x ⋿ Z : 0 ≤ x ≤ 12} given by R = {(a, b): a = b} is an equivalence relation.  
+**2:** Show that the relation R in the set A = {x ⋿ Z : 0 ≤ x ≤ 12} given by R = {(a, b): a = b} is an equivalence relation.
+  
 **Solution:**
 
 *Let A = { x ∈ Z: 0 ≤ x ≤ 12 } and the relation R = { ( a, b ) ∈ A × A: a = b }.*  
