@@ -1,32 +1,31 @@
 
 
-###  **Partial Order**
+# **Partial Order**
 
 A **partial order** is a relation (R) on a set (A) that satisfies **three properties**:
 
-1. **Reflexive:**  
+**Reflexive:**  
    ∀ a ∈ A, ( a, a ) ∈ R  
-2. **Antisymmetric:**  
-   ( a, b ) ∈ R and ( b, a ) ∈ R ⇒ a \= b  
-3. **Transitive:**  
+**Antisymmetric:**  
+   ( a, b ) ∈ R and ( b, a ) ∈ R ⇒ a = b  
+**Transitive:**  
    ( a, b ) ∈ R and ( b, c ) ∈ R ⇒ ( a, c ) ∈ R
 
 A relation satisfying these properties is called a **partial ordering**.
 
 ### **Example of Partial Orders**
 
-Consider the set P={1,2,3} with the relation ≤ defined as the usual numerical order:
+Consider the set P ={ 1, 2, 3 } with the relation ≤ defined as the usual numerical order:
 
 * **Reflexivity:** 1 ≤ 1, 2 ≤ 2, 3 ≤ 3\.  
-* **Antisymmetry:** If a ≤ b and b ≤ a, then a \= b.  
+* **Antisymmetry:** If a ≤ b and b ≤ a, then a = b.  
 * **Transitivity:** If 1 ≤ 2 and 2 ≤ 3, then 1 ≤ 3\.
 
 ---
 
-### **Poset (Partially Ordered Set)**
+# **Poset (Partially Ordered Set)**
 
-A **poset** is a pair  
-(A,R)  
+A **poset** is a pair  (A,R)  
 where:
 
 * (A) is a non-empty set, and  
@@ -57,7 +56,7 @@ Two elements **a, b ∈ P** are **incomparable** if neither
 **a ≤ b nor b ≤ a**
 
 **Example:**  
- Let P \= { a, b, c } with relations a ≤ c, b ≤ c
+ Let P = { a, b, c } with relations a ≤ c, b ≤ c
 
  Then a and b are incomparable
 
@@ -68,13 +67,13 @@ Two elements **a, b ∈ P** are **incomparable** if neither
 An element m ∈ P is **minimal** if there is **no element smaller than it**
 
 Formally,  
-**m is minimal ⟺ ∄ x ∈ P  such that x \< m**
+**m is minimal ⟺ ∄ x ∈ P  such that x < m**
 
 ---
 
-### **Example**
+**Example**
 
-Consider the poset P \= { a, b, c }  
+Consider the poset P = { a, b, c }  
 with relations: a ≤ c, b ≤ c   
 Here:
 
@@ -87,11 +86,11 @@ So, (a) and (b) are minimal elements.
 
 An element M∈P is **maximal** if there is **no element greater than it**  
 Formally,  
-**m is maximal ⟺ ∄ x ∈ P such that m \< x**
+**m is maximal ⟺ ∄ x ∈ P such that m < x**
 
-### **Example**
+**Example**
 
-Consider the poset P \= { a, b, c }  
+Consider the poset P = { a, b, c }  
 with relations: a ≤ c, b ≤ c  
 Here:
 
@@ -101,14 +100,14 @@ So, c is a maximal element.
 
 ---
 
-### **3\. Hasse Diagram**
+# **Hasse Diagram**
 
 A **Hasse diagram** is a **graphical representation** of a finite poset.
 
 **Construction rules:**
 
 1. Each element of the set is represented by a point.  
-2. If ( a \< b ) and there is no element (c) such that ( a \< c \< b ), draw a line upward from (a) to (b).  
+2. If ( a < b ) and there is no element (c) such that ( a < c < b ), draw a line upward from (a) to (b).  
 3. Reflexive and transitive relations are omitted.  
 4. Larger elements are placed higher than smaller ones.
 
