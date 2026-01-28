@@ -1,10 +1,10 @@
 # **Closure of Relations**
 
-# **1\. Inverse relation R^−1**
+# **1\. Inverse relation R−1**
 
 ### **Definition**
 
-For a relation R on a set A, R^−1 = { ( b, a ) ∣ ( a, b ) ∈ R }
+For a relation R on a set A, R−1 = { ( b, a ) ∣ ( a, b ) ∈ R }
 
 **Example**
 
