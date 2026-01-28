@@ -38,7 +38,7 @@ The \*\*codomain\*\* of a function is the \*\*set of all possible values\*\* tha
 
 If  
 $$  
-f : A \\to B  
+f : A \to B  
 $$  
 then (B) is the \*\*codomain\*\*.
 
