@@ -25,7 +25,7 @@ The function is classified as a special type of relation in math. There are the 
 
 ## **Representation of Functions**
 
-We can define a function in mathematics as a machine that takes some input and gives a unique output. The function f(x) = x2 is defined below as,
+We can define a function in mathematics as a machine that takes some input and gives a unique output. The function $f(x) = x^2$ is defined below as,
 
 ![representation of function](https://lh3.googleusercontent.com/d/1lT_UDQFAqjEKTXhcYLTwf9IPr0hqpCl-)
 
