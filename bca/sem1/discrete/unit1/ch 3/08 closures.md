@@ -54,7 +54,7 @@ If you can go from a to c using **one or more steps**, then add ( a, c ). It cap
 
 * Ensuring a relation becomes **transitive**
 
-## **3\. Reflexive–Transitive closure R∗**
+# **3\. Reflexive–Transitive closure R∗**
 
 ## **Definition**
 
