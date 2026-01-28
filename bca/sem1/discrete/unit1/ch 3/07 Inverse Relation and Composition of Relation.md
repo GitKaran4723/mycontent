@@ -97,12 +97,12 @@ But, from the relation R we can find that R doesn't have any b values that match
 
 **Solution:**
 
-*Now, let us consider that (a, b) ∈ R, and we need  to find the corresponding b in S as (b, c) in order to form the composition of relations.*
+Now, let us consider that (a, b) ∈ R, and we need  to find the corresponding b in S as (b, c) in order to form the composition of relations.
 
-And finally after combining the pairs we can get S ⚬ R where (a, c) ∈ (S ⚬ R) where. Now, from the given relations:*
+And finally after combining the pairs we can get S ⚬ R where (a, c) ∈ (S ⚬ R) where. Now, from the given relations:
 
-1\. Now if we combine (1, 20\) from R and (20, 40\) from S it is going to result in (1,40).*  
-2\. We can merge (25, 35\) from R and (35, 56\) from S to get (25,56).*
+1\. Now if we combine (1, 20\) from R and (20, 40\) from S it is going to result in (1,40).  
+2\. We can merge (25, 35\) from R and (35, 56\) from S to get (25,56).
 
 Therefore, we obtain S ⚬ R ={(1,40), (25, 56)}.
 
