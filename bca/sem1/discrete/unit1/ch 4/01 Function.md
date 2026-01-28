@@ -29,7 +29,7 @@ We can define a function in mathematics as a machine that takes some input and g
 
 ![representation of function](https://lh3.googleusercontent.com/d/1lT_UDQFAqjEKTXhcYLTwf9IPr0hqpCl-)
 
-For the above function: f(x) = x^2:
+For the above function: $f(x) = x^2$:
 
 * **Input**: x: {1, 2, 3, … }  
 * **Function**: Squares each input.  
