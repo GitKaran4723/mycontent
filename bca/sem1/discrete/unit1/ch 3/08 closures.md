@@ -1,6 +1,6 @@
 # **Closure of Relations**
 
-# **1\. Inverse relation R−1**
+# **1. Inverse relation R−1**
 
 ### **Definition**
 
@@ -26,7 +26,7 @@ If a is related to b in R, then in R−1, b is related to a.
 
 * In graph theory: reversing all edges
 
-# **2\. Transitive closure R+**
+# **2. Transitive closure R+**
 
 ## **Definition**
 
@@ -54,7 +54,7 @@ If you can go from a to c using **one or more steps**, then add ( a, c ). It cap
 
 * Ensuring a relation becomes **transitive**
 
-# **3\. Reflexive–Transitive closure R∗**
+# **3. Reflexive–Transitive closure R∗**
 
 ## **Definition**
 
