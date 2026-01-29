@@ -42,7 +42,7 @@ A **number system** defines how numbers are represented using digits and a **bas
 
 * Digits: **0–7**
 
-* Shorthand for binary (3 bits \= 1 octal digit)
+* Shorthand for binary (3 bits = 1 octal digit)
 
 * Example:  
   (17)₈ = (1111)₂ = (15)₁₀  
