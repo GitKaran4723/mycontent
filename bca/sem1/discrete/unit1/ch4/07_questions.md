@@ -183,8 +183,7 @@ $
 \boxed{f^{-1}(x) = \frac{x - 3}{2}}
 $
 
----
-Here is the **question followed by its complete answer**, written in **exam format**.
+
 
 ---
 
