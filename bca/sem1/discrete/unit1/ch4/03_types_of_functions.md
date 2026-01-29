@@ -197,6 +197,7 @@ Solve for (x):
 $$
 2x = y-3
 $$
+
 $$
 x = \frac{y-3}{2}
 $$
@@ -273,6 +274,7 @@ Solve for (x):
 $$
 4x = y-5
 $$
+
 $$
 x = \frac{y-5}{4}
 $$
@@ -289,4 +291,4 @@ $$
 Since (f) is both one–one and onto,
 $$
 \boxed{f \text{ is bijective}}
-
+$$
