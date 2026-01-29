@@ -271,9 +271,9 @@ $$
 4x = y-5
 $$
 
-$$
+$
 x = \frac{y-5}{4}
-$$
+$
 
 Since $\frac{y-5}{4} \in \mathbb{R}$ for every real (y), such an (x) exists.
 
