@@ -70,15 +70,16 @@ Solving:
 $
 x^2 = 9
 $
+
 $
 x = \pm 3
 $
 
  **Answer**
 
-$
+$$
 f^{-1}(9) = {-3,, 3}
-$
+$$
 
 *(If the domain were restricted to $ x \ge 0 $, then $ f^{-1}(9) = 3 $ only.)*
 
@@ -108,8 +109,7 @@ $
 
 ---
 
-
-** Proof that ( f ) is One-One**
+**Proof that ( f ) is One-One**
 
 Assume
 $
@@ -133,7 +133,7 @@ the function ( f ) is **one-one**.
 
 ---
 
-** Proof that ( f ) is Onto**
+**Proof that ( f ) is Onto**
 
 Let $ y \in \mathbb{R} $ be any element in the codomain.
 
@@ -159,7 +159,7 @@ the function ( f ) is **onto**.
 
 ---
 
- ** Finding the Inverse of ( f )**
+ **Finding the Inverse of ( f )**
 
 Since ( f ) is both **one-one and onto**, it is **bijective** and hence has an inverse.
 
@@ -179,9 +179,9 @@ f^{-1}(y) = \frac{y - 3}{2}
 $
 
 Replacing ( y ) by ( x ),
-$
+$$
 \boxed{f^{-1}(x) = \frac{x - 3}{2}}
-$
+$$
 
 
 
@@ -215,9 +215,9 @@ $
 = 25x^2 - 20x + 4 + 5
 $
 
-$
+$$
 \boxed{(f \circ g)(x) = 25x^2 - 20x + 9}
-$
+$$
 
 ---
 
@@ -237,9 +237,9 @@ $
 = 5x^2 + 25 - 2
 $
 
-$
+$$
 \boxed{(g \circ f)(x) = 5x^2 + 23}
-$
+$$
 
 ---
 
@@ -259,7 +259,7 @@ $
 = x^4 + 10x^2 + 25 + 5
 $
 
-$
+$$
 \boxed{(f \circ f)(x) = x^4 + 10x^2 + 30}
-$
+$$
 
