@@ -139,14 +139,14 @@ Hence, ( k+1 ) can also be written as a product of primes.
 
 ---
 
-## Important Note
+### Important Note
 
 Although **strong induction appears more powerful**, both weak and strong induction are **logically equivalent**.
 Any statement proved using strong induction can also be proved using weak induction, and vice versa.
 
 ---
 
-## Conclusion
+### Conclusion
 
 * **Weak induction** assumes the statement for one step and proves the next.
 * **Strong induction** assumes the statement for all previous steps and proves the next.
