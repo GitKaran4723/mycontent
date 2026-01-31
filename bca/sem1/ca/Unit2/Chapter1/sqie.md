@@ -104,11 +104,15 @@ These tables show the **required input values** for a flip-flop to achieve a des
 
 If your **next state function** is:
 
-Qnext=A⋅B+C‾Q\_{next} = A \\cdot B \+ \\overline{C}Qnext​=A⋅B+C
+$$
+Q_{next} = A \cdot B + \overline{C}
+$$
 
 Then the **D input equation** for a D flip-flop is:
 
-D=Qnext=A⋅B+C‾D = Q\_{next} = A \\cdot B \+ \\overline{C}D=Qnext​=A⋅B+C
+$$
+D = Q_{next} = A \cdot B + \overline{C}
+$$
 
 * Connect this Boolean function to the **D input** of the flip-flop.
 
