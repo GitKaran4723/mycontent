@@ -70,7 +70,7 @@ A state table typically includes:
 
 **Step 1:** Identify flip-flops and number of states
 
-* Number of flip-flops = n → number of possible states = 2^n
+* Number of flip-flops = n → number of possible states = $2^n$
 
 **Step 2:** List all **present states** in binary form
 
