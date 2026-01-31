@@ -184,7 +184,7 @@ $$
  (ii) To prove (f) is onto
 
 Let $y\in\mathbb{R}$.
-We must show that there exists (x\in\mathbb{R}) such that
+We must show that there exists $x\in\mathbb{R}$ such that
 $$
 f(x)=y
 $$
