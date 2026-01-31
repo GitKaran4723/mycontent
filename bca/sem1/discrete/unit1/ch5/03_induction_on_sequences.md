@@ -303,5 +303,5 @@ Hence proved.
 
 * Induction is ideal for proving formulas involving sequences and sums.
 * The method relies on a verified base case and a correct inductive step.
-* Many important formulas such as ( \sum n ), ( \sum 2^n ), and recursive sequences are proved using induction.
+* Many important formulas such as $ \sum n $, $ \sum 2^n $, and recursive sequences are proved using induction.
 
