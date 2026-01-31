@@ -18,6 +18,7 @@ Solve for (x):
 $
 y + 4 = 3x
 $
+
 $
 x = \frac{y+4}{3}
 $
